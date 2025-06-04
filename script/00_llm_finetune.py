@@ -3,8 +3,8 @@ from peft import get_peft_model, LoraConfig, TaskType
 from datasets import load_dataset
 
 MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-DATA_PATH = "data/corpus_ft/trex_ft_10k.jsonl"
-OUT_MODEL = "models/lora_trex"
+DATA_PATH = "../data/corpus_ft/trex_ft_10k.jsonl"
+OUT_MODEL = "../models/lora_trex"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, use_fast=True)
 model = AutoModelForCausalLM.from_pretrained(
