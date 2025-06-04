@@ -1,0 +1,16 @@
+torch
+transformers
+peft
+datasets
+sentencepiece
+pandas
+scikit-learn
+nltk
+pykeen
+tqdm
+joblib
+matplotlib
+scipy
+seaborn
+requests
+sentence-transformers
