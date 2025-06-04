@@ -1,12 +1,15 @@
 import pandas as pd
 import requests
-import nltk
 from nltk.corpus import wordnet as wn
+import nltk
+import os
+
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
 TRIPLES_PATH = "data/triples_raw/triples_bbc.pkl"
 OUT_PATH = "data/triples_raw/triples_bbc_semantic.pkl"
+os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
 
 def dbpedia_spotlight(entity):
     url = "https://api.dbpedia-spotlight.org/en/annotate"
@@ -47,3 +50,4 @@ for idx, row in df.iterrows():
     expansions.append(expanded)
 df['triples_semantics'] = expansions
 df.to_pickle(OUT_PATH)
+print(f"Ternas expandidas guardadas en {OUT_PATH}")
