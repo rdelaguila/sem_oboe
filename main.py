@@ -1,16 +1,15 @@
-# This is a sample Python script.
+from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer
+from peft import get_peft_model, LoraConfig, TaskType
+from datasets import load_dataset
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+DATA_PATH = "data/triples_ft/trex_ft_10k.json"
+OUT_MODEL = "models/lora_trex"
 
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, use_fast=True)
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_ID, device_map="auto"
+)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+ds = load_dataset("json", data_files=DATA_PATH)["train"]
+print(ds["train"])  # Muestra los campos disponibles
