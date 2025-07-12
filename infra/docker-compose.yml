@@ -17,8 +17,9 @@ services:
     restart: unless-stopped
     ports:
       - "0.0.0.0:2222:80"
-    command: /bin/spotlight.sh en
-
+    command: /bin/spotlight.sh en -w 12
+    environment:
+      - JAVA_OPTS=-Xms4G -Xmx24G
 volumes:
       spotlight-model:
         external: false

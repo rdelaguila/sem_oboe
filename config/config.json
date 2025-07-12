@@ -1,0 +1,6 @@
+{
+  "bbc_raw_corpus_preproc_input": "./data/corpus_raw/bbc/bbc_dataset_raw.csv",
+  "bbc_raw_corpus_preproc_output": "./data/corpus_raw/bbc/bbc_processed.pkl",
+  "amazon_preproc_input": "otro_corpus.pkl",
+  "amazon_preproc_output": "otro_processed_parallel.pkl"
+}
