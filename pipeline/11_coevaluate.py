@@ -1,27 +1,39 @@
-import pandas as pd
-from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
+
+
 import os
+import re
+import json
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.cluster.hierarchy as shc
+from sklearn.cluster import AgglomerativeClustering
+from sklearn.metrics import silhouette_score, silhouette_samples
+import spacy
+import torch
+from utils.types import StringCaseInsensitiveSet, CaseInsensitiveDict, CaseInsensitiveSet
+from utils.triplet_manager_lib import Tripleta
+from operator import itemgetter
+from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, T5Tokenizer, T5ForConditionalGeneration
+import joblib
 
-MODEL_PATH = "models/lora_trex"
-EXPL_PATH = "data/explicaciones/explicaciones_bbc.pkl"
-OUT_PATH = "data/explicaciones/coevaluacion_bbc.pkl"
+# ======== OWN CONFIG ========
 
-tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, load_in_4bit=True, device_map="auto")
-coevaluator = pipeline("text-generation", model=model, tokenizer=tokenizer, max_new_tokens=32, device=0)
+OUTPUT_DIR        = 'output'
+# mT5 evaluación
+eval_model_name   = 'google/mt5-small'
+TOPIC_ID          = 3                       # ID del tópico a procesar
 
-df_exp = pd.read_pickle(EXPL_PATH)
-coevaluaciones = []
-for idx, row in df_exp.iterrows():
-    prompt = (
-        f"Dada la explicación generada para la terna {row['terna']} en el cluster {row['cluster']} "
-        f"(palabras clave: {', '.join(row['palabras_cluster'])}, Silhouette: {row['silhouette']}), "
-        f"valora la calidad de la explicación. Responde SOLO con: 'BUENA', 'REGULAR' o 'POBRE'.\n\n"
-        f"Explicación:\n{row['explicacion']}"
-    )
-    rating = coevaluator(prompt)[0]['generated_text'].split('\n')[0]
-    coevaluaciones.append(rating.strip())
+import joblib
 
-df_exp['coevaluacion'] = coevaluaciones
-df_exp.to_pickle(OUT_PATH)
-print(f"Guardadas {len(coevaluaciones)} coevaluaciones en {OUT_PATH}")
+clusters = joblib.load(OUTPUT_DIR+'/explanations.json')
+# 6. Texto resumen
+lines = [
+    f"Para el tópico {TOPIC_ID} se generaron {best_k} temas tras clustering y se evaluaron las explicaciones con mT5."
+]
+for cid, terms_c in clusters.items():
+    lines.append(f"Tema {cid}: {', '.join(terms_c)}")
+with open(os.path.join(OUTPUT_DIR,'summary.txt'),'w',encoding='utf-8') as f:
+    f.write("\n".join(lines))
+
+print(f"Pipeline completado. Salida en {OUTPUT_DIR}")

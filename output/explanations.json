@@ -1,0 +1,38 @@
+{
+  "0": {
+    "explicación": "The cluster revolves around the cognitive and innovative aspects of technology, emphasizing the evolution of thought, the connection between ideas and their practical application, and the role of abstraction in communication.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "Cognitive evolution",
+      "Innovation connection",
+      "Abstraction communication"
+    ],
+    "reasoning": "The semantic coherence score reflects the tight thematic connection between the terms, which all pertain to the cognitive and innovative dimensions of technology. The high relevance score acknowledges that these terms are central to the technology domain. The coverage score is moderate because not all terms might be equally prominent across different technologies, but they collectively cover a significant aspect of technological advancement."
+  },
+  "1": {
+    "explicación": "The cluster revolves around themes of power dynamics, manipulation, and conflict within organizational settings, particularly in scenarios involving a boss or a dean. The terms'rebuff', 'deceit', 'drama', and'snub' suggest confrontational or adversarial situations, while 'episode' implies a specific instance or event that highlights these dynamics.",
+    "coherencia": 4,
+    "relevancia": 3,
+    "cobertura": 4,
+    "key_phrases": [
+      "boss rebuff",
+      "dean deceit",
+      "episode drama"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all revolve around interpersonal conflicts and power struggles. The relevance score is moderate because the terms might not directly pertain to core technological concepts but could be relevant in the context of organizational behavior studies or case studies related to AI ethics and decision-making processes. The coverage score is high as it captures the essence of the cluster through three succinct key phrases."
+  },
+  "2": {
+    "explicación": "The cluster revolves around the concept of technology devices, particularly those that are portable, wireless, and multifunctional, such as laptops, phones, and cameras. The terms collectively represent a range of gadgets that are integral to modern digital life.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "wireless gadgets",
+      "camera phone",
+      "copper wire"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which all relate to technology and digital devices. The relevance score is high because these terms are directly associated with the technology domain. The coverage score acknowledges that while the terms cover a broad spectrum of technology gadgets, there might be some overlap or exclusion of other relevant devices. The key phrases effectively summarize the cluster's essence."
+  }
+}

@@ -1,16 +1,14 @@
-import pandas as pd
 import re
 import time
 import socket
 from functools import lru_cache
 from urllib.error import URLError, HTTPError
+from threading import Lock
 from collections import defaultdict
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from spotlight import annotate
 from SPARQLWrapper import SPARQLWrapper, JSON, CSV
 from owlready2 import World
-import spacy
-import nltk
+import pandas as pd
 
 class TextAnalyzer:
     def __init__(self, nlp):
@@ -19,15 +17,19 @@ class TextAnalyzer:
     @staticmethod
     def remove_special_lines(text: str) -> str:
         text = re.sub(r"^upright=.*[\r\n]", "", text, flags=re.MULTILINE)
-        text = re.sub(r"Category:.*[\r\n]", "", text, flags=re.MULTILINE)
+        text = re.sub(r"^upright = .*?[\r\n]", "", text, flags=re.MULTILINE)
+        text = re.sub(r"Category:.*?[\r\n]", "", text, flags=re.MULTILINE)
+        text = re.sub(r"Cat\D*:.*?[\r\n]", "", text, flags=re.MULTILINE)
         text = re.sub(r"\[\d+\]", "", text)
-        text = re.sub(r"thumb|\d+px|\|", "", text)
+        text = re.sub(r"thumb", "", text)
+        text = re.sub(r"[|]", "", text)
+        text = re.sub(r"\d+px", "", text)
         return text
 
     @staticmethod
     def strip_formatting(text: str) -> str:
         text = text.lower()
-        text = re.sub(r"[\.!?,;\-_'/|()=<>+*`]", "", text)
+        text = re.sub(r"[\.\!\?,;\-_'/|()=<>+*`]", "", text)
         text = re.sub(r"https?://\S+", "", text)
         return text
 
@@ -69,16 +71,24 @@ class SemanticAnalyzer(TextAnalyzer):
                 confidence=self.confianza,
                 support=self.soporte
             )
-            return {
-                ann['surfaceForm']: {
-                    'URI': ann['URI'],
-                    'types': ann.get('types', [])
+            result = {}
+            for ann in annotations:
+                surface = ann.get('surfaceForm')
+                uri = ann.get('URI')
+                types_str = ann.get('types', '') or ''
+                types_list = types_str.split(',') if types_str else []
+                # normalize type labels
+                types_norm = [self.strip_formatting(t.replace(':', ' ')) for t in types_list]
+                result[surface] = {
+                    'URI': uri,
+                    'types': ",".join(types_list),
+                    'types_normalizados': ",".join(types_norm)
                 }
-                for ann in annotations
-            }
+            return result
         except Exception as ex:
             print(f"Spotlight error: {ex}")
             return {}
+
 class OntoManager:
     def __init__(
         self,
@@ -90,16 +100,17 @@ class OntoManager:
     ):
         self.nlp = nlp
         self.sa = SemanticAnalyzer(nlp)
-        self.prefijos = """
-            PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX dbr:<http://dbpedia.org/resource/>
-            PREFIX dbo:<http://dbpedia.org/ontology/>
-            PREFIX owl:<http://www.w3.org/2002/07/owl#>
-        """
+        self.prefijos = (
+            "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>"
+            "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+            "PREFIX dbr:<http://dbpedia.org/resource/>"
+            "PREFIX dbo:<http://dbpedia.org/ontology/>"
+            "PREFIX owl:<http://www.w3.org/2002/07/owl#>"
+        )
         self.dict_onto, self.dict_graph = self._load_ontologies(path_dbo, path_sumo)
         self.sparql_endpoint = sparql_endpoint
         self.timeout_ms = timeout_ms
+        self._sparql_lock = Lock()
 
     def _load_ontologies(self, path_dbo, path_sumo):
         w1, w2 = World(), World()
@@ -109,6 +120,12 @@ class OntoManager:
             {'SUMO': onto_sumo, 'dbo': onto_dbo},
             {'SUMO': w1.as_rdflib_graph(), 'dbo': w2.as_rdflib_graph()}
         )
+
+    def ejecutar_consulta_dbpedia(self, query: str, tipo=JSON):
+        sparql = SPARQLWrapper(self.sparql_endpoint)
+        sparql.setReturnFormat(tipo)
+        sparql.setQuery(self.prefijos + query)
+        return sparql.query().convert()
 
     def _isDbo(self, term: str) -> bool:
         if self.dict_onto['dbo'].search(label=term, _case_sensitive=False):
@@ -123,75 +140,89 @@ class OntoManager:
         return str(res[0]).replace('.', ':') if res else None
 
     @lru_cache(maxsize=5000)
-    def _getDBPediaTypes(self, uri_q: str, retries: int = 3, backoff_sec: float = 1.0) -> list:
-        """
-        Realiza consulta SPARQL con timeout, reintentos y caché.
-        Espera recibir la URI entre '<' y '>'.
-        """
-        # Construir consulta
-        q = f"{self.prefijos} SELECT DISTINCT ?o WHERE {{ {uri_q} rdf:type ?o }}"
-        # Intentar carga desde grafo interno primero
-        results = list(self.dict_graph['dbo'].query(q))
-        if results:
-            return [str(r[0]) for r in results]
-
-        # Si no hay resultados locales, consultar endpoint externo
+    def _getDBPediaTypes(self, uri: str) -> list:
+        consulta = (
+            self.prefijos +
+            f"SELECT DISTINCT ?o WHERE {{ {uri} rdf:type ?o }}"
+        )
+        local = list(self.dict_graph['dbo'].query(consulta))
+        if local:
+            return [str(r[0]) for r in local]
         sparql = SPARQLWrapper(self.sparql_endpoint)
         sparql.setTimeout(self.timeout_ms)
         sparql.setReturnFormat(CSV)
-        sparql.setQuery(q)
+        sparql.setQuery(consulta)
+        try:
+            csv_res = sparql.query().convert()
+            lines = str(csv_res).replace('"','').split('\n')[1:]
+            return [l for l in lines if l]
+        except Exception as e:
+            print(f"SPARQL warning for {uri}: {e}")
+            return []
 
-        for attempt in range(1, retries + 1):
-            try:
-                csv_res = sparql.query().convert()
-                # parse CSV: eliminar comillas y línea de cabecera
-                lines = str(csv_res).replace('"', '').split('\n')[1:]
-                return [line for line in lines if line]
-            except (socket.timeout, URLError, HTTPError) as e:
-                if attempt < retries:
-                    time.sleep(backoff_sec * 2**(attempt-1))
-                else:
-                    print(f"Advertencia SPARQL para {uri_q}: {e}")
-                    return []
+    def _getHierarchy(self, concept: str, isDbo: bool, isSuperclass: bool) -> list:
+        if isSuperclass:
+            q = (
+                self.prefijos +
+                f"SELECT ?x WHERE {{ ?x a owl:Class; rdfs:subClassOf {concept} }}"
+            )
+        else:
+            q = (
+                self.prefijos +
+                f"SELECT ?x WHERE {{ {concept} rdfs:subClassOf ?x }}"
+            )
+        graph = self.dict_graph['dbo'] if isDbo else self.dict_graph['SUMO']
+        return [str(r[0]) for r in graph.query(q)]
+
+    def _getRelationships(self, concept: str, isDbo: bool) -> list:
+        consulta = (
+            self.prefijos +
+            f"SELECT DISTINCT * WHERE {{ {concept} ?property ?value ."
+            "FILTER(?property NOT IN (rdf:type, rdfs:label))"
+            "OPTIONAL { ?property rdfs:comment ?comment }"
+            "OPTIONAL { ?property rdfs:label ?label }"
+            "OPTIONAL { ?property rdfs:range ?range }"
+            "OPTIONAL { ?property rdfs:domain ?domain }"
+            "}"
+        )
+        graph = self.dict_graph['dbo'] if isDbo else self.dict_graph['SUMO']
+        rows = list(graph.query(consulta))
+        df = pd.DataFrame(rows, columns=['term','property','comment','label','range','domain'])
+        return df.to_dict(orient='records')
 
     def getSemanticsOfTerm(self, term: str) -> dict:
         is_dbo = self._isDbo(term)
         if is_dbo is None:
             return None
-        concept   = self._getBaseConcept(term, is_dbo)
+        concept = self._getBaseConcept(term, is_dbo)
         resources = self.sa(term) if is_dbo else {}
-        types     = self._getDBPediaTypes(f"<{concept.replace('dbr:', 'http://dbpedia.org/resource/')}>")
+        types = self._getDBPediaTypes(f"<{concept.replace('dbr:','http://dbpedia.org/resource/')}>")
+        # normalize types
+        types_norm = [TextAnalyzer.strip_formatting(t.replace(':',' ')) for t in types]
+        superclasses = self._getHierarchy(concept, is_dbo, True)
+        subclasses = self._getHierarchy(concept, is_dbo, False)
+        relationships = self._getRelationships(concept, is_dbo)
         return {
             'concepto': concept,
             'tipos': types,
-            'resources': resources
+            'types_normalizados': types_norm,
+            'resources': resources,
+            'padres': superclasses,
+            'hijos': subclasses,
+            'relaciones': relationships
         }
 
     def normalize(self, input_data):
         if isinstance(input_data, (list, set, tuple)):
             return [self.normalize(x) for x in input_data]
         text = str(input_data)
-        doc  = self.nlp(text)
+        doc = self.nlp(text)
         tokens = [
             token.lemma_.lower()
             for token in doc
             if not token.is_punct and not token.is_space
         ]
         return " ".join(tokens)
-
-# Función auxiliar para consultas en paralelo
-def fetch_all_types(onto_manager: OntoManager, uris: set[str], max_workers: int = 5) -> dict:
-    lookup: dict[str, list] = {}
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_uri = {executor.submit(onto_manager._getDBPediaTypes, f"<{uri}>"): uri for uri in uris}
-        for future in as_completed(future_to_uri):
-            uri = future_to_uri[future]
-            try:
-                lookup[uri] = future.result()
-            except Exception as e:
-                print(f"Error obteniendo tipos para {uri}: {e}")
-                lookup[uri] = []
-    return lookup
 
 # Simplificación y limpieza de entidades
 

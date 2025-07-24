@@ -121,7 +121,7 @@ import semantic_oboe
 importlib.reload(semantic_oboe)
 topics = joblib.load('/Users/Raul/doctorado/semantic_oboe/semantic_oboe/bbc_objects/new_bbc_topics_7_sinprob')
 
-from semantic_oboe.triplet_manager_lib import *
+from semantic_oboe.utils.triplet_manager_lib import *
 from time import sleep
 
 

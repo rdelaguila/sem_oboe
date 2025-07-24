@@ -1,0 +1,44 @@
+{
+  "best_k": 3,
+  "selected_k": 3,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.18583630801597048,
+  "clusters": {
+    "0": [
+      "evolution",
+      "cognition",
+      "connection",
+      "communication",
+      "innovation",
+      "abstraction",
+      "creation",
+      "transgression",
+      "instrumentality",
+      "transmission"
+    ],
+    "1": [
+      "rebuff",
+      "dean",
+      "'",
+      "boss",
+      "drama",
+      "deceit",
+      "cabaret",
+      "deaf",
+      "snub",
+      "episode"
+    ],
+    "2": [
+      "laptop",
+      "wire",
+      "phone",
+      "clamshell",
+      "gadget",
+      "camera",
+      "toroid",
+      "bluetooth",
+      "shell",
+      "copper"
+    ]
+  }
+}
