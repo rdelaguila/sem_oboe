@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Nutrient Quality\"\n2. \"Work Product\"\n3. \"Time Usage\" The key phrases that best represent the semantic relationship between the given terms are:\n\n1. \"Nutrient Quality\"\n2. \"Product Work\"\n3. \"Time Usage\"\n\nThese phrases capture the essence of the relationships within the context of the technology domain. \"Nutrient Quality\" highlights the importance of quality in relation to nutrients, which can be relevant in discussions about health technologies or food processing. \"Product",
+    "verification_passed": true,
+    "raw_output": " \n\n```\n{\n    \"explicación\": \"The terms in this cluster are interconnected through the concept of 'quality' and its application in various contexts such as nutrient content, work output, and usage over..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Felid family\"\n2. \"Toy for canine\"\n3. \"Small amount of technology\"",
+    "verification_passed": true,
+    "raw_output": " \n\n```json\n{\n    \"explicación\": \"The cluster revolves around the concept of pets and their associated items, including animals from the Felidae family, dogs, toys, and small quantities of technology.\"..."
+  }
+}

@@ -1,0 +1,89 @@
+============================================================
+ANÁLISIS DE TÓPICOS - REPORTE EJECUTIVO
+============================================================
+
+📊 CONFIGURACIÓN DEL ANÁLISIS
+Repositorio: amazon
+Tópico ID: 0
+Vocabulario seleccionado: 20 términos
+Número de clusters identificados: 2
+Número óptimo automático: 2
+Número seleccionado por usuario: 2
+Calidad de clustering (Silhouette): 0.305
+Método: Clustering jerárquico + LLM explicativo
+
+📈 ESTADÍSTICAS DE VOCABULARIO
+  • Total términos usados: 20
+  • Términos LDA disponibles: 30
+  • Entidades NER disponibles: 0
+  • Entidades DBPedia disponibles: 0
+
+RESUMEN POR CLUSTER:
+----------------------------------------
+
+📋 CLUSTER 0:
+  Términos clave: quantity, nutriment, quality, substance, work, product, achiever, use, usage, time
+  
+  🎯 Explicación: The terms in this cluster are interconnected through the concept of 'quality' and its application in various contexts such as nutrient content, work output, and usage over time.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 3/5
+     • Cobertura: 4/5
+  
+  ✅ Fortalezas: Clear connection between terms based on quality concept
+  ⚠️  Debilidades: Lack of specificity in explaining quality application in each context, Moderate relevance to technology domain
+  
+  💡 Justificación: The explanation demonstrates a logical connection between the terms based on the concept of 'quality'. However, it could be more specific about how quality is applied in each context. The relevance to the technology domain is moderate since the terms are quite general and could apply to multiple fields. The coverage is good, addressing the main aspects of the cluster.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "Nutrient Quality"
+2. "Work Product"
+3. "Time Usage" The key phrases that best represent the semantic relationship between the given terms are:
+
+1. "Nutrient Quality"
+2. "Product Work"
+3. "Time Usage"
+
+These phrases capture the essence of the relationships within the context of the technology domain. "Nutrient Quality" highlights the importance of quality in relation to nutrients, which can be relevant in discussions about health technologies or food processing. "Product
+     • Verificación pasada: True
+
+----------------------------------------
+
+📋 CLUSTER 1:
+  Términos clave: cat, felid, dog, toy, canine, small_indefinite_amount
+  
+  🎯 Explicación: The cluster revolves around the concept of pets and their associated items, including animals from the Felidae family, dogs, toys, and small quantities of technology.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 3/5
+     • Cobertura: 4/5
+  
+  ✅ Fortalezas: Clear connection between terms, Logical clustering
+  ⚠️  Debilidades: Limited domain relevance, Potential for more specific technology reference
+  
+  💡 Justificación: The explanation is coherent in linking the terms to a common theme of pets and associated items. It connects well within the context of pet-related concepts. However, it could be more precise by specifying that the'small amount of technology' refers to pet tech or gadgets. The relevance to the technology domain is moderate since the focus is on pets rather than technology itself. The coverage is good, addressing the main aspects of the cluster.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "Felid family"
+2. "Toy for canine"
+3. "Small amount of technology"
+     • Verificación pasada: True
+
+----------------------------------------
+
+📈 ESTADÍSTICAS GLOBALES:
+  Coherencia promedio: 4.00/5
+  Relevancia promedio: 3.00/5
+  Cobertura promedio: 4.00/5
+  Calidad clustering: 0.305
+
+🎯 ARCHIVOS GENERADOS:
+  • clusters.json - Información de clusters
+  • explanations.json - Explicaciones generadas
+  • evaluations.json - Evaluaciones XAI
+  • detailed_analysis.json - Análisis detallado
+  • silhouette_evolution.png - Gráfico optimización
+  • dendrogram_with_cut.png - Dendrograma
+  • config_topic_0.json - Configuración

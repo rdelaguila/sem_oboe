@@ -1,0 +1,28 @@
+{
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.30494336924179555,
+  "clusters": {
+    "0": [
+      "quantity",
+      "nutriment",
+      "quality",
+      "substance",
+      "work",
+      "product",
+      "achiever",
+      "use",
+      "usage",
+      "time"
+    ],
+    "1": [
+      "cat",
+      "felid",
+      "dog",
+      "toy",
+      "canine",
+      "small_indefinite_amount"
+    ]
+  }
+}

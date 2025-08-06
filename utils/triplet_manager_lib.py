@@ -733,8 +733,7 @@ class TripletManager( PredicateManager):
         else:
             objeto_pos = StringCaseInsensitiveSet(self.buscar_pos(tripleta.objeto, pos))
             if objeto_pos.intersection(StringCaseInsensitiveSet(self.objeto_permitido)) == None:
-                por_composicion = False
-
+                por_composicion = Fal
         predicado = tripleta.relacion
 
         if len(predicado.split(' ')) == 1:
@@ -966,3 +965,204 @@ class TripletManager( PredicateManager):
                 listado.append(triple1)
 
         return listado
+
+
+
+class ValidadorTripletas:
+    """Clase para validación rápida de tripletas con POS - CON DEBUG DETALLADO"""
+
+    def __init__(self):
+        # Listas más precisas basadas en el uso real
+        self.sujeto_definitivamente_no = {'CC', 'DT', 'EX', 'IN', 'TO', 'UH'}
+        self.predicado_core = {'VB', 'VBN', 'VBP', 'VBZ', 'VBD', 'MD'}
+        self.objeto_definitivamente_no = {'CC', 'DT', 'EX', 'TO', 'UH'}
+
+    def buscar_pos_rapido(self, palabra, pos_dict):
+        """Búsqueda POS optimizada"""
+        if palabra in pos_dict:
+            return pos_dict[palabra]
+
+        palabra_lower = palabra.lower()
+        for key, value in pos_dict.items():
+            if key.lower() == palabra_lower:
+                return value
+
+        # Casos especiales para verbos auxiliares
+        if palabra_lower in ['am', 'is', 'are', 'do', 'have', 'does', 'has', 'can', 'will', 'would', 'should']:
+            return 'VB'
+
+        return '.'
+
+    def validacion_basica(self, subject, relation, object_val):
+        """Validaciones básicas con explicaciones"""
+        razones = []
+
+        if not subject:
+            razones.append("sujeto vacío")
+        if not relation:
+            razones.append("relación vacía")
+        if not object_val:
+            razones.append("objeto vacío")
+
+        if razones:
+            return False, f"Elementos vacíos: {', '.join(razones)}"
+
+        # Evitar duplicados exactos
+        if subject == relation:
+            return False, f"sujeto igual a relación: '{subject}'"
+        if subject == object_val:
+            return False, f"sujeto igual a objeto: '{subject}'"
+        if relation == object_val:
+            return False, f"relación igual a objeto: '{relation}'"
+
+        # Evitar elementos muy cortos
+        if len(subject) < 1 or len(relation) < 1 or len(object_val) < 1:
+            return False, "elementos demasiado cortos"
+
+        # Evitar caracteres extraños
+        if '**' in subject or '**' in relation or '**' in object_val:
+            return False, "contiene caracteres extraños (**)"
+
+        # Solo rechazar casos muy obvios
+        if relation.lower() in ['the', 'a', 'an']:
+            return False, f"relación es artículo: '{relation}'"
+
+        return True, "validación básica OK"
+
+    def es_palabra_contenido(self, palabra, pos_dict):
+        """Verificar si una palabra tiene contenido semántico"""
+        pos_tag = self.buscar_pos_rapido(palabra, pos_dict)
+
+        contenido_pos = {'NN', 'NNS', 'NNP', 'NNPS', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ',
+                         'JJ', 'JJR', 'JJS', 'RB', 'RBR', 'RBS', 'CD', 'FW'}
+
+        return pos_tag in contenido_pos or palabra.lower() in ['it', 'they', 'he', 'she', 'we']
+
+    def validar_sujeto_mejorado(self, subject, pos):
+        """Validación de sujeto con explicaciones"""
+        subject_words = subject.split()
+
+        if len(subject_words) == 1:
+            subject_pos = self.buscar_pos_rapido(subject_words[0], pos)
+
+            # Solo rechazar casos definitivamente incorrectos
+            if subject_pos in self.sujeto_definitivamente_no:
+                return False, f"POS no permitido para sujeto: '{subject}' ({subject_pos}) - no puede ser {self.sujeto_definitivamente_no}"
+
+            # Rechazar verbos puros como sujetos
+            if subject_pos in ['VB', 'VBP', 'VBZ'] and subject.lower() not in ['being', 'having']:
+                return False, f"verbo puro como sujeto: '{subject}' ({subject_pos})"
+        else:
+            # Para multi-palabra, verificar contenido semántico
+            palabras_contenido = []
+            for word in subject_words:
+                if self.es_palabra_contenido(word, pos):
+                    pos_tag = self.buscar_pos_rapido(word, pos)
+                    palabras_contenido.append(f"'{word}'({pos_tag})")
+
+            if not palabras_contenido:
+                pos_tags = [f"'{w}'({self.buscar_pos_rapido(w, pos)})" for w in subject_words]
+                return False, f"sujeto sin contenido semántico: {' '.join(pos_tags)}"
+
+        subject_pos = self.buscar_pos_rapido(subject_words[0], pos) if len(subject_words) == 1 else "multi-palabra"
+        return True, f"sujeto válido: '{subject}' ({subject_pos})"
+
+    def validar_predicado_mejorado(self, relation, pos):
+        """Validación de predicado con explicaciones"""
+        relation_words = relation.split()
+
+        # Casos especiales conocidos
+        if relation.lower() in ['locatedat', 'isat', 'has', 'have', 'had', 'is', 'are', 'was', 'were']:
+            return True, f"predicado especial reconocido: '{relation}'"
+
+        if len(relation_words) == 1:
+            relation_pos = self.buscar_pos_rapido(relation_words[0], pos)
+            if relation_pos in self.predicado_core:
+                return True, f"predicado simple válido: '{relation}' ({relation_pos})"
+            else:
+                return False, f"POS no válido para predicado: '{relation}' ({relation_pos}) - esperado: {self.predicado_core}"
+        else:
+            # Para predicados compuestos
+            first_word = relation_words[0]
+            first_word_pos = self.buscar_pos_rapido(first_word, pos)
+
+            if first_word_pos not in self.predicado_core:
+                return False, f"predicado compuesto no inicia con verbo: '{first_word}' ({first_word_pos}) - esperado: {self.predicado_core}"
+
+            # Analizar resto de palabras
+            resto_pos = []
+            for word in relation_words[1:]:
+                word_pos = self.buscar_pos_rapido(word, pos)
+                resto_pos.append(f"'{word}'({word_pos})")
+
+            return True, f"predicado compuesto válido: '{first_word}'({first_word_pos}) + {' + '.join(resto_pos)}"
+
+    def validar_objeto_mejorado(self, object_val, pos):
+        """Validación de objeto con explicaciones"""
+        object_words = object_val.split()
+
+        if len(object_words) == 1:
+            object_pos = self.buscar_pos_rapido(object_words[0], pos)
+
+            # Solo rechazar casos definitivamente incorrectos
+            if object_pos in self.objeto_definitivamente_no:
+                return False, f"POS no permitido para objeto: '{object_val}' ({object_pos}) - no puede ser {self.objeto_definitivamente_no}"
+
+            # Rechazar verbos puros como objetos
+            if object_pos in ['VB', 'VBP', 'VBZ'] and object_val.lower() not in ['being', 'having']:
+                return False, f"verbo puro como objeto: '{object_val}' ({object_pos})"
+        else:
+            # Para multi-palabra, verificar contenido semántico
+            palabras_contenido = []
+            for word in object_words:
+                if self.es_palabra_contenido(word, pos):
+                    pos_tag = self.buscar_pos_rapido(word, pos)
+                    palabras_contenido.append(f"'{word}'({pos_tag})")
+
+            if not palabras_contenido:
+                pos_tags = [f"'{w}'({self.buscar_pos_rapido(w, pos)})" for w in object_words]
+                return False, f"objeto sin contenido semántico: {' '.join(pos_tags)}"
+
+        object_pos = self.buscar_pos_rapido(object_words[0], pos) if len(object_words) == 1 else "multi-palabra"
+        return True, f"objeto válido: '{object_val}' ({object_pos})"
+
+    def validacion_rapida_con_pos(self, tripleta_dict, pos, debug=False):
+        """Validación mejorada con explicaciones opcionales"""
+        if not isinstance(tripleta_dict, dict):
+            if debug:
+                return False, "No es diccionario"
+            return False
+
+        subject = str(tripleta_dict.get('subject', '')).strip()
+        relation = str(tripleta_dict.get('relation', '')).strip()
+        object_val = str(tripleta_dict.get('object', '')).strip()
+
+        # Validaciones básicas
+        basica_ok, basica_msg = self.validacion_basica(subject, relation, object_val)
+        if not basica_ok:
+            if debug:
+                return False, f"BÁSICA: {basica_msg}"
+            return False
+
+        # Validaciones POS
+        sujeto_ok, sujeto_msg = self.validar_sujeto_mejorado(subject, pos)
+        if not sujeto_ok:
+            if debug:
+                return False, f"SUJETO: {sujeto_msg}"
+            return False
+
+        predicado_ok, predicado_msg = self.validar_predicado_mejorado(relation, pos)
+        if not predicado_ok:
+            if debug:
+                return False, f"PREDICADO: {predicado_msg}"
+            return False
+
+        objeto_ok, objeto_msg = self.validar_objeto_mejorado(object_val, pos)
+        if not objeto_ok:
+            if debug:
+                return False, f"OBJETO: {objeto_msg}"
+            return False
+
+        if debug:
+            return True, f"VÁLIDA: {sujeto_msg} + {predicado_msg} + {objeto_msg}"
+        return True

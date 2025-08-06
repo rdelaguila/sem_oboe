@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explicación": "The terms in this cluster are interconnected through the concept of 'quality' and its application in various contexts such as nutrient content, work output, and usage over time.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "Nutrient Quality",
+      "Product Work",
+      "Time Usage"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, with each phrase encapsulating a distinct aspect of quality. The relevance score is high because these concepts are fundamental in technology discussions, particularly in areas like product development, process optimization, and performance measurement. The coverage score acknowledges that while the terms cover a broad spectrum, they might not encompass all possible related concepts due to the specific nature of the cluster."
+  },
+  "1": {
+    "explicación": "The cluster revolves around the concept of pets and their associated items, including animals from the Felidae family, dogs, toys, and small quantities of technology.",
+    "coherencia": 4,
+    "relevancia": 3,
+    "cobertura": 4,
+    "key_phrases": [
+      "Felid family",
+      "Toy for canine",
+      "Small amount of technology"
+    ],
+    "reasoning": "The semantic coherence score is high because the terms are closely related to each other, forming a coherent group centered around pets and their accessories. The relevance score is moderate as the terms are not exclusively tied to technology but include pet-related items. The coverage score is good, as the terms cover a range of aspects within the pet domain, including biological classification, pet interaction, and technological use. The key phrases effectively summarize the thematic focus of the cluster."
+  }
+}

@@ -37,7 +37,6 @@ ddf = dd.from_pandas(df,npartitions=10)
 
     
 def devolver_tripletas(sentence,frase,pos, tripletgenerator): 
-    tripletas = []
     tripletas = [tripletgenerator.encapsular((triple.subject,triple.relation,triple.object),True) for triple in sentence.openieTriple] #encapsular triplet generator
     if len(tripletas)==0:
         tripleta = tripletgenerator.triplet_extraction(frase,True)

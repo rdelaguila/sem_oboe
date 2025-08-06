@@ -10,6 +10,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON, CSV
 from owlready2 import World
 import pandas as pd
 
+
 class TextAnalyzer:
     def __init__(self, nlp):
         self.nlp = nlp
@@ -48,14 +49,32 @@ class TextAnalyzer:
         )
         return word in normalized
 
+    # NUEVA FUNCIÓN: Extracción de entidades con spaCy NER
+    def extract_spacy_entities(self, text: str) -> set:
+        """
+        Extrae entidades nombradas usando spaCy NER,
+        filtrando tipos no deseados como en el código original
+        """
+        doc = self.nlp(text)
+        entidades = set()
+
+        if doc.ents:
+            for ent in doc.ents:
+                # Filtrar tipos como en el código original
+                if ent.label_ not in ['ORDINAL', 'CARDINAL', 'TIME']:
+                    entidades.add(ent.text.lower())
+
+        return entidades
+
+
 class SemanticAnalyzer(TextAnalyzer):
     def __init__(
-        self,
-        nlp,
-        endpoint: str = "http://localhost:2222/rest/annotate",
-        soporte: int = 1000,
-        confianza: float = 0.5,
-        umbral: float = 0.1
+            self,
+            nlp,
+            endpoint: str = "http://localhost:2222/rest/annotate",
+            soporte: int = 1000,
+            confianza: float = 0.5,
+            umbral: float = 0.1
     ):
         super().__init__(nlp)
         self.endpoint = endpoint
@@ -89,14 +108,15 @@ class SemanticAnalyzer(TextAnalyzer):
             print(f"Spotlight error: {ex}")
             return {}
 
+
 class OntoManager:
     def __init__(
-        self,
-        nlp,
-        path_dbo: str = "file://./data/ontologias/dbpedia_2016-10.owl/",
-        path_sumo: str = "file://./data/ontologias/SUMO.owl",
-        sparql_endpoint: str = "https://dbpedia.org/sparql",
-        timeout_ms: int = 10000
+            self,
+            nlp,
+            path_dbo: str = "file://./data/ontologias/dbpedia_2016-10.owl/",
+            path_sumo: str = "file://./data/ontologias/SUMO.owl",
+            sparql_endpoint: str = "https://dbpedia.org/sparql",
+            timeout_ms: int = 10000
     ):
         self.nlp = nlp
         self.sa = SemanticAnalyzer(nlp)
@@ -115,7 +135,7 @@ class OntoManager:
     def _load_ontologies(self, path_dbo, path_sumo):
         w1, w2 = World(), World()
         onto_sumo = w1.get_ontology(path_sumo).load()
-        onto_dbo  = w2.get_ontology(path_dbo).load()
+        onto_dbo = w2.get_ontology(path_dbo).load()
         return (
             {'SUMO': onto_sumo, 'dbo': onto_dbo},
             {'SUMO': w1.as_rdflib_graph(), 'dbo': w2.as_rdflib_graph()}
@@ -142,8 +162,8 @@ class OntoManager:
     @lru_cache(maxsize=5000)
     def _getDBPediaTypes(self, uri: str) -> list:
         consulta = (
-            self.prefijos +
-            f"SELECT DISTINCT ?o WHERE {{ {uri} rdf:type ?o }}"
+                self.prefijos +
+                f"SELECT DISTINCT ?o WHERE {{ {uri} rdf:type ?o }}"
         )
         local = list(self.dict_graph['dbo'].query(consulta))
         if local:
@@ -154,7 +174,7 @@ class OntoManager:
         sparql.setQuery(consulta)
         try:
             csv_res = sparql.query().convert()
-            lines = str(csv_res).replace('"','').split('\n')[1:]
+            lines = str(csv_res).replace('"', '').split('\n')[1:]
             return [l for l in lines if l]
         except Exception as e:
             print(f"SPARQL warning for {uri}: {e}")
@@ -163,31 +183,31 @@ class OntoManager:
     def _getHierarchy(self, concept: str, isDbo: bool, isSuperclass: bool) -> list:
         if isSuperclass:
             q = (
-                self.prefijos +
-                f"SELECT ?x WHERE {{ ?x a owl:Class; rdfs:subClassOf {concept} }}"
+                    self.prefijos +
+                    f"SELECT ?x WHERE {{ ?x a owl:Class; rdfs:subClassOf {concept} }}"
             )
         else:
             q = (
-                self.prefijos +
-                f"SELECT ?x WHERE {{ {concept} rdfs:subClassOf ?x }}"
+                    self.prefijos +
+                    f"SELECT ?x WHERE {{ {concept} rdfs:subClassOf ?x }}"
             )
         graph = self.dict_graph['dbo'] if isDbo else self.dict_graph['SUMO']
         return [str(r[0]) for r in graph.query(q)]
 
     def _getRelationships(self, concept: str, isDbo: bool) -> list:
         consulta = (
-            self.prefijos +
-            f"SELECT DISTINCT * WHERE {{ {concept} ?property ?value ."
-            "FILTER(?property NOT IN (rdf:type, rdfs:label))"
-            "OPTIONAL { ?property rdfs:comment ?comment }"
-            "OPTIONAL { ?property rdfs:label ?label }"
-            "OPTIONAL { ?property rdfs:range ?range }"
-            "OPTIONAL { ?property rdfs:domain ?domain }"
-            "}"
+                self.prefijos +
+                f"SELECT DISTINCT * WHERE {{ {concept} ?property ?value ."
+                "FILTER(?property NOT IN (rdf:type, rdfs:label))"
+                "OPTIONAL { ?property rdfs:comment ?comment }"
+                "OPTIONAL { ?property rdfs:label ?label }"
+                "OPTIONAL { ?property rdfs:range ?range }"
+                "OPTIONAL { ?property rdfs:domain ?domain }"
+                "}"
         )
         graph = self.dict_graph['dbo'] if isDbo else self.dict_graph['SUMO']
         rows = list(graph.query(consulta))
-        df = pd.DataFrame(rows, columns=['term','property','comment','label','range','domain'])
+        df = pd.DataFrame(rows, columns=['term', 'property', 'comment', 'label', 'range', 'domain'])
         return df.to_dict(orient='records')
 
     def getSemanticsOfTerm(self, term: str) -> dict:
@@ -196,9 +216,9 @@ class OntoManager:
             return None
         concept = self._getBaseConcept(term, is_dbo)
         resources = self.sa(term) if is_dbo else {}
-        types = self._getDBPediaTypes(f"<{concept.replace('dbr:','http://dbpedia.org/resource/')}>")
+        types = self._getDBPediaTypes(f"<{concept.replace('dbr:', 'http://dbpedia.org/resource/')}>")
         # normalize types
-        types_norm = [TextAnalyzer.strip_formatting(t.replace(':',' ')) for t in types]
+        types_norm = [TextAnalyzer.strip_formatting(t.replace(':', ' ')) for t in types]
         superclasses = self._getHierarchy(concept, is_dbo, True)
         subclasses = self._getHierarchy(concept, is_dbo, False)
         relationships = self._getRelationships(concept, is_dbo)
@@ -224,16 +244,19 @@ class OntoManager:
         ]
         return " ".join(tokens)
 
+
 # Simplificación y limpieza de entidades
 
 def simplificar_entidades(entidad):
     return {entidad.get('surfaceForm'): {'URI': entidad.get('URI'), 'tipos': entidad.get('types', [])}}
+
 
 def limpiar_entidades(entidades_series):
     entidades_simplificadas = {}
     for entidad in entidades_series:
         entidades_simplificadas.update(simplificar_entidades(entidad))
     return entidades_simplificadas
+
 
 # Completar tipos faltantes usando consulta en lote
 
@@ -247,3 +270,16 @@ def completar_tipos_faltantes(entidades_dict, onto_manager):
         if not props['tipos']:
             props['tipos'] = tipos_lookup.get(props['URI'], [])
     return entidades_dict
+
+
+def fetch_all_types(onto_manager, uris_set):
+    """Función auxiliar para obtener tipos en lote"""
+    tipos_lookup = {}
+    for uri in uris_set:
+        try:
+            tipos_lookup[uri] = onto_manager._getDBPediaTypes(f"<{uri}>")
+        except Exception as e:
+            print(f"Error obteniendo tipos para {uri}: {e}")
+            tipos_lookup[uri] = []
+    return tipos_lookup
+

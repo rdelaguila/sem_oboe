@@ -1,25 +1,30 @@
 version: '3.8'
 services:
   corenlp:
-    image: nlpbox/corenlp
+    image: nlpbox/corenlp:latest
     ports:
       - "9000:9000"
+    environment:
+      - JAVA_OPTS=-Xms16g -Xmx32g -XX:+UseG1GC -XX:MaxGCPauseMillis=200
     command: >
-      java -mx32g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
+      java -mx16g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer
       -annotators "tokenize,ssplit,pos,lemma,ner,parse,depparse,natlog,openie"
-      -timeout 100000 -port 9000 -host 0.0.0.0
+      -timeout 300000 -port 9000 -host 0.0.0.0 -maxCharLength 100000
+      -threads 4 -quiet true
+    restart: unless-stopped
 
   dbpedia:
-    image: dbpedia/dbpedia-spotlight
-    container_name: dbepdia-spotlight.en
+    image: dbpedia/dbpedia-spotlight:latest
+    container_name: dbpedia-spotlight-en
     volumes:
       - spotlight-model:/opt/spotlight
     restart: unless-stopped
     ports:
-      - "0.0.0.0:2222:80"
+      - "2222:80"
     command: /bin/spotlight.sh en -w 12
     environment:
-      - JAVA_OPTS=-Xms4G -Xmx24G
+      - JAVA_OPTS=-Xms6G -Xmx20G -XX:+UseG1GC
+
 volumes:
-      spotlight-model:
-        external: false
+  spotlight-model:
+    external: false

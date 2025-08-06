@@ -1,0 +1,39 @@
+TOPIC CLASSIFICATION RESULTS
+==================================================
+
+Timestamp: 2025-08-02T09:27:17.968554
+KGE Model: transe
+Classification Type: Multiclass
+Number of Classes: 13
+
+PERFORMANCE METRICS
+------------------------------
+Accuracy: 0.8969
+Log Loss: 0.3657
+Mean Per-Class Error: 0.1246
+ROC AUC (Macro): 0.9911
+
+Confusion Matrix:
+[[ 62   0   0   0   0   4   3   1   5   0   0   0   0]
+ [  0 114   0   0   0   3   8   3   2   0   0   0   1]
+ [  0   0  18   0   0   3   0   0   0   0   0   0   0]
+ [  0   0   0 112   0   3   5   3   0   0   2   0   0]
+ [  0   1   0   0 169  11   5  13   3   0   8   0   1]
+ [  0   0   0   0   2 640   3  12   4   0  12   0   2]
+ [  0   8   0   1   1  11 479   9   8   0   5   0   2]
+ [  0   0   0   1   1  19  18 530   7   0  16   1   2]
+ [  1   0   0   1   1  10  16   7 503   0   7   0   1]
+ [  0   0   0   0   0   0   0   0   0   2   0   0   0]
+ [  0   1   0   0   2  15  11  17   2   0 389   1   6]
+ [  0   0   0   0   0   2   4   2   0   0   1  23   0]
+ [  0   0   0   0   1   9   3   9   0   0   8   0 187]]
+
+BEST PARAMETERS
+------------------------------
+subsample: 0.8
+reg_lambda: 1
+reg_alpha: 0
+n_estimators: 150
+max_depth: 10
+learning_rate: 0.1
+colsample_bytree: 0.8
