@@ -2,3 +2,7 @@
 .venv/*
 *.pyc
 .python-version
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+.build
+.build/*
