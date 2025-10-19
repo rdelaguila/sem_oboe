@@ -1,0 +1,32 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Digital Pome Processing\"\n2. \"Apple Computer Innovation\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Pome Digital Harvesting\"\n2. \"Apple Computer Technology\"\n\nThese phrases capture the essence of the relationship between pome (apple), digital computer, and apple, focusing on the technology domain. The first phrase emphasizes the processing aspect of digital computers in relation to pome (apples), while the second phrase highlights the technological",
+    "verification_passed": true,
+    "raw_output": " \n\n```json\n{\n    \"explicación\": \"The terms 'pome', 'digital_computer', and 'apple' are semantically coherent as they all relate to the technology domain, specifically focusing on the processing and in..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. Technology application\n2. Consumer device usage\n3. Market machine integration\n\nPlease provide feedback on the quality of the extracted key phrases and suggest any improvements if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the given terms within the technology domain. Here's a brief explanation of each:\n\n1. **Technology application**: This phrase highlights the connection between technology and its practical use or implementation through applications. It emphasizes how technology is applied in various contexts, such as software, hardware,",
+    "verification_passed": true,
+    "raw_output": " \n\n```json\n{\n    \"explicación\": \"Las palabras clave extraídas se relacionan con la aplicación práctica de la tecnología y su uso en diferentes contextos, como software o hardware.\",\n    \"coherencia\": ..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. Audio recording technology\n2. Performer's audio representation\n3. Video broadcasting system\n\nPlease provide feedback on the quality of the extracted key phrases and suggest any improvements if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the given terms within the technology domain. Here's a brief explanation of each:\n\n1. **Audio recording technology**: This phrase highlights the connection between \"music\" and \"recording,\" emphasizing the technological aspect involved in capturing sound. It also indirectly relates to",
+    "verification_passed": true,
+    "raw_output": " \n```json\n{\n    \"explicación\": \"The key phrases cohesively represent the central theme of audio and visual technologies used in the creation, representation, and dissemination of music and performance..."
+  },
+  "3": {
+    "key_phrases_extracted": "1. \"PC display\"\n2. \"TV interface\"",
+    "verification_passed": false,
+    "raw_output": " \n\n{\n    \"explicación\": \"The cluster revolves around electronic devices used for visual content consumption or display, namely personal computers (PCs) and televisions (TVs). The term 'gadget' is incl..."
+  },
+  "4": {
+    "key_phrases_extracted": "1. \"Temporal sequence\"\n2. \"Chronological progression\" The two key phrases that best represent the semantic relationship between the terms \"period,\" \"time,\" \"moment,\" and \"year\" in the context of the technology domain are:\n\n1. \"Temporal milestones\"\n2. \"Duration markers\"",
+    "verification_passed": false,
+    "raw_output": " \n\n```\n{\n    \"explicación\": \"The terms 'period', 'time','moment', and 'year' are all related to the concept of duration or temporal ordering within the technology domain. They help describe the sequen..."
+  },
+  "5": {
+    "key_phrases_extracted": "1. \"player interacts with game\"\n2. \"execute game actions as player\" Here are the two key phrases that best represent the semantic relationship between the terms \"player,\" \"play,\" and \"game\":\n\n1. \"Player engages in gameplay\"\n2. \"Participate in game activities as player\"",
+    "verification_passed": true,
+    "raw_output": " \n\n```json\n{\n    \"explicación\": \"The terms 'player', 'play', and 'game' are interconnected within the context of interactive digital entertainment systems. They collectively describe the human interac..."
+  }
+}

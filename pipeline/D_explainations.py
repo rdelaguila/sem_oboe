@@ -40,7 +40,7 @@ def load_processed_dataframe(repo_name: str) -> pd.DataFrame:
     """
     Carga el dataframe procesado para el repositorio especificado
     """
-    processed_path = f'data/processed/{repo_name}/{repo_name}_processed_semantic.pkl'
+    processed_path = f'../olds/data/processed/{repo_name}/{repo_name}_processed_semantic.pkl'
 
     if not os.path.exists(processed_path):
         raise FileNotFoundError(f"No se encontró el archivo: {processed_path}")
@@ -93,12 +93,14 @@ def create_vocabulary_dictionaries(df: pd.DataFrame) -> Dict[int, Dict[str, List
             if 'dbpedia' in col_lower or 'entidades_dbpedia' in col_lower or 'dbp' in col_lower or 'uri' in col_lower:
                 possible_dbpedia_columns.append(col)
                 print(f"    -> Detectada como DBPedia")
-            if 'target' in col_lower or 'topic' in col_lower or 'topic_new' in col_lower:
+            if 'target' in col_lower or 'topic' in col_lower or 'topic_new' in col_lower or 'new_target' in col_lower or 'new_topic' in col_lower:
                 topic_name = col
                 print(f"    -> Detectada como columna de tópico")
 
     print(f"🔍 Columnas NER detectadas: {possible_ner_columns}")
     print(f"🔍 Columnas DBPedia detectadas: {possible_dbpedia_columns}")
+    if topic_name == '':
+        raise Exception ('no se ha detectado topic')
     print(f"🔍 Columna de tópico detectada: {topic_name}")
 
     # Si no se detectan columnas específicas, buscar automáticamente por contenido
@@ -277,7 +279,7 @@ def load_top_terms_by_topic(repo_name: str) -> Dict[int, List[str]]:
     """
     Carga los términos más relevantes por tópico
     """
-    top_terms_path = f'data/lda_eval/{repo_name}/top_terms_by_topic.pkl'
+    top_terms_path = f'../olds/data/lda_eval/{repo_name}/top_terms_by_topic.pkl'
 
     if not os.path.exists(top_terms_path):
         raise FileNotFoundError(f"No se encontró el archivo: {top_terms_path}")
@@ -325,7 +327,7 @@ def create_output_directory(repo_name: str) -> str:
     """
     Crea el directorio de salida si no existe
     """
-    output_dir = f'data/explainations/{repo_name}'
+    output_dir = f'../olds/data/explainations/{repo_name}'
     os.makedirs(output_dir, exist_ok=True)
     return output_dir
 
@@ -514,13 +516,13 @@ def setup_configuration():
         selected_vocabulary = get_user_vocabulary_choice(topic_id, vocabulary_dict, top_terms)
 
         # 10. Definir ruta de ternas
-        triples_path = f'data/triples_raw/{repo_name}/dataset_triplet_{repo_name}_new_simplificado.csv'
+        triples_path = f'../olds/data/triples_raw/{repo_name}/dataset_triplet_{repo_name}_new_simplificado.csv'
         print(f"\n🔗 Ruta de ternas: {triples_path}")
 
         if not os.path.exists(triples_path):
             print(f"⚠️  Advertencia: No se encontró el archivo de ternas: {triples_path}")
             # Buscar archivo alternativo
-            alt_path = f'data/triples_raw/processed/dataset_final_triplet_{repo_name}_pykeen'
+            alt_path = f'../olds/data/triples_raw/processed/dataset_final_triplet_{repo_name}_pykeen'
             if os.path.exists(alt_path):
                 triples_path = alt_path
                 print(f"✅ Usando archivo alternativo: {triples_path}")
@@ -957,7 +959,8 @@ def main():
 
     dend = shc.dendrogram(linkage_matrix, labels=terms, color_threshold=cut_height)
 
-    # Añadir línea horizontal en la altura de corte
+    # Añadir línea horizontal en la altur
+    # a de corte
     if cut_height > 0:
         plt.axhline(y=cut_height, color='r', linestyle='--', linewidth=2,
                     label=f'Corte para {final_clusters} clusters')

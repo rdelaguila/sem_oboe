@@ -38,8 +38,8 @@ def main():
         print("No se proporcionaron argumentos válidos. Usando valores por defecto:")
         args = argparse.Namespace(
             classifier='xgboost',
-            raw_path="data/corpus_raw/amazon/corpus_raw",
-            eval_dir="data/lda_eval/amazon",
+            raw_path="../olds/data/corpus_raw/amazon/corpus_raw",
+            eval_dir="../olds/data/lda_eval/amazon",
             max_topics=None
         )
 

@@ -1,0 +1,40 @@
+{
+  "best_k": 3,
+  "selected_k": 3,
+  "automatic_optimal_k": 6,
+  "global_sil": 0.23160599838406418,
+  "clusters": {
+    "0": [
+      "pome",
+      "tv",
+      "digital_computer",
+      "pc",
+      "apple",
+      "gadget"
+    ],
+    "1": [
+      "device",
+      "computer",
+      "technology",
+      "mobile",
+      "application",
+      "console",
+      "machine",
+      "user",
+      "consumer",
+      "market"
+    ],
+    "2": [
+      "performer",
+      "play",
+      "music",
+      "broadcast",
+      "player",
+      "year",
+      "sculpture",
+      "period",
+      "game",
+      "recording"
+    ]
+  }
+}

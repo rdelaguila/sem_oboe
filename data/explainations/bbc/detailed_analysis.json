@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Great Spanish Experience\"\n2. \"Quality World Grant\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Great Spanish Romance\"\n2. \"Quality Good Experience\"\n3. \"Come for World-Class Grant\" \n\nThese phrases capture the essence of the terms while maintaining a focus on the technology domain. The first phrase emphasizes the connection between Spanish culture and romantic experiences, which could be relevant in the context of travel or entertainment technology. The second",
+    "verification_passed": true,
+    "raw_output": " \n\n```\n{\n    \"explicación\": \"The terms in this cluster are unified by their thematic focus on positive experiences associated with Spanish culture, quality, and world-class standards, often linked to ..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"match victory\"\n2. \"game win\"\n3. \"player contest\"",
+    "verification_passed": true,
+    "raw_output": " \n\n{\n    \"explicación\": \"The cluster revolves around the concept of competition and achievement in games or sports, focusing on outcomes such as victories, wins, and the roles of players within these ..."
+  }
+}

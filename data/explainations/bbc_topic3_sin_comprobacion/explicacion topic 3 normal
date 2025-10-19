@@ -1,0 +1,14 @@
+
+🎉 ¡ANÁLISIS COMPLETADO!
+==================================================
+📂 Directorio de salida: data/explainations/bbc
+📊 6 clusters generados con silhouette 0.257
+🎯 Tópico 3 del repositorio 'bbc'
+⭐ Calidad promedio: Coherencia 4.2/5
+
+📁 Archivos generados:
+  • summary.txt - Resumen ejecutivo completo
+  • clusters.json - Información detallada de clusters
+  • explanations.json - Explicaciones con Chain-of-Thought
+  • evaluations.json - Evaluaciones con criterios XAI
+  • Gráficos PNG - Visualizaciones del clustering

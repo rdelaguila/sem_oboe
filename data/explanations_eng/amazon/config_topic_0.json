@@ -1,0 +1,34 @@
+{
+  "repo_name": "amazon",
+  "topic_id": 0,
+  "vocabulary": [
+    "dog",
+    "cat",
+    "buy",
+    "love",
+    "food",
+    "good",
+    "use",
+    "like",
+    "work",
+    "great",
+    "time",
+    "try",
+    "product",
+    "small",
+    "little",
+    "day",
+    "eat",
+    "treat",
+    "toy",
+    "water"
+  ],
+  "triples_path": "data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
+  "output_dir": "data/explanations_eng/amazon",
+  "vocabulary_stats": {
+    "total_terms": 20,
+    "ner_available": 0,
+    "dbpedia_available": 0,
+    "lda_available": 30
+  }
+}

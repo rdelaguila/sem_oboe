@@ -326,7 +326,7 @@ def main():
         print("No se proporcionaron argumentos válidos. Usando valores por defecto:")
         args = argparse.Namespace(
             input_data='data/lda_eval/amazon/df_topic.pkl',
-            output_dir='data/triples_raw/amazon',
+            output_dir='../olds/data/triples_raw/amazon',
             output_name='amazon_semantic_tripletas_simplificado-contopic',
             corenlp_endpoint='http://0.0.0.0:9000',
             npartitions=10,

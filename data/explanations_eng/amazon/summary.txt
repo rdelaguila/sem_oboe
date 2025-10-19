@@ -1,0 +1,88 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: amazon
+Topic ID: 0
+Selected vocabulary: 20 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected by user: 2
+Clustering quality (Silhouette): 0.305
+Method: Hierarchical clustering + Explanatory LLM
+
+VOCABULARY STATISTICS
+  • Total terms used: 20
+  • Available LDA terms: 30
+  • Available NER entities: 0
+  • Available DBPedia entities: 0
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: quantity, nutriment, quality, substance, work, product, achiever, use, usage, time
+  
+  Explanation: The cluster revolves around the concept of evaluating and utilizing resources or entities based on their quality, efficiency, and temporal aspects within a technological context.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+  
+  Strengths: Captures the essence of the cluster with key phrases, Relevant to technology domain
+  Weaknesses: Limited coverage of the cluster's aspects, Could benefit from more specific terms
+  
+  Justification: The explanation is coherent and relevant to the technology domain, focusing on quality, efficiency, and time. However, it could be more comprehensive by including more specific concepts like'resource allocation' or 'performance metrics'.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Nutrient Quality"
+2. "Work Product"
+3. "Time Usage"
+     • Verification passed: True
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: cat, felid, dog, toy, canine, small_indefinite_amount
+  
+  Explanation: The cluster revolves around the concept of 'Pet Accessories', encompassing both domesticated animals and their items.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 3/5
+     • Coverage: 4/5
+  
+  Strengths: Clear thematic link between terms, Good coverage of cluster
+  Weaknesses: Lack of precision in domain relevance, Potential for more detailed connections within the cluster
+  
+  Justification: The explanation is coherent in linking the terms to a common theme ('Pet Accessories'), but could be more precise in its connections. It is relevant to the domain of pet technology, though it might not fully capture the technological aspect. The coverage is good, addressing the main aspects of the cluster.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Felid family"
+2. "Toy for canine" 
+3. "Small amount of technology" 
+
+EXPLANATION:
+1. "Felid family" connects "cat" and "felid" as they both belong to the same biological classification.
+2. "Toy for canine" links "toy" with "dog" (represented by "canine") as it is a specific item intended for dogs.
+3. "Small amount of technology" represents the context of the
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 3.50/5
+  Average coverage: 3.50/5
+  Clustering quality: 0.305
+
+GENERATED FILES:
+  • clusters.json - Cluster information
+  • explanations.json - Generated explanations
+  • evaluations.json - XAI evaluations
+  • detailed_analysis.json - Detailed analysis
+  • silhouette_evolution.png - Optimization graph
+  • dendrogram_with_cut.png - Dendrogram
+  • config_topic_0.json - Configuration

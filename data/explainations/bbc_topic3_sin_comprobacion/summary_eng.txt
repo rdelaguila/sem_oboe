@@ -1,0 +1,208 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+📊 ANALYSIS CONFIGURATION
+Repository: bbc
+Topic ID: 3
+Selected vocabulary: 20 terms
+Number of clusters identified: 6
+Automatic optimal number: 6
+User-selected number: 6
+Clustering quality (Silhouette): 0.257
+Method: Hierarchical clustering + explanatory LLM
+
+📈 VOCABULARY STATISTICS
+  • Total terms used: 20
+  • LDA terms available: 30
+  • NER entities available: 104
+  • DBPedia entities available: 0
+
+CLUSTER SUMMARY:
+----------------------------------------
+
+📋 CLUSTER 0:
+  Key terms: pome, digital_computer, apple
+
+  🎯 Explanation: The terms 'pome', 'digital_computer', and 'apple' are semantically coherent as they all relate to the technology domain, specifically focusing on the processing and innovation aspects of digital computers in relation to apples.
+
+  📊 Scores:
+     • Coherence: 4/5
+     • Relevance: 5/5
+     • Coverage: 3/5
+
+  ✅ Strengths: Strong semantic coherence explanation, relevant to the technology domain
+  ⚠️ Weaknesses: Limited coverage of specific technology applications, lack of precision in connecting terms
+
+  💡 Justification: The explanation demonstrates a good understanding of the semantic coherence between the terms, linking them to the technology domain effectively. However, it could be more precise by mentioning specific connections within the technology domain, such as how digital computers process or innovate with apples. The coverage is adequate but could benefit from including more specific examples or applications.
+
+  🔍 Detailed analysis:
+     • Extracted key phrases:
+       1. "Digital Pome Processing"
+       2. "Apple Computer Innovation"
+
+       Key phrases that best represent the semantic relationship between the given terms are:
+       1. "Pome Digital Harvesting"
+       2. "Apple Computer Technology"
+
+       These phrases capture the essence of the relationship between pome (apple), digital computer, and apple, focusing on the technology domain. The first emphasizes the processing aspect of digital computers in relation to pome (apples), while the second highlights the technological dimension.
+
+     • Verification passed: True
+
+----------------------------------------
+
+📋 CLUSTER 1:
+  Key terms: technology, application, computer, device, consumer, console, user, machine, market, mobile
+
+  🎯 Explanation: The extracted key terms relate to the practical application of technology and its use in different contexts, such as software or hardware.
+
+  📊 Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+
+  ✅ Strengths: Clarity in linking terms to practical technology use
+  ⚠️ Weaknesses: Limited insight into the interrelationships between terms
+
+  💡 Justification: The explanation is coherent and relevant to the technology domain, capturing the essence of the terms. However, it lacks depth in explaining how these terms interrelate within the technology context.
+
+  🔍 Detailed analysis:
+     • Extracted key phrases:
+       1. Technology application
+       2. Consumer device usage
+       3. Market machine integration
+
+       The extracted key phrases effectively capture the semantic relationships between the given terms within the technology domain.
+
+       1. **Technology application**: highlights the connection between technology and its practical implementation.
+       2. **Consumer device usage**: emphasizes how consumers interact with technological devices.
+       3. **Market machine integration**: refers to the interaction between technological devices and market dynamics.
+
+     • Verification passed: True
+
+----------------------------------------
+
+📋 CLUSTER 2:
+  Key terms: music, recording, sound, broadcast, performer, sculpture, video
+
+  🎯 Explanation: The key phrases cohesively represent the central theme of audio and visual technologies used in the creation, representation, and dissemination of music and performance.
+
+  📊 Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+
+  ✅ Strengths: Effectively captures the central theme, relevant to the technology domain
+  ⚠️ Weaknesses: Limited coverage due to exclusion of some related terms
+
+  💡 Justification: The explanation is coherent and relevant, capturing the essence of the cluster. However, it could be more comprehensive by including terms like 'sound engineering' or 'audio mixing'.
+
+  🔍 Detailed analysis:
+     • Extracted key phrases:
+       1. Audio recording technology
+       2. Performer's audio representation
+       3. Video broadcasting system
+
+       The extracted key phrases effectively capture the semantic relationships among the terms within the technology domain:
+       - **Audio recording technology** highlights the technological aspect of capturing sound.
+       - **Performer’s audio representation** links performers to the technology that represents their output.
+       - **Video broadcasting system** connects video technology with dissemination of performance.
+
+     • Verification passed: True
+
+----------------------------------------
+
+📋 CLUSTER 3:
+  Key terms: pc, tv, gadget
+
+  🎯 Explanation: The cluster revolves around electronic devices used for visual content consumption or display, namely personal computers (PCs) and televisions (TVs). The term 'gadget' is included as it typically refers to electronic devices often used for similar purposes.
+
+  📊 Scores:
+     • Coherence: 4/5
+     • Relevance: 5/5
+     • Coverage: 3/5
+
+  ✅ Strengths: Clear connection between terms and their common use in technology
+  ⚠️ Weaknesses: Limited coverage of specific device features, potentially reducing usefulness for detailed analysis
+
+  💡 Justification: The explanation is coherent in its focus on electronic devices for visual content consumption and connects well with the technology domain. However, it could be more comprehensive by including additional details (e.g., processing power, connectivity). The inclusion of 'gadget' broadens the scope but may not be essential for all contexts.
+
+  🔍 Detailed analysis:
+     • Extracted key phrases:
+       1. "PC display"
+       2. "TV interface"
+
+     • Verification passed: False
+
+----------------------------------------
+
+📋 CLUSTER 4:
+  Key terms: period, time, moment, year
+
+  🎯 Explanation: The terms 'period', 'time', 'moment', and 'year' are all related to the concept of duration or temporal ordering within the technology domain. They describe sequence, progression, and measurement of events or processes over time.
+
+  📊 Scores:
+     • Coherence: 5/5
+     • Relevance: 5/5
+     • Coverage: 4/5
+
+  ✅ Strengths: Clear and concise explanation, strong connection to technology domain
+  ⚠️ Weaknesses: Lack of specific examples or applications
+
+  💡 Justification: The explanation is clear and concise, capturing semantic coherence among the terms. It also connects well to the technology domain by highlighting their role in describing temporal concepts. Coverage is strong but could improve by adding specific examples or applications.
+
+  🔍 Detailed analysis:
+     • Extracted key phrases:
+       1. "Temporal sequence"
+       2. "Chronological progression"
+
+       Additional phrases representing the semantic relationship:
+       1. "Temporal milestones"
+       2. "Duration markers"
+
+     • Verification passed: False
+
+----------------------------------------
+
+📋 CLUSTER 5:
+  Key terms: player, play, game
+
+  🎯 Explanation: The terms 'player', 'play', and 'game' are interconnected within the context of interactive digital entertainment systems. They collectively describe human interaction with a game environment, where a player executes actions and engages in activities.
+
+  📊 Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+
+  ✅ Strengths: Clarity of explanation, relevant to the domain
+  ⚠️ Weaknesses: Limited coverage of semantic relationships, could benefit from including more specific terms (e.g., game dynamics)
+
+  💡 Justification: The explanation is coherent and relevant to digital entertainment systems. It captures the unity of the terms and connects them to gaming context. However, it could be more comprehensive by mentioning additional relationships such as 'game mechanics' or 'game rules'.
+
+  🔍 Detailed analysis:
+     • Extracted key phrases:
+       1. "Player interacts with game"
+       2. "Execute game actions as player"
+
+       Additional representative phrases:
+       1. "Player engages in gameplay"
+       2. "Participate in game activities as player"
+
+     • Verification passed: True
+
+----------------------------------------
+
+📈 GLOBAL STATISTICS:
+  Average coherence: 4.17/5
+  Average relevance: 4.50/5
+  Average coverage: 3.17/5
+  Clustering quality: 0.257
+
+🎯 GENERATED FILES:
+  • clusters.json – Cluster information
+  • explanations.json – Generated explanations
+  • evaluations.json – XAI evaluations
+  • detailed_analysis.json – Detailed analysis
+  • silhouette_evolution.png – Optimization graph
+  • dendrogram_with_cut.png – Dendrogram
+  • config_topic_3.json – Configuration

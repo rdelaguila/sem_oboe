@@ -1,0 +1,17 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Apple gadget\"\n2. \"Digital computer TV\"\n3. \"Pome PC\" (Note: This phrase may not be directly related to technology but could be a playful or metaphorical connection within the context of the task)",
+    "verification_passed": true,
+    "raw_output": " \n\n```json\n{\n    \"explicación\": \"The cluster revolves around the concept of technology and gadgets, specifically focusing on Apple products, digital computers, TVs, PCs, and other technological device..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Technology-driven devices\"\n2. \"User-centric applications\" \n3. \"Mobile computing market\"",
+    "verification_passed": true,
+    "raw_output": " \n\n```json\n{\n    \"explicación\": \"The cluster revolves around the central theme of 'technology and its impact on various devices and applications', emphasizing the role of technology in modern computin..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"music player\"\n2. \"broadcast recording\"\n3. \"period technology\"",
+    "verification_passed": true,
+    "raw_output": " \n\n{\n    \"explicación\": \"The cluster revolves around the concept of'media representation and consumption', encompassing both physical and digital forms. The terms highlight different aspects of how me..."
+  }
+}

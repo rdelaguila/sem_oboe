@@ -1,0 +1,70 @@
+{
+  "0": {
+    "explicación": "The terms 'pome', 'digital_computer', and 'apple' are semantically coherent as they all relate to the technology domain, specifically focusing on the processing and innovation aspects of digital computers in relation to apples.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 3,
+    "key_phrases": [
+      "Pome Digital Harvesting",
+      "Apple Computer Technology"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms. The relevancy score is high because the terms are directly related to technology. The coverage score is moderate since the key phrases only partially cover the semantic relationship, focusing on processing and innovation rather than encompassing all aspects of the terms."
+  },
+  "1": {
+    "explicación": "Las palabras clave extraídas se relacionan con la aplicación práctica de la tecnología y su uso en diferentes contextos, como software o hardware.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "Tecnología aplicación",
+      "Uso del dispositivo del consumidor",
+      "Integración de máquina en el mercado"
+    ],
+    "reasoning": "La coherencia es alta ya que todas las palabras clave están relacionadas con aspectos prácticos de la tecnología. La relevancia es alta porque estas palabras clave son directamente relevantes para el dominio de la tecnología. La cobertura es alta ya que cubren una variedad de aspectos relacionados con la tecnología, aunque podría mejorar si se incluyen más términos específicos o subcategorías."
+  },
+  "2": {
+    "explicación": "The key phrases cohesively represent the central theme of audio and visual technologies used in the creation, representation, and dissemination of music and performance.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "Audio recording technology",
+      "Performer's audio representation",
+      "Video broadcasting system"
+    ],
+    "reasoning": "The phrases are coherent as they cover the core aspects of technology related to audio and visual content creation, representation, and distribution. They are highly relevant to the technology domain and provide a good coverage of the cluster's main concepts."
+  },
+  "3": {
+    "explicación": "The cluster revolves around electronic devices used for visual content consumption or display, namely personal computers (PCs) and televisions (TVs). The term 'gadget' is included as it typically refers to electronic devices that are often used for similar purposes. The key phrases highlight specific aspects of these devices - their displays and interfaces.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 3,
+    "key_phrases": [
+      "PC display",
+      "TV interface"
+    ],
+    "reasoning": "The semantic coherence score reflects the clear thematic connection between the devices and their functionalities. The relevance score is high because all terms are directly related to technology and electronics. The cobertura score is moderate due to the inclusion of a potentially broader term ('gadget') which may not fully encapsulate the specialized nature of PCs and TVs."
+  },
+  "4": {
+    "explicación": "The terms 'period', 'time','moment', and 'year' are all related to the concept of duration or temporal ordering within the technology domain. They help describe the sequence, progression, and measurement of events or processes over time.",
+    "coherencia": 4,
+    "relevancia": 4,
+    "cobertura": 4,
+    "key_phrases": [
+      "Temporal milestones",
+      "Duration markers"
+    ],
+    "reasoning": "The score reflects the strong semantic coherence among the terms, their relevance to the technology domain, and the clarity provided by the key phrases. The terms are closely related and can be used interchangeably to describe various aspects of time in technological contexts."
+  },
+  "5": {
+    "explicación": "The terms 'player', 'play', and 'game' are interconnected within the context of interactive digital entertainment systems. They collectively describe the human interaction with a game environment, where a player executes actions and engages in various activities.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 5,
+    "key_phrases": [
+      "Player engages in gameplay",
+      "Participate in game activities as player"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which are central to the gaming experience. The relevance score is high because these terms are fundamental to the domain of video games and interactive media. The coverage score is full, as all essential concepts related to player interaction are captured by the key phrases."
+  }
+}

@@ -767,9 +767,9 @@ def run_complete_pipeline(kg_path: str, emb_dir: str,
 def example_phase_1():
     """Example of running Phase 1 only"""
     model_path = run_kge_training_phase(
-        kg_path="data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
-        emb_dir="data/triples_emb/amazon",
-        output_dir="data/model_output/amazon",
+        kg_path="../olds/data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
+        emb_dir="../olds/data/triples_emb/amazon",
+        output_dir="../olds/data/model_output/amazon",
         model_type="transe"  # or None for interactive selection
     )
     print(f"Phase 1 completed. Model saved to: {model_path}")
@@ -779,10 +779,10 @@ def example_phase_1():
 def example_phase_2(model_path: str, mappings_path: str):
     """Example of running Phase 2 only"""
     best_model, metrics = run_classification_phase(
-        kg_path="data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
+        kg_path="../olds/data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
         model_path=model_path,
         mappings_path=mappings_path,
-        output_dir="data/model_output/repo",
+        output_dir="../olds/data/model_output/repo",
         use_random_search=True,
         n_iter=30,
         cv=5
@@ -794,9 +794,9 @@ def example_phase_2(model_path: str, mappings_path: str):
 def example_complete_pipeline():
     """Example of running both phases sequentially"""
     best_model, metrics = run_complete_pipeline(
-        kg_path="data/triples_raw/amazonocion2/dataset_triplet_amazon_new_simplificado.csv",
-        emb_dir="data/triples_emb/amazon/",
-        output_dir="data/model_output/amazon",
+        kg_path="../olds/data/triples_raw/amazonocion2/dataset_triplet_amazon_new_simplificado.csv",
+        emb_dir="../olds/data/triples_emb/amazon/",
+        output_dir="../olds/data/model_output/amazon",
         model_type=None,
         use_random_search=True,
         n_iter=25,
@@ -814,9 +814,10 @@ if __name__ == "__main__":
     print("- run_classification_phase(): Execute Phase 2 (Topic classification)")
     print("- run_complete_pipeline(): Execute both phases sequentially")
     print("\nFor examples, see example_phase_1(), example_phase_2(), example_complete_pipeline()")
-    run_complete_pipeline(
-        kg_path="data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
-       #F model_path='data/triples_emb/amazon/kge_midek.pkl',
-        emb_dir="data/triples_emb/amazon/",
-        output_dir="data/model_output/amazon")
+    repo = input (f"\n Give me the repo name: ")
+    run_classification_phase(
+        kg_path=f"../olds/data/triples_raw/{repo}/dataset_triplet_bbc_new_simplificado.csv",
+        model_path=f'../olds/data/triples_emb/{repo}/transe_model.pkl',
+        mappings_path=f"../olds/data/triples_emb/{repo}/transe_mappings.pkl",
+        output_dir=f"../olds/data/model_output/{repo}")
     #run_classification_phase( kg_path="data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",model_path='data/triples_emb/amazon/transe_model.pkl', mappings_path='data/triples_emb/amazon/transe_mappings.pkl')

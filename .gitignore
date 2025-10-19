@@ -6,3 +6,11 @@
 .ipynb_checkpoints/*
 .build
 .build/*
+.olds/*
+.olds
+.data_copia
+.data_copia/*
+.output
+.output/*
+.models
+.models/*

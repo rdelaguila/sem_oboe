@@ -1,0 +1,106 @@
+============================================================
+ANÁLISIS DE TÓPICOS - REPORTE EJECUTIVO
+============================================================
+
+📊 CONFIGURACIÓN DEL ANÁLISIS
+Repositorio: bbc
+Tópico ID: 3
+Vocabulario seleccionado: 20 términos
+Número de clusters identificados: 3
+Número óptimo automático: 6
+Número seleccionado por usuario: 3
+Calidad de clustering (Silhouette): 0.232
+Método: Clustering jerárquico + LLM explicativo
+
+📈 ESTADÍSTICAS DE VOCABULARIO
+  • Total términos usados: 20
+  • Términos LDA disponibles: 30
+  • Entidades NER disponibles: 104
+  • Entidades DBPedia disponibles: 0
+
+RESUMEN POR CLUSTER:
+----------------------------------------
+
+📋 CLUSTER 0:
+  Términos clave: pome, tv, digital_computer, pc, apple, gadget
+  
+  🎯 Explicación: The cluster revolves around the concept of technology and gadgets, specifically focusing on Apple products, digital computers, TVs, PCs, and other technological devices.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 5/5
+     • Cobertura: 3/5
+  
+  ✅ Fortalezas: Clear connection to technology domain, Logical clustering
+  ⚠️  Debilidades: Limited key phrases that might not fully represent the cluster's breadth, Could benefit from additional key phrases to enhance coverage
+  
+  💡 Justificación: The explanation is coherent in describing a cluster centered around technology and gadgets, particularly Apple products. It connects well to the domain relevance by mentioning digital computers, TVs, PCs, and other devices. However, the key phrases could be more comprehensive, capturing a wider range of concepts within the cluster.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "Apple gadget"
+2. "Digital computer TV"
+3. "Pome PC" (Note: This phrase may not be directly related to technology but could be a playful or metaphorical connection within the context of the task)
+     • Verificación pasada: True
+
+----------------------------------------
+
+📋 CLUSTER 1:
+  Términos clave: device, computer, technology, mobile, application, console, machine, user, consumer, market
+  
+  🎯 Explicación: The cluster revolves around the central theme of 'technology and its impact on various devices and applications', emphasizing the role of technology in modern computing and consumer products.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 5/5
+     • Cobertura: 4/5
+  
+  ✅ Fortalezas: Captures the central theme effectively, Relevant to the technology domain
+  ⚠️  Debilidades: Lacks specific examples to further strengthen the connections between terms
+  
+  💡 Justificación: The explanation is coherent and relevant to the technology domain, capturing the essence of the cluster's terms. It could be slightly improved by mentioning more specific technologies or applications that link the terms together.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "Technology-driven devices"
+2. "User-centric applications" 
+3. "Mobile computing market"
+     • Verificación pasada: True
+
+----------------------------------------
+
+📋 CLUSTER 2:
+  Términos clave: performer, play, music, broadcast, player, year, sculpture, period, game, recording
+  
+  🎯 Explicación: The cluster revolves around the concept of'media representation and consumption', encompassing both physical and digital forms. The terms highlight different aspects of how media, particularly music, is performed, recorded, and accessed through various technologies across different periods.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 4/5
+     • Cobertura: 3/5
+  
+  ✅ Fortalezas: Strong semantic coherence, Relevant to technology domain
+  ⚠️  Debilidades: Limited coverage of specific examples or subcategories
+  
+  💡 Justificación: The explanation demonstrates a good understanding of the semantic coherence among the terms, linking them to the concept of media representation and consumption. It also connects well to the technology domain, especially in relation to music and its various representations. However, the coverage could be improved by including more specific examples or subcategories within each term, such as different types of music players or broadcasting techniques.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "music player"
+2. "broadcast recording"
+3. "period technology"
+     • Verificación pasada: True
+
+----------------------------------------
+
+📈 ESTADÍSTICAS GLOBALES:
+  Coherencia promedio: 4.00/5
+  Relevancia promedio: 4.67/5
+  Cobertura promedio: 3.33/5
+  Calidad clustering: 0.232
+
+🎯 ARCHIVOS GENERADOS:
+  • clusters.json - Información de clusters
+  • explanations.json - Explicaciones generadas
+  • evaluations.json - Evaluaciones XAI
+  • detailed_analysis.json - Análisis detallado
+  • silhouette_evolution.png - Gráfico optimización
+  • dendrogram_with_cut.png - Dendrograma
+  • config_topic_3.json - Configuración

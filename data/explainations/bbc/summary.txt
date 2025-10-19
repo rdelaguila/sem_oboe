@@ -1,0 +1,88 @@
+============================================================
+ANÁLISIS DE TÓPICOS - REPORTE EJECUTIVO
+============================================================
+
+📊 CONFIGURACIÓN DEL ANÁLISIS
+Repositorio: bbc
+Tópico ID: 2
+Vocabulario seleccionado: 20 términos
+Número de clusters identificados: 2
+Número óptimo automático: 11
+Número seleccionado por usuario: 2
+Calidad de clustering (Silhouette): 0.172
+Método: Clustering jerárquico + LLM explicativo
+
+📈 ESTADÍSTICAS DE VOCABULARIO
+  • Total términos usados: 20
+  • Términos LDA disponibles: 30
+  • Entidades NER disponibles: 49
+  • Entidades DBPedia disponibles: 0
+
+RESUMEN POR CLUSTER:
+----------------------------------------
+
+📋 CLUSTER 0:
+  Términos clave: quality, great, spanish, romance, experience, good, come, past, world, grant
+  
+  🎯 Explicación: The terms in this cluster are unified by their thematic focus on positive experiences associated with Spanish culture, quality, and world-class standards, often linked to travel, entertainment, and exceptional offerings.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 3/5
+     • Cobertura: 4/5
+  
+  ✅ Fortalezas: Clear thematic focus on positive experiences associated with Spanish culture and quality., Logical clustering based on shared themes.
+  ⚠️  Debilidades: Lack of direct connection to a technology domain, potentially limiting relevance for certain audiences., Could benefit from more specific examples or context to enhance coverage.
+  
+  💡 Justificación: The explanation is coherent and covers the main aspects of the cluster, focusing on positive experiences related to Spanish culture and quality. However, it could be more specific about the technology domain, which might not be directly related to the terms provided.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "Great Spanish Experience"
+2. "Quality World Grant" Here are the key phrases that best represent the semantic relationship between the given terms:
+
+1. "Great Spanish Romance"
+2. "Quality Good Experience"
+3. "Come for World-Class Grant" 
+
+These phrases capture the essence of the terms while maintaining a focus on the technology domain. The first phrase emphasizes the connection between Spanish culture and romantic experiences, which could be relevant in the context of travel or entertainment technology. The second
+     • Verificación pasada: True
+
+----------------------------------------
+
+📋 CLUSTER 1:
+  Términos clave: match, game, victory, win, player, final, team, contest, play, race
+  
+  🎯 Explicación: The cluster revolves around the concept of competition and achievement in games or sports, focusing on outcomes such as victories, wins, and the roles of players within these contexts.
+  
+  📊 Puntuaciones:
+     • Coherencia: 4/5
+     • Relevancia: 3/5
+     • Cobertura: 4/5
+  
+  ✅ Fortalezas: Clear focus on the central theme of competition and achievement
+  ⚠️  Debilidades: Lack of explicit connection to AI technologies, which might limit its applicability in an AI context
+  
+  💡 Justificación: The explanation is coherent and covers the main aspects of the cluster, focusing on competition and achievement in games or sports. It connects well with the terms provided. However, it could be more specific about the technology domain, as the terms are more general and might not directly relate to AI technologies.
+  
+  🔍 Análisis detallado:
+     • Frases clave extraídas: 1. "match victory"
+2. "game win"
+3. "player contest"
+     • Verificación pasada: True
+
+----------------------------------------
+
+📈 ESTADÍSTICAS GLOBALES:
+  Coherencia promedio: 4.00/5
+  Relevancia promedio: 3.00/5
+  Cobertura promedio: 4.00/5
+  Calidad clustering: 0.172
+
+🎯 ARCHIVOS GENERADOS:
+  • clusters.json - Información de clusters
+  • explanations.json - Explicaciones generadas
+  • evaluations.json - Evaluaciones XAI
+  • detailed_analysis.json - Análisis detallado
+  • silhouette_evolution.png - Gráfico optimización
+  • dendrogram_with_cut.png - Dendrograma
+  • config_topic_2.json - Configuración

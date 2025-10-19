@@ -1,0 +1,38 @@
+{
+  "0": {
+    "explicación": "The cluster revolves around the concept of technology and gadgets, specifically focusing on Apple products, digital computers, TVs, PCs, and other technological devices.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "Apple gadget",
+      "Digital computer TV",
+      "Pome PC"
+    ],
+    "reasoning": "The semantic coherence score is high due to the clear thematic focus on technology and gadgets. The relevance score is full as all terms are directly related to the technology domain. The coverage score is slightly lower because 'Pome PC' might not have a direct technical meaning, but it still fits the broader theme of the cluster."
+  },
+  "1": {
+    "explicación": "The cluster revolves around the central theme of 'technology and its impact on various devices and applications', emphasizing the role of technology in modern computing and consumer products.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "Technology-driven devices",
+      "User-centric applications",
+      "Mobile computing market"
+    ],
+    "reasoning": "The semantic coherence score is high due to the strong thematic connection between all terms. The relevance score is full as they are directly related to the technology domain. The coverage score reflects that the key phrases capture the essence of the cluster without significant omissions."
+  },
+  "2": {
+    "explicación": "The cluster revolves around the concept of'media representation and consumption', encompassing both physical and digital forms. The terms highlight different aspects of how media, particularly music, is performed, recorded, and accessed through various technologies across different periods.",
+    "coherencia": 4,
+    "relevancia": 5,
+    "cobertura": 4,
+    "key_phrases": [
+      "music player",
+      "broadcast recording",
+      "period technology"
+    ],
+    "reasoning": "The semantic coherence score reflects the strong thematic connection between the terms, which all relate to media and its technological representation. The high relevance score acknowledges that these terms are central to the technology domain, specifically within the context of media and entertainment. The coverage score is moderate because while the terms cover a significant aspect of the domain, there might be other relevant concepts not included in this cluster. The key phrases were chosen as they succinctly capture the essence of the cluster's focus on media representation and consumption through technology."
+  }
+}

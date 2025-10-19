@@ -1,0 +1,32 @@
+{
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 11,
+  "global_sil": 0.17208622488444297,
+  "clusters": {
+    "0": [
+      "quality",
+      "great",
+      "spanish",
+      "romance",
+      "experience",
+      "good",
+      "come",
+      "past",
+      "world",
+      "grant"
+    ],
+    "1": [
+      "match",
+      "game",
+      "victory",
+      "win",
+      "player",
+      "final",
+      "team",
+      "contest",
+      "play",
+      "race"
+    ]
+  }
+}

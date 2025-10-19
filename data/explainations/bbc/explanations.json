@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explicación": "The terms in this cluster are unified by their thematic focus on positive experiences associated with Spanish culture, quality, and world-class standards, often linked to travel, entertainment, and exceptional offerings.",
+    "coherencia": 4,
+    "relevancia": 4,
+    "cobertura": 4,
+    "key_phrases": [
+      "Great Spanish Romance",
+      "Quality Good Experience",
+      "Come for World-Class Grant"
+    ],
+    "reasoning": "The semantic coherence score reflects the strong thematic connection among the terms, which revolve around positive experiences and high-quality offerings related to Spanish culture. The domain relevance is high as these concepts align well with the technology domain, particularly in the context of travel, entertainment, and cultural experiences. The coverage score indicates that the key phrases effectively encapsulate the essence of the terms, providing a clear and comprehensive representation of the cluster."
+  },
+  "1": {
+    "explicación": "The cluster revolves around the concept of competition and achievement in games or sports, focusing on outcomes such as victories, wins, and the roles of players within these contexts.",
+    "coherencia": 4,
+    "relevancia": 3,
+    "cobertura": 4,
+    "key_phrases": [
+      "match victory",
+      "game win",
+      "player contest"
+    ],
+    "reasoning": "The semantic coherence score is high because all terms revolve around the central theme of competition and success. The relevance score is moderate since these terms are specific to gaming and sports, which might not be directly related to AI technology but can be relevant in AI applications like game development or sports analytics. The coverage score is good as it captures a significant aspect of human interaction with technology through competitive activities. The key phrases are chosen based on their ability to succinctly represent the cluster's focus on outcomes and participant roles."
+  }
+}
