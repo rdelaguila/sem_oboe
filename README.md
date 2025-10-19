@@ -42,8 +42,9 @@ The framework integrates four main components (A-D) that work sequentially to pr
 
 ## Components
 
+This implementation of the framework was initially developed in Spanish. Given the need for reproducibility and considering the framework's level of user interaction, we have included an English version of the main components.
 ### Component A: Preprocessing & Semantic Enrichment
-**File:** `A_preprocessing.py`
+**File:** `A_preprocessing.py` (Spanish) A_preprocessing_eng.py` (English) 
 
 Handles initial data preparation and semantic enrichment:
 - Coreference resolution (using spaCy + coreferee)
@@ -56,7 +57,8 @@ Handles initial data preparation and semantic enrichment:
 **Output:** Semantically enriched DataFrame with entities, types, and normalized metadata
 
 ### Component B: Topic Modeling & Triplet Generation
-**File:** `B_Rordering.py` (Topic Modeling) + `A_B_2_triplet_gen.py` (Triplet Generation)
+**File:** `B_Rordering.py` (Topic Modeling) + `A_B_2_triplet_gen.py` (Triplet Generation, spanish)
+**File:** `B_Rordering_eng.py` (Topic Modeling) + `A_B_2_triplet_gen_eng.py` (Triplet Generation, english)
 
 Performs topic extraction and knowledge graph triplet generation:
 - LDA-based topic modeling with hyperparameter optimization
@@ -72,7 +74,7 @@ Performs topic extraction and knowledge graph triplet generation:
 - Topic distribution matrices
 
 ### Component C: Knowledge Graph Embeddings & Classification
-**File:** `C_classification_2.py`
+**File:** `C_classification_2.py` *just in english*
 
 Implements a two-phase pipeline:
 - **Phase 1:** Knowledge Graph Embedding (KGE) training using PyKEEN

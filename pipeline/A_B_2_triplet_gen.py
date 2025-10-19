@@ -1,6 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
+"""
+Component A_B_2: Triplet Generation
 
+Generates RDF-style triplets (subject, relation, object) from documents using CoreNLP.
+Supports multiple modes:
+  1. triplets_only: Generate triplets without topic information
+  2. triplets_with_topics: Include topic assignments
+  3. add_topics_to_existing: Add topics to pre-existing triplets
+  4. explode_triplets: Generate CSV from stored data
+
+Requirements:
+- stanza, CoreNLP server, pandas, dask, joblib
+"""
 import argparse
 import os
 import pandas as pd
@@ -15,11 +27,22 @@ from utils.triplet_manager_lib import TripletManager,TripletGenerator,ValidadorT
 
 
 # ============================================================================
-# FUNCIONES AUXILIARES GLOBALES
+# GLOBAL HELPER FUNCTIONS
 # ============================================================================
 
 def devolver_tripletas(sentence, frase, pos, tripletgenerator):
-    """Extrae tripletas de una oración usando diferentes métodos"""
+    """
+       Extract triplets from a sentence using multiple methods
+
+       Args:
+           sentence: Parsed sentence object from CoreNLP
+           phrase: Original text phrase
+           pos: POS tags dictionary
+           triplet_generator: TripletGenerator instance
+
+       Returns:
+           List of extracted triplets
+       """
     tripletas = [tripletgenerator.encapsular((triple.subject, triple.relation, triple.object), True)
                  for triple in sentence.openieTriple]
 
