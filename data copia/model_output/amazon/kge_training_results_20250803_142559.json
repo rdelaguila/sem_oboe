@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-03T15:17:12.618835",
+  "model_path": "data/triples_emb/amazon/convkb_model.pkl",
+  "mappings_path": "data/triples_emb/amazon/convkb_mappings.pkl",
+  "metrics": {
+    "model_type": "convkb",
+    "model_name": "ConvKB",
+    "embedding_dim": 150,
+    "num_entities": 8464,
+    "num_relations": 2320,
+    "training_triples": 11178,
+    "testing_triples": 2795,
+    "evaluation": {
+      "hits_at_1": 0.11610017889087657,
+      "hits_at_3": 0.16404293381037566,
+      "hits_at_10": 0.23452593917710196,
+      "mrr": 0.1579621434211731,
+      "mr": 859.1143188476562
+    }
+  }
+}
