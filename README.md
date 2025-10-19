@@ -1,4 +1,4 @@
-# oBOE: Ontology-Based Explanation Engine
+# Bridging Text and Knowledge: Explainable AI for Knowledge Graph Classification and Concept Map-Based Semantic Do-main Discovery with OBOE Framework
 
 ## Overview
 
