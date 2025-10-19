@@ -10,6 +10,7 @@ In this scenario, the framework is tailored for concept maps represented as KG c
 It combines semantic enrichment, knowledge graph embedding (KGE), and interpretable machine learning to extract meaningful explanations from topic clusters in large document collections.
 
 The framework integrates four main components (A-D) that work sequentially to process raw documents, extract semantic information, generate knowledge graphs, and produce explainable topic-based classifications.
+These components are present in the form of (co) dependent scripts.
 
 ## Architecture
 
@@ -24,7 +25,7 @@ The framework integrates four main components (A-D) that work sequentially to pr
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │            B: TOPIC MODELING & TRIPLET GENERATION               │
-│  (LDA Topic Modeling, Triplet Extraction, Triplet Refinement)   │
+│  (Domain identification, Triplet Extraction, Triplet Refinement)│
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
@@ -36,13 +37,15 @@ The framework integrates four main components (A-D) that work sequentially to pr
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │              D: EXPLANATION GENERATION & EVALUATION             │
-│  (Chain-of-Thought Generation, XAI-based Evaluation, Clustering)│
+│  (Clusterin,  Chain-of-Thought Generation, XAI-based Evaluation)│
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ## Components
 
-This implementation of the framework was initially developed in Spanish. Given the need for reproducibility and considering the framework's level of user interaction, we have included an English version of the main components.
+This implementation of the framework was initially developed in Spanish.
+For the sake of reproducibility and considering the framework's level of user interaction, we have included an English version of the main components.
+
 ### Component A: Preprocessing & Semantic Enrichment
 **File:** `A_preprocessing.py` (Spanish) A_preprocessing_eng.py` (English) 
 
