@@ -1,0 +1,1274 @@
+[
+  {
+    "corpus": "reuters",
+    "topic_id": 0,
+    "n_terms": 29,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.12270832520708908,
+          "davies_bouldin": 1.78140002249846,
+          "calinski_harabasz": 7.65706931841507
+        },
+        {
+          "k": 3,
+          "silhouette": 0.15270546846391078,
+          "davies_bouldin": 1.434039293748821,
+          "calinski_harabasz": 8.60671773692978
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1645818176151932,
+          "davies_bouldin": 1.365997393949797,
+          "calinski_harabasz": 8.356829255419775
+        },
+        {
+          "k": 5,
+          "silhouette": 0.21634728750047416,
+          "davies_bouldin": 1.1008052399260773,
+          "calinski_harabasz": 8.02247421103917
+        },
+        {
+          "k": 6,
+          "silhouette": 0.17988655291204503,
+          "davies_bouldin": 1.252886458829459,
+          "calinski_harabasz": 7.607975440311073
+        },
+        {
+          "k": 7,
+          "silhouette": 0.18549548029564394,
+          "davies_bouldin": 1.2721845713617483,
+          "calinski_harabasz": 7.522292281589202
+        },
+        {
+          "k": 8,
+          "silhouette": 0.22760698933373935,
+          "davies_bouldin": 1.192564986268045,
+          "calinski_harabasz": 7.210292978162202
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.20465277153139952,
+          "davies_bouldin": 1.7893276632819055,
+          "calinski_harabasz": 8.159425950334056
+        },
+        {
+          "k": 3,
+          "silhouette": 0.2382416536101975,
+          "davies_bouldin": 1.3769150156650867,
+          "calinski_harabasz": 8.880271845424517
+        },
+        {
+          "k": 4,
+          "silhouette": 0.26558061099265773,
+          "davies_bouldin": 1.2474279171083442,
+          "calinski_harabasz": 8.523225226339218
+        },
+        {
+          "k": 5,
+          "silhouette": 0.24449461307389034,
+          "davies_bouldin": 1.3101574180414324,
+          "calinski_harabasz": 7.906766748814669
+        },
+        {
+          "k": 6,
+          "silhouette": 0.24856399732777168,
+          "davies_bouldin": 1.1646981421805973,
+          "calinski_harabasz": 7.42178819661287
+        },
+        {
+          "k": 7,
+          "silhouette": 0.2688678315088166,
+          "davies_bouldin": 1.1442929157360495,
+          "calinski_harabasz": 7.394291011599443
+        },
+        {
+          "k": 8,
+          "silhouette": 0.2408741059810095,
+          "davies_bouldin": 1.203175955391706,
+          "calinski_harabasz": 6.8496562672161385
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.22361475370290562,
+          "davies_bouldin": 1.4566380656629652,
+          "calinski_harabasz": 7.881923745941819
+        },
+        {
+          "k": 3,
+          "silhouette": 0.18889550454034096,
+          "davies_bouldin": 1.4070253703546827,
+          "calinski_harabasz": 5.780504761344866
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1750345001676408,
+          "davies_bouldin": 1.540868018743276,
+          "calinski_harabasz": 4.986206179213184
+        },
+        {
+          "k": 5,
+          "silhouette": 0.1081777993846165,
+          "davies_bouldin": 1.7689624157121735,
+          "calinski_harabasz": 3.8472241512013965
+        },
+        {
+          "k": 6,
+          "silhouette": 0.11087912297305502,
+          "davies_bouldin": 1.9129603652431741,
+          "calinski_harabasz": 3.755740427460864
+        },
+        {
+          "k": 7,
+          "silhouette": 0.1286611291448383,
+          "davies_bouldin": 1.9133085451556975,
+          "calinski_harabasz": 3.383090328442963
+        },
+        {
+          "k": 8,
+          "silhouette": 0.13408732785613336,
+          "davies_bouldin": 1.2239549909155996,
+          "calinski_harabasz": 4.290748654090796
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 8,
+        "silhouette": 0.22760698933373935,
+        "davies_bouldin": 1.192564986268045,
+        "calinski_harabasz": 7.210292978162202
+      },
+      "kmeans": {
+        "k": 7,
+        "silhouette": 0.2688678315088166,
+        "davies_bouldin": 1.1442929157360495,
+        "calinski_harabasz": 7.394291011599443
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.22361475370290562,
+        "davies_bouldin": 1.4566380656629652,
+        "calinski_harabasz": 7.881923745941819
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 1,
+    "n_terms": 35,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.2199933273451421,
+          "davies_bouldin": 1.2454793386763967,
+          "calinski_harabasz": 10.59165091239967
+        },
+        {
+          "k": 3,
+          "silhouette": 0.1520133507018587,
+          "davies_bouldin": 1.5666157503787155,
+          "calinski_harabasz": 10.369788797029784
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1757841176849856,
+          "davies_bouldin": 1.4055971816460395,
+          "calinski_harabasz": 9.481088787219756
+        },
+        {
+          "k": 5,
+          "silhouette": 0.17454572716371464,
+          "davies_bouldin": 1.3180802178840187,
+          "calinski_harabasz": 9.199336703479347
+        },
+        {
+          "k": 6,
+          "silhouette": 0.1905989665834049,
+          "davies_bouldin": 1.1310986734778783,
+          "calinski_harabasz": 9.00418877024528
+        },
+        {
+          "k": 7,
+          "silhouette": 0.13359496227267578,
+          "davies_bouldin": 1.1310225185373655,
+          "calinski_harabasz": 8.98096717505574
+        },
+        {
+          "k": 8,
+          "silhouette": 0.10780878156932854,
+          "davies_bouldin": 1.101934710649666,
+          "calinski_harabasz": 8.801960755785501
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.2849628580299508,
+          "davies_bouldin": 1.2454793386763967,
+          "calinski_harabasz": 10.59165091239967
+        },
+        {
+          "k": 3,
+          "silhouette": 0.20791489723409398,
+          "davies_bouldin": 1.5829865394885483,
+          "calinski_harabasz": 10.391528690459495
+        },
+        {
+          "k": 4,
+          "silhouette": 0.22399536746765658,
+          "davies_bouldin": 1.4072988544447576,
+          "calinski_harabasz": 9.512297125088981
+        },
+        {
+          "k": 5,
+          "silhouette": 0.2388806875611736,
+          "davies_bouldin": 1.3534672571371673,
+          "calinski_harabasz": 9.455414112545643
+        },
+        {
+          "k": 6,
+          "silhouette": 0.2147023557333143,
+          "davies_bouldin": 1.3312645601127235,
+          "calinski_harabasz": 8.967487697238194
+        },
+        {
+          "k": 7,
+          "silhouette": 0.22108494473271623,
+          "davies_bouldin": 1.2417551026186835,
+          "calinski_harabasz": 8.367294456068912
+        },
+        {
+          "k": 8,
+          "silhouette": 0.23096713368685445,
+          "davies_bouldin": 1.1680093437833206,
+          "calinski_harabasz": 8.667727155327457
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.2532202634495359,
+          "davies_bouldin": 1.1450124623022646,
+          "calinski_harabasz": 8.622523133135804
+        },
+        {
+          "k": 3,
+          "silhouette": 0.17022432062414034,
+          "davies_bouldin": 1.7783135922334885,
+          "calinski_harabasz": 7.530807039240217
+        },
+        {
+          "k": 4,
+          "silhouette": 0.209244576928159,
+          "davies_bouldin": 1.503777284269177,
+          "calinski_harabasz": 8.015646761130235
+        },
+        {
+          "k": 5,
+          "silhouette": 0.19358522450207355,
+          "davies_bouldin": 1.4455784450498605,
+          "calinski_harabasz": 6.757850148076494
+        },
+        {
+          "k": 6,
+          "silhouette": 0.14939522808563,
+          "davies_bouldin": 1.884455015060901,
+          "calinski_harabasz": 5.222668080675877
+        },
+        {
+          "k": 7,
+          "silhouette": 0.16934986943230446,
+          "davies_bouldin": 1.4086194778886398,
+          "calinski_harabasz": 5.401785667196415
+        },
+        {
+          "k": 8,
+          "silhouette": 0.18813504891046332,
+          "davies_bouldin": 1.175880025452654,
+          "calinski_harabasz": 6.526416763446059
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 2,
+        "silhouette": 0.2199933273451421,
+        "davies_bouldin": 1.2454793386763967,
+        "calinski_harabasz": 10.59165091239967
+      },
+      "kmeans": {
+        "k": 2,
+        "silhouette": 0.2849628580299508,
+        "davies_bouldin": 1.2454793386763967,
+        "calinski_harabasz": 10.59165091239967
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.2532202634495359,
+        "davies_bouldin": 1.1450124623022646,
+        "calinski_harabasz": 8.622523133135804
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 2,
+    "n_terms": 34,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.18074762219074145,
+          "davies_bouldin": 1.6234505754806072,
+          "calinski_harabasz": 11.387269336866837
+        },
+        {
+          "k": 3,
+          "silhouette": 0.18415063126504272,
+          "davies_bouldin": 1.2563555024574296,
+          "calinski_harabasz": 10.767438441020595
+        },
+        {
+          "k": 4,
+          "silhouette": 0.12382331571521625,
+          "davies_bouldin": 1.1927622688137869,
+          "calinski_harabasz": 12.526112595947534
+        },
+        {
+          "k": 5,
+          "silhouette": 0.15363846133503747,
+          "davies_bouldin": 1.0751784937637674,
+          "calinski_harabasz": 11.828244785703939
+        },
+        {
+          "k": 6,
+          "silhouette": 0.17958329347096746,
+          "davies_bouldin": 0.9823490468942556,
+          "calinski_harabasz": 11.146858218514591
+        },
+        {
+          "k": 7,
+          "silhouette": 0.21084113159844253,
+          "davies_bouldin": 1.043061579007286,
+          "calinski_harabasz": 10.940817103770552
+        },
+        {
+          "k": 8,
+          "silhouette": 0.21410565887661978,
+          "davies_bouldin": 1.150606998827467,
+          "calinski_harabasz": 11.215800796489031
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.25185064057104123,
+          "davies_bouldin": 1.5887379315665517,
+          "calinski_harabasz": 11.996686415006895
+        },
+        {
+          "k": 3,
+          "silhouette": 0.26624988867135607,
+          "davies_bouldin": 1.230088798927081,
+          "calinski_harabasz": 12.829650913547093
+        },
+        {
+          "k": 4,
+          "silhouette": 0.263851786219752,
+          "davies_bouldin": 1.2130927302682375,
+          "calinski_harabasz": 12.918210578916762
+        },
+        {
+          "k": 5,
+          "silhouette": 0.24975040445178406,
+          "davies_bouldin": 1.3095910517710752,
+          "calinski_harabasz": 11.634070536200463
+        },
+        {
+          "k": 6,
+          "silhouette": 0.25342925378640835,
+          "davies_bouldin": 1.208057010357934,
+          "calinski_harabasz": 10.856305505495468
+        },
+        {
+          "k": 7,
+          "silhouette": 0.299463865459471,
+          "davies_bouldin": 1.0666680994551985,
+          "calinski_harabasz": 11.353982354065668
+        },
+        {
+          "k": 8,
+          "silhouette": 0.3033361877072923,
+          "davies_bouldin": 1.0099845914592818,
+          "calinski_harabasz": 11.146299560541033
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.23782644969230807,
+          "davies_bouldin": 1.5364530125246794,
+          "calinski_harabasz": 10.989436018297498
+        },
+        {
+          "k": 3,
+          "silhouette": 0.21567112936148305,
+          "davies_bouldin": 1.2284023032917994,
+          "calinski_harabasz": 8.118818112210207
+        },
+        {
+          "k": 4,
+          "silhouette": 0.21980247320006358,
+          "davies_bouldin": 1.121947559740246,
+          "calinski_harabasz": 7.228497704570943
+        },
+        {
+          "k": 5,
+          "silhouette": 0.21887259205085172,
+          "davies_bouldin": 1.2648330711230924,
+          "calinski_harabasz": 6.6776252689788675
+        },
+        {
+          "k": 6,
+          "silhouette": 0.22794074844792805,
+          "davies_bouldin": 1.3465200905167976,
+          "calinski_harabasz": 6.911501880725414
+        },
+        {
+          "k": 7,
+          "silhouette": 0.21508897730536852,
+          "davies_bouldin": 1.2364663326577874,
+          "calinski_harabasz": 6.006392667809099
+        },
+        {
+          "k": 8,
+          "silhouette": 0.13661937019403111,
+          "davies_bouldin": 1.072933709933873,
+          "calinski_harabasz": 4.594508093486554
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 8,
+        "silhouette": 0.21410565887661978,
+        "davies_bouldin": 1.150606998827467,
+        "calinski_harabasz": 11.215800796489031
+      },
+      "kmeans": {
+        "k": 8,
+        "silhouette": 0.3033361877072923,
+        "davies_bouldin": 1.0099845914592818,
+        "calinski_harabasz": 11.146299560541033
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.23782644969230807,
+        "davies_bouldin": 1.5364530125246794,
+        "calinski_harabasz": 10.989436018297498
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 3,
+    "n_terms": 26,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.16986979590457812,
+          "davies_bouldin": 1.6118353048958718,
+          "calinski_harabasz": 8.330865626315003
+        },
+        {
+          "k": 3,
+          "silhouette": 0.18775266096505538,
+          "davies_bouldin": 1.3800365809625939,
+          "calinski_harabasz": 8.432688953868935
+        },
+        {
+          "k": 4,
+          "silhouette": 0.17069909102534778,
+          "davies_bouldin": 1.272282914904487,
+          "calinski_harabasz": 8.044364598396637
+        },
+        {
+          "k": 5,
+          "silhouette": 0.192258253349231,
+          "davies_bouldin": 1.1613768767033492,
+          "calinski_harabasz": 7.82264905113428
+        },
+        {
+          "k": 6,
+          "silhouette": 0.20704646939632326,
+          "davies_bouldin": 1.1662029290730704,
+          "calinski_harabasz": 7.73907837918535
+        },
+        {
+          "k": 7,
+          "silhouette": 0.23733636074219894,
+          "davies_bouldin": 1.0818280613519202,
+          "calinski_harabasz": 7.7533403058279315
+        },
+        {
+          "k": 8,
+          "silhouette": 0.24610896691000617,
+          "davies_bouldin": 0.9352378862736559,
+          "calinski_harabasz": 7.805928864365577
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.23484453017882073,
+          "davies_bouldin": 1.505615384697065,
+          "calinski_harabasz": 9.956137520565663
+        },
+        {
+          "k": 3,
+          "silhouette": 0.2525056424789545,
+          "davies_bouldin": 1.3360739126404635,
+          "calinski_harabasz": 9.46891634025873
+        },
+        {
+          "k": 4,
+          "silhouette": 0.22193232170690436,
+          "davies_bouldin": 1.2660441406168301,
+          "calinski_harabasz": 8.31235036206835
+        },
+        {
+          "k": 5,
+          "silhouette": 0.24405992417539663,
+          "davies_bouldin": 1.2103343088436689,
+          "calinski_harabasz": 7.883174154879967
+        },
+        {
+          "k": 6,
+          "silhouette": 0.23218031804762956,
+          "davies_bouldin": 1.204834120865792,
+          "calinski_harabasz": 7.473205853919653
+        },
+        {
+          "k": 7,
+          "silhouette": 0.2661412048995069,
+          "davies_bouldin": 1.0818280613519202,
+          "calinski_harabasz": 7.753340305827928
+        },
+        {
+          "k": 8,
+          "silhouette": 0.26773466641766147,
+          "davies_bouldin": 0.9352378862736559,
+          "calinski_harabasz": 7.805928864365577
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.23822398747199694,
+          "davies_bouldin": 1.5076560204899636,
+          "calinski_harabasz": 10.084219136671557
+        },
+        {
+          "k": 3,
+          "silhouette": 0.19122833443496676,
+          "davies_bouldin": 1.4217167592882094,
+          "calinski_harabasz": 7.207781681243399
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1718778742735885,
+          "davies_bouldin": 1.5549349186331805,
+          "calinski_harabasz": 5.661068195939644
+        },
+        {
+          "k": 5,
+          "silhouette": 0.17157957872626547,
+          "davies_bouldin": 1.1587984161575817,
+          "calinski_harabasz": 4.582920070073173
+        },
+        {
+          "k": 6,
+          "silhouette": 0.18164363399985634,
+          "davies_bouldin": 1.1878511163211316,
+          "calinski_harabasz": 5.219830588434051
+        },
+        {
+          "k": 7,
+          "silhouette": 0.17976370952450574,
+          "davies_bouldin": 1.1626743806941893,
+          "calinski_harabasz": 4.689084770052554
+        },
+        {
+          "k": 8,
+          "silhouette": 0.24940854949047425,
+          "davies_bouldin": 0.9016687981708982,
+          "calinski_harabasz": 7.136641774870643
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 8,
+        "silhouette": 0.24610896691000617,
+        "davies_bouldin": 0.9352378862736559,
+        "calinski_harabasz": 7.805928864365577
+      },
+      "kmeans": {
+        "k": 8,
+        "silhouette": 0.26773466641766147,
+        "davies_bouldin": 0.9352378862736559,
+        "calinski_harabasz": 7.805928864365577
+      },
+      "spectral": {
+        "k": 8,
+        "silhouette": 0.24940854949047425,
+        "davies_bouldin": 0.9016687981708982,
+        "calinski_harabasz": 7.136641774870643
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 4,
+    "n_terms": 32,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.296696138516932,
+          "davies_bouldin": 0.9903317482806899,
+          "calinski_harabasz": 18.510436942404606
+        },
+        {
+          "k": 3,
+          "silhouette": 0.10775087225706964,
+          "davies_bouldin": 1.7406981931468775,
+          "calinski_harabasz": 13.151228406188745
+        },
+        {
+          "k": 4,
+          "silhouette": 0.10905678653389071,
+          "davies_bouldin": 1.4762129565536928,
+          "calinski_harabasz": 11.968991086588554
+        },
+        {
+          "k": 5,
+          "silhouette": 0.14241552223599005,
+          "davies_bouldin": 1.3281987762881866,
+          "calinski_harabasz": 11.495865132266813
+        },
+        {
+          "k": 6,
+          "silhouette": 0.1641102166416674,
+          "davies_bouldin": 1.3083164834930168,
+          "calinski_harabasz": 10.844803951787323
+        },
+        {
+          "k": 7,
+          "silhouette": 0.19055646884592764,
+          "davies_bouldin": 1.1832800748550303,
+          "calinski_harabasz": 10.641753426482632
+        },
+        {
+          "k": 8,
+          "silhouette": 0.22799485088758314,
+          "davies_bouldin": 1.070596137695634,
+          "calinski_harabasz": 10.424002865511389
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.4026031784347619,
+          "davies_bouldin": 1.062218292753656,
+          "calinski_harabasz": 19.337424218584662
+        },
+        {
+          "k": 3,
+          "silhouette": 0.2319191131463074,
+          "davies_bouldin": 1.544718295029046,
+          "calinski_harabasz": 14.202747135361996
+        },
+        {
+          "k": 4,
+          "silhouette": 0.2269295014582039,
+          "davies_bouldin": 1.362167523268487,
+          "calinski_harabasz": 12.84111804350974
+        },
+        {
+          "k": 5,
+          "silhouette": 0.23542855608507507,
+          "davies_bouldin": 1.269702746466454,
+          "calinski_harabasz": 12.14103176923004
+        },
+        {
+          "k": 6,
+          "silhouette": 0.23924524327345884,
+          "davies_bouldin": 1.3030583140224719,
+          "calinski_harabasz": 11.343571295493227
+        },
+        {
+          "k": 7,
+          "silhouette": 0.24473763272663,
+          "davies_bouldin": 1.1340533367406516,
+          "calinski_harabasz": 10.38565524564064
+        },
+        {
+          "k": 8,
+          "silhouette": 0.2791966043066628,
+          "davies_bouldin": 1.1238579595113418,
+          "calinski_harabasz": 10.256697412735393
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.3773851834707034,
+          "davies_bouldin": 0.9828485147197197,
+          "calinski_harabasz": 13.435524200480225
+        },
+        {
+          "k": 3,
+          "silhouette": 0.33446068160434006,
+          "davies_bouldin": 0.7398400081360142,
+          "calinski_harabasz": 7.718015249681294
+        },
+        {
+          "k": 4,
+          "silhouette": 0.14721042038527174,
+          "davies_bouldin": 1.4695247964443574,
+          "calinski_harabasz": 6.216780848656486
+        },
+        {
+          "k": 5,
+          "silhouette": 0.17788126178353864,
+          "davies_bouldin": 1.2519698658690905,
+          "calinski_harabasz": 6.0885730725653096
+        },
+        {
+          "k": 6,
+          "silhouette": 0.1550149336550593,
+          "davies_bouldin": 1.2426586099856067,
+          "calinski_harabasz": 5.290743471441447
+        },
+        {
+          "k": 7,
+          "silhouette": 0.15505894701914807,
+          "davies_bouldin": 1.275683619241055,
+          "calinski_harabasz": 5.37793516959425
+        },
+        {
+          "k": 8,
+          "silhouette": 0.2171641147920629,
+          "davies_bouldin": 1.0010164842016702,
+          "calinski_harabasz": 8.111549876457996
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 2,
+        "silhouette": 0.296696138516932,
+        "davies_bouldin": 0.9903317482806899,
+        "calinski_harabasz": 18.510436942404606
+      },
+      "kmeans": {
+        "k": 2,
+        "silhouette": 0.4026031784347619,
+        "davies_bouldin": 1.062218292753656,
+        "calinski_harabasz": 19.337424218584662
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.3773851834707034,
+        "davies_bouldin": 0.9828485147197197,
+        "calinski_harabasz": 13.435524200480225
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 5,
+    "n_terms": 21,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.2024007140586257,
+          "davies_bouldin": 1.3426657833997833,
+          "calinski_harabasz": 6.463425471308344
+        },
+        {
+          "k": 3,
+          "silhouette": 0.13170878199011243,
+          "davies_bouldin": 1.537498689770558,
+          "calinski_harabasz": 6.102500352345945
+        },
+        {
+          "k": 4,
+          "silhouette": 0.15568209406328734,
+          "davies_bouldin": 1.337484034474508,
+          "calinski_harabasz": 5.219340454015519
+        },
+        {
+          "k": 5,
+          "silhouette": 0.15246022357338504,
+          "davies_bouldin": 1.2372033956153234,
+          "calinski_harabasz": 4.899416955988694
+        },
+        {
+          "k": 6,
+          "silhouette": 0.17046364214713228,
+          "davies_bouldin": 1.1686719892476316,
+          "calinski_harabasz": 4.926039956457023
+        },
+        {
+          "k": 7,
+          "silhouette": 0.15955753255525465,
+          "davies_bouldin": 1.2118183876426707,
+          "calinski_harabasz": 4.806679517382663
+        },
+        {
+          "k": 8,
+          "silhouette": 0.15955753255525465,
+          "davies_bouldin": 1.0028046571142153,
+          "calinski_harabasz": 4.780027926947723
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.27617362251582467,
+          "davies_bouldin": 1.3426657833997833,
+          "calinski_harabasz": 6.463425471308344
+        },
+        {
+          "k": 3,
+          "silhouette": 0.18754332569937823,
+          "davies_bouldin": 1.537498689770558,
+          "calinski_harabasz": 6.102500352345945
+        },
+        {
+          "k": 4,
+          "silhouette": 0.16611975318793742,
+          "davies_bouldin": 1.4546072443715798,
+          "calinski_harabasz": 5.166370653038524
+        },
+        {
+          "k": 5,
+          "silhouette": 0.18191546096942515,
+          "davies_bouldin": 1.2660908191270965,
+          "calinski_harabasz": 4.854204982488985
+        },
+        {
+          "k": 6,
+          "silhouette": 0.20142127819791472,
+          "davies_bouldin": 1.153748180076979,
+          "calinski_harabasz": 4.934566115621846
+        },
+        {
+          "k": 7,
+          "silhouette": 0.191758503080872,
+          "davies_bouldin": 1.1135641358012116,
+          "calinski_harabasz": 4.5978273484944525
+        },
+        {
+          "k": 8,
+          "silhouette": 0.19612840564075962,
+          "davies_bouldin": 1.119899337136316,
+          "calinski_harabasz": 4.4948961909682055
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.21333131844587636,
+          "davies_bouldin": 1.074922327758424,
+          "calinski_harabasz": 3.3386419896277335
+        },
+        {
+          "k": 3,
+          "silhouette": 0.13924576745020092,
+          "davies_bouldin": 1.7498553258163332,
+          "calinski_harabasz": 3.5160559683854484
+        },
+        {
+          "k": 4,
+          "silhouette": 0.11494891738964463,
+          "davies_bouldin": 1.6034292968334627,
+          "calinski_harabasz": 3.1139136371065095
+        },
+        {
+          "k": 5,
+          "silhouette": 0.11422737727642343,
+          "davies_bouldin": 1.6378696607834953,
+          "calinski_harabasz": 2.9201637534416087
+        },
+        {
+          "k": 6,
+          "silhouette": 0.10319844602094534,
+          "davies_bouldin": 1.6356330123041989,
+          "calinski_harabasz": 2.5975302982060207
+        },
+        {
+          "k": 7,
+          "silhouette": 0.1198757919935188,
+          "davies_bouldin": 1.3627865862074746,
+          "calinski_harabasz": 3.112085858152164
+        },
+        {
+          "k": 8,
+          "silhouette": 0.10968775639203128,
+          "davies_bouldin": 1.324350201773445,
+          "calinski_harabasz": 2.9253694711961664
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 2,
+        "silhouette": 0.2024007140586257,
+        "davies_bouldin": 1.3426657833997833,
+        "calinski_harabasz": 6.463425471308344
+      },
+      "kmeans": {
+        "k": 2,
+        "silhouette": 0.27617362251582467,
+        "davies_bouldin": 1.3426657833997833,
+        "calinski_harabasz": 6.463425471308344
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.21333131844587636,
+        "davies_bouldin": 1.074922327758424,
+        "calinski_harabasz": 3.3386419896277335
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 6,
+    "n_terms": 29,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.20752155856593163,
+          "davies_bouldin": 1.4066334692224973,
+          "calinski_harabasz": 11.689889718472301
+        },
+        {
+          "k": 3,
+          "silhouette": 0.1433355851173653,
+          "davies_bouldin": 1.3283758412605717,
+          "calinski_harabasz": 11.066418267311354
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1692303468282071,
+          "davies_bouldin": 1.2410571363001888,
+          "calinski_harabasz": 11.036910967757045
+        },
+        {
+          "k": 5,
+          "silhouette": 0.19955264927514194,
+          "davies_bouldin": 1.1096961208393386,
+          "calinski_harabasz": 9.905161764994077
+        },
+        {
+          "k": 6,
+          "silhouette": 0.2299194679352348,
+          "davies_bouldin": 1.0202645600569984,
+          "calinski_harabasz": 9.493462707900878
+        },
+        {
+          "k": 7,
+          "silhouette": 0.24477270467174253,
+          "davies_bouldin": 0.9794688098314247,
+          "calinski_harabasz": 9.34806737722941
+        },
+        {
+          "k": 8,
+          "silhouette": 0.27842471407222175,
+          "davies_bouldin": 0.8629533237890424,
+          "calinski_harabasz": 9.403658874413049
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.29403938265825097,
+          "davies_bouldin": 1.4066334692224973,
+          "calinski_harabasz": 11.689889718472301
+        },
+        {
+          "k": 3,
+          "silhouette": 0.23260167872834,
+          "davies_bouldin": 1.3908931407284832,
+          "calinski_harabasz": 11.114507714753202
+        },
+        {
+          "k": 4,
+          "silhouette": 0.2570326781481233,
+          "davies_bouldin": 1.2410571363001888,
+          "calinski_harabasz": 11.036910967757045
+        },
+        {
+          "k": 5,
+          "silhouette": 0.2689963813745094,
+          "davies_bouldin": 1.1074670602692105,
+          "calinski_harabasz": 9.815712670774262
+        },
+        {
+          "k": 6,
+          "silhouette": 0.28664612848311677,
+          "davies_bouldin": 1.0202645600569984,
+          "calinski_harabasz": 9.493462707900878
+        },
+        {
+          "k": 7,
+          "silhouette": 0.29669268252483905,
+          "davies_bouldin": 0.9794688098314246,
+          "calinski_harabasz": 9.348067377229414
+        },
+        {
+          "k": 8,
+          "silhouette": 0.29390686949361894,
+          "davies_bouldin": 0.936844363204457,
+          "calinski_harabasz": 9.077824129073225
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.29278938868068105,
+          "davies_bouldin": 0.5183977711265222,
+          "calinski_harabasz": 3.258593340237975
+        },
+        {
+          "k": 3,
+          "silhouette": 0.2734498528362891,
+          "davies_bouldin": 0.5266041885545067,
+          "calinski_harabasz": 3.217169017698845
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1071947955709272,
+          "davies_bouldin": 1.3295829878582897,
+          "calinski_harabasz": 3.828432054545016
+        },
+        {
+          "k": 5,
+          "silhouette": 0.08820544166666522,
+          "davies_bouldin": 1.337359672649271,
+          "calinski_harabasz": 3.8881836516285717
+        },
+        {
+          "k": 6,
+          "silhouette": 0.08984127464326674,
+          "davies_bouldin": 1.3379411970949995,
+          "calinski_harabasz": 3.3703193361817503
+        },
+        {
+          "k": 7,
+          "silhouette": 0.1480080014377012,
+          "davies_bouldin": 1.0266638113096065,
+          "calinski_harabasz": 3.594825763456049
+        },
+        {
+          "k": 8,
+          "silhouette": 0.16790450417384414,
+          "davies_bouldin": 1.0238132802547508,
+          "calinski_harabasz": 4.638575351961304
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 8,
+        "silhouette": 0.27842471407222175,
+        "davies_bouldin": 0.8629533237890424,
+        "calinski_harabasz": 9.403658874413049
+      },
+      "kmeans": {
+        "k": 7,
+        "silhouette": 0.29669268252483905,
+        "davies_bouldin": 0.9794688098314246,
+        "calinski_harabasz": 9.348067377229414
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.29278938868068105,
+        "davies_bouldin": 0.5183977711265222,
+        "calinski_harabasz": 3.258593340237975
+      }
+    }
+  },
+  {
+    "corpus": "reuters",
+    "topic_id": 7,
+    "n_terms": 33,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.16767577445207715,
+          "davies_bouldin": 1.2758258217825014,
+          "calinski_harabasz": 18.136665431987762
+        },
+        {
+          "k": 3,
+          "silhouette": 0.17545821804416598,
+          "davies_bouldin": 1.6491103849933346,
+          "calinski_harabasz": 12.695937259132345
+        },
+        {
+          "k": 4,
+          "silhouette": 0.19990782100549864,
+          "davies_bouldin": 1.2642498288374266,
+          "calinski_harabasz": 10.705743074669007
+        },
+        {
+          "k": 5,
+          "silhouette": 0.207725064428509,
+          "davies_bouldin": 1.4179704379352898,
+          "calinski_harabasz": 9.770247614506745
+        },
+        {
+          "k": 6,
+          "silhouette": 0.21675150208520697,
+          "davies_bouldin": 1.257496247985076,
+          "calinski_harabasz": 9.02778567934894
+        },
+        {
+          "k": 7,
+          "silhouette": 0.13457705349061863,
+          "davies_bouldin": 1.466179926117032,
+          "calinski_harabasz": 8.607741267812612
+        },
+        {
+          "k": 8,
+          "silhouette": 0.14835511661262246,
+          "davies_bouldin": 1.327909219980155,
+          "calinski_harabasz": 8.340996943994583
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.30886072181530205,
+          "davies_bouldin": 1.2788083634156473,
+          "calinski_harabasz": 18.40136151058431
+        },
+        {
+          "k": 3,
+          "silhouette": 0.22900188807416802,
+          "davies_bouldin": 1.6166609483209797,
+          "calinski_harabasz": 13.454211952195266
+        },
+        {
+          "k": 4,
+          "silhouette": 0.2389274285478617,
+          "davies_bouldin": 1.5261934331026912,
+          "calinski_harabasz": 11.189009301520183
+        },
+        {
+          "k": 5,
+          "silhouette": 0.2653713817160153,
+          "davies_bouldin": 1.2604124793632496,
+          "calinski_harabasz": 9.809482499631807
+        },
+        {
+          "k": 6,
+          "silhouette": 0.2724627100871408,
+          "davies_bouldin": 1.197533279420105,
+          "calinski_harabasz": 8.93214301082878
+        },
+        {
+          "k": 7,
+          "silhouette": 0.1823175603145049,
+          "davies_bouldin": 1.3033503309038217,
+          "calinski_harabasz": 8.411600224830474
+        },
+        {
+          "k": 8,
+          "silhouette": 0.18326683629022333,
+          "davies_bouldin": 1.3497672961798353,
+          "calinski_harabasz": 8.182636892410704
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.1819568459374441,
+          "davies_bouldin": 1.6169220947731788,
+          "calinski_harabasz": 5.77292279040618
+        },
+        {
+          "k": 3,
+          "silhouette": 0.18391808977636862,
+          "davies_bouldin": 1.5911302940077645,
+          "calinski_harabasz": 5.231971175194195
+        },
+        {
+          "k": 4,
+          "silhouette": 0.17170463426308866,
+          "davies_bouldin": 1.4905413864579655,
+          "calinski_harabasz": 4.3996852423755355
+        },
+        {
+          "k": 5,
+          "silhouette": 0.08424443602708942,
+          "davies_bouldin": 1.7521564500697129,
+          "calinski_harabasz": 3.355914723368613
+        },
+        {
+          "k": 6,
+          "silhouette": 0.16244213935594706,
+          "davies_bouldin": 1.0490689276728706,
+          "calinski_harabasz": 3.260328532470856
+        },
+        {
+          "k": 7,
+          "silhouette": 0.09444498798361987,
+          "davies_bouldin": 1.4962616419879424,
+          "calinski_harabasz": 3.206445633810017
+        },
+        {
+          "k": 8,
+          "silhouette": 0.04453147057649602,
+          "davies_bouldin": 1.6757285735579457,
+          "calinski_harabasz": 2.9959061697726943
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 6,
+        "silhouette": 0.21675150208520697,
+        "davies_bouldin": 1.257496247985076,
+        "calinski_harabasz": 9.02778567934894
+      },
+      "kmeans": {
+        "k": 2,
+        "silhouette": 0.30886072181530205,
+        "davies_bouldin": 1.2788083634156473,
+        "calinski_harabasz": 18.40136151058431
+      },
+      "spectral": {
+        "k": 3,
+        "silhouette": 0.18391808977636862,
+        "davies_bouldin": 1.5911302940077645,
+        "calinski_harabasz": 5.231971175194195
+      }
+    }
+  }
+]

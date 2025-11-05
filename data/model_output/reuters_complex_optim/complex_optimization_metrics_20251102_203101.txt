@@ -1,0 +1,69 @@
+================================================================================
+COMPLEX HYPERPARAMETER OPTIMIZATION RESULTS
+================================================================================
+
+BEST CONFIGURATION:
+--------------------------------------------------------------------------------
+embedding_dim: 128
+learning_rate: 0.02
+num_epochs: 350
+batch_size: 256
+regularizer_weight: 0.005
+
+Best MRR: 0.9082
+
+Best Model Evaluation Metrics:
+--------------------------------------------------------------------------------
+Hits@1: 0.8549
+Hits@3: 0.9569
+Hits@10: 0.9909
+MRR: 0.9082
+MR: 1.88
+
+
+Search Strategy: smart
+Total Configurations Tried: 5
+
+
+ALL CONFIGURATIONS TESTED:
+================================================================================
+
+#1 - Score (MRR): 0.9082
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.005
+  Hits@10: 0.9909
+
+#2 - Score (MRR): 0.8212
+  Embedding Dim: 128
+  Learning Rate: 0.025
+  Epochs: 300
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.9651
+
+#3 - Score (MRR): 0.5667
+  Embedding Dim: 150
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.9255
+
+#4 - Score (MRR): 0.5590
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.9268
+
+#5 - Score (MRR): 0.5227
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.015
+  Hits@10: 0.8747

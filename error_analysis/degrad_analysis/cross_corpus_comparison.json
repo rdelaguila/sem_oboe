@@ -1,0 +1,39 @@
+{
+  "corpora": {
+    "bbc": {
+      "n_topics": 7,
+      "n_clusters": 44,
+      "entropy_vs_coherence": {
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      }
+    },
+    "reuters_activities": {
+      "n_topics": 8,
+      "n_clusters": 44,
+      "entropy_vs_coherence": {
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      }
+    },
+    "amazon": {
+      "n_topics": 2,
+      "n_clusters": 4
+    }
+  },
+  "summary": {
+    "entropy_effect": {
+      "mean_rho": NaN,
+      "std_rho": NaN,
+      "min_rho": NaN,
+      "max_rho": NaN,
+      "consistent_negative": false
+    },
+    "noise_effect": {
+      "mean_rho": NaN,
+      "std_rho": NaN
+    }
+  }
+}

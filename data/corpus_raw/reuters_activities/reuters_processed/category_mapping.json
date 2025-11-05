@@ -1,0 +1,22 @@
+{
+  "category_to_id": {
+    "Agricultural_Markets": 0,
+    "Corporate_Earnings": 1,
+    "Energy_Resources": 2,
+    "International_Trade": 3
+  },
+  "id_to_category": {
+    "0": "Agricultural_Markets",
+    "1": "Corporate_Earnings",
+    "2": "Energy_Resources",
+    "3": "International_Trade"
+  },
+  "description": "Mapping between category names and numeric targets",
+  "num_categories": 4,
+  "categories_list": [
+    "Agricultural_Markets",
+    "Corporate_Earnings",
+    "Energy_Resources",
+    "International_Trade"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "corpus_path": "./reuters_processed/reuters_corpus.csv",
+  "oboe_config": {
+    "reordering": {
+      "method": "LDA",
+      "n_topics": 3,
+      "coherence_metric": "c_v"
+    },
+    "representation": {
+      "method": "TransE",
+      "embedding_dim": 100
+    },
+    "classification": {
+      "model": "GBM",
+      "hyperparameters": {
+        "ntrees": 50,
+        "max_depth": 5,
+        "learn_rate": 0.1
+      }
+    },
+    "explanation": {
+      "clustering": "hierarchical",
+      "linkage": "ward",
+      "llm_model": "gpt-4"
+    }
+  }
+}

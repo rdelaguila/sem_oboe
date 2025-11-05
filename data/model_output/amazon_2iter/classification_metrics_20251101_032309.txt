@@ -1,0 +1,51 @@
+============================================================
+TOPIC CLASSIFICATION RESULTS
+============================================================
+
+KGE Model Type: convkb
+Embedding Dimension: 256
+Classification Type: Binary
+Test Accuracy: 0.8638
+Test Log Loss: 0.3107
+Mean Per-Class Error: 0.1375
+
+ROC AUC: 0.9419
+
+Best Hyperparameters:
+------------------------------------------------------------
+subsample: 0.8
+n_estimators: 100
+min_child_weight: 5
+max_depth: 10
+learning_rate: 0.1
+gamma: 0.2
+colsample_bytree: 1.0
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+
+
+0:
+  precision: 0.8528
+  recall: 0.8477
+  f1-score: 0.8503
+  support: 1353.0000
+
+1:
+  precision: 0.8730
+  recall: 0.8773
+  f1-score: 0.8752
+  support: 1614.0000
+
+macro avg:
+  precision: 0.8629
+  recall: 0.8625
+  f1-score: 0.8627
+  support: 2967.0000
+
+weighted avg:
+  precision: 0.8638
+  recall: 0.8638
+  f1-score: 0.8638
+  support: 2967.0000

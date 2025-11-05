@@ -1,0 +1,63 @@
+{
+  "topic_id": 2,
+  "best_k": 12,
+  "selected_k": 12,
+  "automatic_optimal_k": 12,
+  "global_sil": 0.2315098842456283,
+  "clusters": {
+    "0": [
+      "ordinal",
+      "united",
+      "first",
+      "performer",
+      "position"
+    ],
+    "1": [
+      "player",
+      "play",
+      "game",
+      "goalkeeper"
+    ],
+    "2": [
+      "heart",
+      "feel"
+    ],
+    "3": [
+      "name",
+      "title"
+    ],
+    "4": [
+      "moment",
+      "time",
+      "world",
+      "achiever"
+    ],
+    "5": [
+      "monetary_unit"
+    ],
+    "6": [
+      "year",
+      "period"
+    ],
+    "7": [
+      "attack",
+      "strike"
+    ],
+    "8": [
+      "win",
+      "victory"
+    ],
+    "9": [
+      "integrate",
+      "quality",
+      "experience"
+    ],
+    "10": [
+      "good",
+      "great"
+    ],
+    "11": [
+      "euro"
+    ]
+  }
+}

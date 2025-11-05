@@ -37,9 +37,9 @@ def main():
     parser = argparse.ArgumentParser(description='LDA Topic Modeling with Classification')
     parser.add_argument('--classifier', type=str, choices=['svm', 'xgboost'],
                         default='xgboost', help='Choose classifier: svm or xgboost')
-    parser.add_argument('--raw_path', type=str, default="data/processed/amazon/amazon_processed_semantic.pkl",
+    parser.add_argument('--raw_path', type=str, default="../data/processed/reuters_activities/reuters_activities_processed_semantic.pkl",
                         help='Path to raw data file')
-    parser.add_argument('--eval_dir', type=str, default="data/lda_eval/amazon",
+    parser.add_argument('--eval_dir', type=str, default="../data/lda_eval/reuters_activities",
                         help='Directory to save LDA evaluation results')
     parser.add_argument('--max_topics', type=int, default=None,
                         help='Maximum number of topics to test (overrides default)')

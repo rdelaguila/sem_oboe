@@ -1,0 +1,82 @@
+======================================================================
+CLUSTERING COMPARISON - STATISTICAL REPORT
+======================================================================
+
+OVERALL STATISTICS (All Corpora Combined)
+----------------------------------------------------------------------
+
+WARD:
+  Silhouette:      0.2196 ± 0.0450
+                   Range: [0.1221, 0.2967]
+  Davies-Bouldin:  1.1883 ± 0.2457
+                   Range: [0.8630, 1.8864]
+
+KMEANS:
+  Silhouette:      0.2736 ± 0.0520
+                   Range: [0.1867, 0.4026]
+  Davies-Bouldin:  1.1872 ± 0.1795
+                   Range: [0.9352, 1.6831]
+
+SPECTRAL:
+  Silhouette:      0.2469 ± 0.0649
+                   Range: [0.1344, 0.3774]
+  Davies-Bouldin:  1.1958 ± 0.3754
+                   Range: [0.5184, 2.0794]
+
+🏆 Overall Best Method: KMEANS (Avg Silhouette: 0.2736)
+
+======================================================================
+PER-CORPUS STATISTICS
+======================================================================
+
+AMAZON:
+----------------------------------------
+  Ward      : Silhouette=0.2258, DB=1.0804 (2 topics)
+  Kmeans    : Silhouette=0.3059, DB=1.1810 (2 topics)
+  Spectral  : Silhouette=0.3040, DB=1.0449 (2 topics)
+  → Best: KMEANS (Silhouette: 0.3059)
+
+BBC:
+----------------------------------------
+  Ward      : Silhouette=0.1970, DB=1.2947 (7 topics)
+  Kmeans    : Silhouette=0.2329, DB=1.2604 (7 topics)
+  Spectral  : Silhouette=0.2185, DB=1.3060 (6 topics)
+  → Best: KMEANS (Silhouette: 0.2329)
+
+REUTERS:
+----------------------------------------
+  Ward      : Silhouette=0.2378, DB=1.1222 (8 topics)
+  Kmeans    : Silhouette=0.3012, DB=1.1248 (8 topics)
+  Spectral  : Silhouette=0.2539, DB=1.1509 (8 topics)
+  → Best: KMEANS (Silhouette: 0.3012)
+
+======================================================================
+PAIRWISE COMPARISONS
+======================================================================
+
+WARD vs KMEANS:
+  Silhouette difference: 0.0541 (24.6% improvement)
+  Winner: KMEANS
+
+WARD vs SPECTRAL:
+  Silhouette difference: 0.0273 (12.5% improvement)
+  Winner: SPECTRAL
+
+KMEANS vs SPECTRAL:
+  Silhouette difference: 0.0267 (10.8% improvement)
+  Winner: KMEANS
+
+======================================================================
+WIN RATES BY CORPUS
+======================================================================
+
+AMAZON:
+  Kmeans    : 2/2 (100.0%)
+
+BBC:
+  Kmeans    : 5/7 (71.4%)
+  Ward      : 1/7 (14.3%)
+  Spectral  : 1/7 (14.3%)
+
+REUTERS:
+  Kmeans    : 8/8 (100.0%)

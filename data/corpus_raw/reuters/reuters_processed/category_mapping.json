@@ -1,0 +1,19 @@
+{
+  "category_to_id": {
+    "Corporate_Industrial": 0,
+    "Economics": 1,
+    "Markets": 2
+  },
+  "id_to_category": {
+    "0": "Corporate_Industrial",
+    "1": "Economics",
+    "2": "Markets"
+  },
+  "description": "Mapping between category names and numeric targets",
+  "num_categories": 3,
+  "categories_list": [
+    "Corporate_Industrial",
+    "Economics",
+    "Markets"
+  ]
+}

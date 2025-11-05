@@ -1,4 +1,4 @@
-subject,relation,object,new_topic,old_index
+subject,relation,object,topic,old_index
 I,was constantly cleaning litter box In,household,0,0
 I,was cleaning litter box In,household with three cats,0,1
 I,was cleaning,litter box,0,2

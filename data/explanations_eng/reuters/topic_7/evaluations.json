@@ -1,0 +1,29 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation is coherent and relevant to the technology domain, capturing the essence of the cluster. However, it could be more comprehensive by including additional key phrases like 'growth of technology' or 'currency in digital transactions'.",
+    "strengths": [
+      "Captures the essence of the cluster",
+      "Relevant to technology domain"
+    ],
+    "weaknesses": [
+      "Lacks some key semantic relationships",
+      "Could benefit from a broader coverage"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation is coherent and relevant to the financial domain, linking the terms through the concept of currency exchange and banking systems. However, it could be more comprehensive by mentioning specific financial activities like deposits, loans, or investments.",
+    "strengths": [
+      "Clear connection between terms and financial context",
+      "Logical clustering based on financial activities"
+    ],
+    "weaknesses": [
+      "Limited coverage of financial activities beyond currency exchange"
+    ]
+  }
+}

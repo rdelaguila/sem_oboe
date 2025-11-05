@@ -767,7 +767,7 @@ def run_complete_pipeline(kg_path: str, emb_dir: str,
 def example_phase_1():
     """Example of running Phase 1 only"""
     model_path = run_kge_training_phase(
-        kg_path="../olds/data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
+        kg_path="../olds/data/triples_raw/amazon/dataset_triplet_reuters_activities_new_simplificado.csv",
         emb_dir="../olds/data/triples_emb/amazon",
         output_dir="../olds/data/model_output/amazon",
         model_type="transe"  # or None for interactive selection
@@ -779,7 +779,7 @@ def example_phase_1():
 def example_phase_2(model_path: str, mappings_path: str):
     """Example of running Phase 2 only"""
     best_model, metrics = run_classification_phase(
-        kg_path="../olds/data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
+        kg_path="../olds/data/triples_raw/amazon/dataset_triplet_reuters_activities_new_simplificado.csv",
         model_path=model_path,
         mappings_path=mappings_path,
         output_dir="../olds/data/model_output/repo",
@@ -794,7 +794,7 @@ def example_phase_2(model_path: str, mappings_path: str):
 def example_complete_pipeline():
     """Example of running both phases sequentially"""
     best_model, metrics = run_complete_pipeline(
-        kg_path="../olds/data/triples_raw/amazonocion2/dataset_triplet_amazon_new_simplificado.csv",
+        kg_path="../olds/data/triples_raw/amazonocion2/dataset_triplet_reuters_activities_new_simplificado.csv",
         emb_dir="../olds/data/triples_emb/amazon/",
         output_dir="../olds/data/model_output/amazon",
         model_type=None,
@@ -820,4 +820,4 @@ if __name__ == "__main__":
         model_path=f'../olds/data/triples_emb/{repo}/transe_model.pkl',
         mappings_path=f"../olds/data/triples_emb/{repo}/transe_mappings.pkl",
         output_dir=f"../olds/data/model_output/{repo}")
-    #run_classification_phase( kg_path="data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",model_path='data/triples_emb/amazon/transe_model.pkl', mappings_path='data/triples_emb/amazon/transe_mappings.pkl')
+    #run_classification_phase( kg_path="data/triples_raw/amazon/dataset_triplet_reuters_activities_new_simplificado.csv",model_path='data/triples_emb/amazon/transe_model.pkl', mappings_path='data/triples_emb/amazon/transe_mappings.pkl')

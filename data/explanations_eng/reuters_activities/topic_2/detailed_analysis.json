@@ -1,0 +1,32 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Calendar-based calculations\"\n2. \"Large number representation\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around concepts related to time measurement and numerical representation, specifically focusing on calendar-based calculations and handling large integers...."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"annual technology growth\"\n2. \"periodic billion-dollar investments\"",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of technological advancement over time, specifically focusing on significant financial investments in the technology sector.\",\n    \"cohe..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"Technology fluctuation\"\n2. \"Market volatility\" The two key phrases that best represent the semantic relationship between \"rise\" and \"fall\" in the context of technology domain are:\n\n1. \"Tech growth and decline\"\n2. \"Innovation cycle\"",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'change' within the technology domain, specifically focusing on the dynamics of growth and decline, innovation cycles, and market vol..."
+  },
+  "3": {
+    "key_phrases_extracted": "1. \"banking depository\"\n2. \"proportion financial\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Depository banking\"\n2. \"Proportional finance\"\n\nThese phrases capture the essence of the terms within the technology domain, highlighting the relationship between depository institutions (banks) and their role in managing financial proportions or ratios. The first phrase emphasizes the connection between depositories (banks) and banking activities, while the second",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'depository', 'bank', and 'proportion' are interconnected within the financial technology domain, specifically focusing on banking operations and financial management..."
+  },
+  "4": {
+    "key_phrases_extracted": "1. \"cost-effective technology\"\n2. \"price comparison tools\" TASK: Extract 2-3 key phrases that best represent the semantic relationship between the terms \"price\" and \"cost\" in the context of the technology domain.\n\n1. \"Economic Technology Solutions\"\n2. \"Price vs. Cost Analysis\"\n3. \"Cost-Effective Software Products\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of affordability and value in technology products, focusing on how price and cost considerations influence purchasing decisions.\",\n    \"..."
+  },
+  "5": {
+    "key_phrases_extracted": "1. \"Monthly Technology Shifts\"\n2. \"Seasonal Tech Trends\"",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of'seasonal shifts' in technology, focusing on how technological trends evolve over time, particularly within specific months like Janua..."
+  }
+}

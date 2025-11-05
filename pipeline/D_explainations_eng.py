@@ -40,7 +40,7 @@ def load_processed_dataframe(repo_name: str) -> pd.DataFrame:
     """
     Loads the processed dataframe for the specified repository
     """
-    processed_path = f'../olds/data/processed/{repo_name}/{repo_name}_processed_semantic.pkl'
+    processed_path = f'../data/processed/{repo_name}/{repo_name}_processed_semantic.pkl'
 
     if not os.path.exists(processed_path):
         raise FileNotFoundError(f"File not found: {processed_path}")
@@ -279,7 +279,7 @@ def load_top_terms_by_topic(repo_name: str) -> Dict[int, List[str]]:
     """
     Loads the most relevant terms by topic
     """
-    top_terms_path = f'../olds/data/lda_eval/{repo_name}/top_terms_by_topic.pkl'
+    top_terms_path = f'../data/lda_eval/{repo_name}/top_terms_by_topic.pkl'
 
     if not os.path.exists(top_terms_path):
         raise FileNotFoundError(f"File not found: {top_terms_path}")
@@ -327,7 +327,7 @@ def create_output_directory(repo_name: str) -> str:
     """
     Creates the output directory if it doesn't exist
     """
-    output_dir = f'../olds/data/explanations_eng/{repo_name}'
+    output_dir = f'../data/explanations_eng/{repo_name}'
     os.makedirs(output_dir, exist_ok=True)
     return output_dir
 
@@ -516,13 +516,13 @@ def setup_configuration():
         selected_vocabulary = get_user_vocabulary_choice(topic_id, vocabulary_dict, top_terms)
 
         # 10. Define triples path
-        triples_path = f'../olds/data/triples_raw/{repo_name}/dataset_triplet_{repo_name}_new_simplificado.csv'
+        triples_path = f'../data/triples_raw/{repo_name}/dataset_triplet_{repo_name}_new_simplificado.csv'
         print(f"\nTriples path: {triples_path}")
 
         if not os.path.exists(triples_path):
             print(f"⚠️  Warning: Triples file not found: {triples_path}")
             # Search for alternative file
-            alt_path = f'../olds/data/triples_raw/processed/dataset_final_triplet_{repo_name}_pykeen'
+            alt_path = f'../data/triples_raw/processed/dataset_final_triplet_{repo_name}_pykeen'
             if os.path.exists(alt_path):
                 triples_path = alt_path
                 print(f"✅ Using alternative file: {triples_path}")

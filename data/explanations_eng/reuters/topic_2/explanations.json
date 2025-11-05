@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the central theme of organizational management and establishment within the technology domain.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "administration organization",
+      "establishment settlement",
+      "document reference"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms. The relevance score is high as all terms are directly related to the technology domain. Coverage is rated moderately because not all terms might be equally significant across various subdomains within technology. The key phrases effectively capture the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around agricultural commodities and their processing, focusing on the production and utilization of grains and related products.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Grain-based sweetener",
+      "Cereal production",
+      "Wheat-oil extraction"
+    ],
+    "reasoning": "The semantic coherence score is high due to the shared context of agricultural products and their various uses. The relevance score is full as all terms pertain directly to the technology domain of agriculture and food processing. Coverage is rated high because the key phrases capture the essence of the cluster's focus on agricultural commodities and their transformation into consumable goods."
+  }
+}

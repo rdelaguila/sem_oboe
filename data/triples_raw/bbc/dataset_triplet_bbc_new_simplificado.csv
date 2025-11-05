@@ -1,4 +1,4 @@
-subject,relation,object,new_topic,old_index
+subject,relation,object,topic,old_index
 role,is in,Yukos up China,5,0
 role,lent,$ 6bn,5,1
 role,lent,Russia,5,2

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-01T12:31:14.111201",
+  "model_path": "../data/triples_emb/bbc/complex_model.pkl",
+  "mappings_path": "../data/triples_emb/bbc/complex_mappings.pkl",
+  "model_type": "complex",
+  "best_embedding_dim": 256,
+  "best_score": 0.0006812848150730133,
+  "num_entities": 12379,
+  "num_relations": 4558
+}

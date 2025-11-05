@@ -281,13 +281,13 @@ def main():
     # ---------- COMMAND-LINE ARGUMENTS ----------
     parser = argparse.ArgumentParser(description='Triplet Generation from Dataset')
     parser.add_argument('--input_data', type=str,
-                        default='data/lda_eval/amazon/df_topic.pkl',
+                        default='../data/lda_eval/arxiv/df_topic.pkl',
                         help='Path to input data file')
     parser.add_argument('--output_dir', type=str,
-                        default='data/triples_raw/amazon',
+                        default='../data/triples_raw/arxiv',
                         help='Output directory for generated files')
     parser.add_argument('--output_name', type=str,
-                        default='amazon_semantic_triplets_simplified-withtopic',
+                        default='arxiv_semantic_triplets_simplified-withtopic',
                         help='Base name for output files')
     parser.add_argument('--corenlp_endpoint', type=str,
                         default='http://0.0.0.0:9000',

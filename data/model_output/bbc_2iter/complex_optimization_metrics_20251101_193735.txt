@@ -1,0 +1,101 @@
+================================================================================
+COMPLEX HYPERPARAMETER OPTIMIZATION RESULTS
+================================================================================
+
+BEST CONFIGURATION:
+--------------------------------------------------------------------------------
+embedding_dim: 128
+learning_rate: 0.02
+num_epochs: 300
+batch_size: 256
+regularizer_weight: 0.01
+
+Best MRR: 0.2569
+
+Best Model Evaluation Metrics:
+--------------------------------------------------------------------------------
+Hits@1: 0.1582
+Hits@3: 0.3167
+Hits@10: 0.4561
+MRR: 0.2569
+MR: 2020.26
+
+
+Search Strategy: smart
+Total Configurations Tried: 9
+
+
+ALL CONFIGURATIONS TESTED:
+================================================================================
+
+#1 - Score (MRR): 0.2569
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 300
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.4561
+
+#2 - Score (MRR): 0.2288
+  Embedding Dim: 150
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.4493
+
+#3 - Score (MRR): 0.2273
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.005
+  Hits@10: 0.3404
+
+#4 - Score (MRR): 0.2251
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.4458
+
+#5 - Score (MRR): 0.2060
+  Embedding Dim: 150
+  Learning Rate: 0.02
+  Epochs: 400
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.4197
+
+#6 - Score (MRR): 0.2018
+  Embedding Dim: 128
+  Learning Rate: 0.025
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.3043
+
+#7 - Score (MRR): 0.2008
+  Embedding Dim: 128
+  Learning Rate: 0.025
+  Epochs: 300
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.3061
+
+#8 - Score (MRR): 0.1813
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 350
+  Batch Size: 256
+  Regularizer Weight: 0.015
+  Hits@10: 0.4017
+
+#9 - Score (MRR): 0.1779
+  Embedding Dim: 128
+  Learning Rate: 0.02
+  Epochs: 450
+  Batch Size: 256
+  Regularizer Weight: 0.01
+  Hits@10: 0.4195

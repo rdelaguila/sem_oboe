@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-01T09:13:19.494260",
+  "model_path": "../data/triples_emb/amazon_2iter/complex_model.pkl",
+  "mappings_path": "../data/triples_emb/amazon_2iter/complex_mappings.pkl",
+  "model_type": "complex",
+  "best_embedding_dim": 128,
+  "best_score": 0.06280972063541412
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-02T20:27:55.585337",
+  "model_path": "../data/triples_emb/reuters_early_stop/transe_model.pkl",
+  "mappings_path": "../data/triples_emb/reuters_early_stop/transe_mappings.pkl",
+  "model_type": "transe",
+  "best_embedding_dim": 256,
+  "best_score": 0.5143992304801941,
+  "loss_threshold": 0.001,
+  "final_loss": 0.477315456867218
+}

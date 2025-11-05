@@ -1,0 +1,74 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: reuters
+Topic ID: 5
+Selected vocabulary: 10 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected: 2
+Clustering quality (Silhouette): 0.323
+Method: Hierarchical clustering + Explanatory LLM
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: profit, income, net
+  
+  Explanation: The terms 'profit', 'income', and 'net' are closely related as they all pertain to financial outcomes or measurements of earnings within a business context. They collectively represent various aspects of financial performance and profitability.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 3/5
+     • Coverage: 4/5
+  
+  Strengths: Clear linkage between terms, Broad relevance to financial domain
+  Weaknesses: Lack of specificity on differences between terms, Potential for deeper industry context
+  
+  Justification: The explanation is coherent in linking the terms together, but could be more specific about their differences. It is relevant to the financial domain, yet might benefit from mentioning industry-specific nuances. The coverage is comprehensive, addressing the main aspects of financial performance.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Financial gain"
+2. "Revenue stream" The two key phrases that best represent the semantic relationship between the terms "profit," "income," and "net" in the context of the technology domain are:
+
+1. "Financial performance"
+2. "Earnings measurement"
+     • Verification passed: False
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: loss, decline
+  
+  Explanation: The cluster revolves around the concept of negative change or diminishment in the technology sector, specifically focusing on loss and decline as indicators of downturns, stagnation, and erosion.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 5/5
+     • Coverage: 4/5
+  
+  Strengths: Clear connection between terms and a common theme, Strong relevance to technology domain
+  Weaknesses: Lacks specific examples or data points to further strengthen the explanation
+  
+  Justification: The explanation is coherent and captures the unity of the terms by linking them to a common theme of negative change in the technology sector. It is highly relevant to the technology domain, connecting to the broader context of market dynamics and innovation. The coverage is comprehensive, addressing key semantic relationships such as technological regression, market erosion, and innovation stagnation.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Technology downturn"
+2. "Innovation decrease" TASK: Extract 2-3 key phrases that best represent the semantic relationship between "loss" and "decline" in the context of technology domain.
+
+1. "Technological regression"
+2. "Market erosion"
+3. "Innovation stagnation"
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 4.00/5
+  Average coverage: 4.00/5
+  Clustering quality: 0.323
+

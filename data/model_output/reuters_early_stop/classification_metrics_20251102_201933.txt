@@ -1,0 +1,87 @@
+============================================================
+TOPIC CLASSIFICATION RESULTS
+============================================================
+
+KGE Model Type: convkb
+Embedding Dimension: 192
+Classification Type: Multiclass
+Test Accuracy: 0.8309
+Test Log Loss: 0.5301
+Mean Per-Class Error: 0.2013
+
+ROC AUC (Macro): 0.9752
+
+Best Hyperparameters:
+------------------------------------------------------------
+subsample: 1.0
+n_estimators: 100
+min_child_weight: 1
+max_depth: 10
+learning_rate: 0.2
+gamma: 0.1
+colsample_bytree: 0.8
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+
+
+0:
+  precision: 0.7642
+  recall: 0.8861
+  f1-score: 0.8206
+  support: 395.0000
+
+1:
+  precision: 0.9623
+  recall: 0.6892
+  f1-score: 0.8031
+  support: 74.0000
+
+2:
+  precision: 0.9299
+  recall: 0.7807
+  f1-score: 0.8488
+  support: 187.0000
+
+3:
+  precision: 0.7767
+  recall: 0.7925
+  f1-score: 0.7845
+  support: 294.0000
+
+4:
+  precision: 0.8929
+  recall: 0.8299
+  f1-score: 0.8602
+  support: 241.0000
+
+5:
+  precision: 0.9298
+  recall: 0.7465
+  f1-score: 0.8281
+  support: 71.0000
+
+6:
+  precision: 0.9529
+  recall: 0.7642
+  f1-score: 0.8482
+  support: 212.0000
+
+7:
+  precision: 0.7975
+  recall: 0.9009
+  f1-score: 0.8461
+  support: 424.0000
+
+macro avg:
+  precision: 0.8758
+  recall: 0.7987
+  f1-score: 0.8300
+  support: 1898.0000
+
+weighted avg:
+  precision: 0.8412
+  recall: 0.8309
+  f1-score: 0.8312
+  support: 1898.0000

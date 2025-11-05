@@ -1,0 +1,30 @@
+{
+  "topic_id": 1,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.2768862901066449,
+  "clusters": {
+    "0": [
+      "fiction",
+      "character",
+      "story",
+      "collection",
+      "existence",
+      "portrayal",
+      "book",
+      "life",
+      "moment",
+      "quality"
+    ],
+    "1": [
+      "see",
+      "find",
+      "think",
+      "read",
+      "love",
+      "good",
+      "discover"
+    ]
+  }
+}

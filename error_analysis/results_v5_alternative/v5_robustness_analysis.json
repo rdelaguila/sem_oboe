@@ -1,0 +1,224 @@
+{
+  "n_topics": 17,
+  "n_corpora": 3,
+  "descriptive_stats": {
+    "topic_id": {
+      "count": 17.0,
+      "mean": 2.9411764705882355,
+      "std": 2.3040884378451634,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 5.0,
+      "max": 7.0
+    },
+    "avg_coherence": {
+      "count": 17.0,
+      "mean": 4.0,
+      "std": 0.0,
+      "min": 4.0,
+      "25%": 4.0,
+      "50%": 4.0,
+      "75%": 4.0,
+      "max": 4.0
+    },
+    "avg_relevance": {
+      "count": 17.0,
+      "mean": 3.9445898872369467,
+      "std": 0.5146356460603052,
+      "min": 3.0,
+      "25%": 3.6,
+      "50%": 4.0,
+      "75%": 4.384615384615385,
+      "max": 4.555555555555555
+    },
+    "avg_coverage": {
+      "count": 17.0,
+      "mean": 3.511682108740932,
+      "std": 0.26239621802216795,
+      "min": 3.142857142857143,
+      "25%": 3.25,
+      "50%": 3.5,
+      "75%": 3.6666666666666665,
+      "max": 4.0
+    },
+    "num_clusters": {
+      "count": 17.0,
+      "mean": 5.411764705882353,
+      "std": 3.5010502625892808,
+      "min": 2.0,
+      "25%": 2.0,
+      "50%": 4.0,
+      "75%": 7.0,
+      "max": 13.0
+    },
+    "topic_entropy": {
+      "count": 17.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 0.0
+    },
+    "topic_concentration": {
+      "count": 17.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 0.0
+    },
+    "topic_n_docs": {
+      "count": 17.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 0.0
+    },
+    "cluster_mean_overlap": {
+      "count": 17.0,
+      "mean": 0.012178459620527356,
+      "std": 0.01513316439916198,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.010416666666666666,
+      "75%": 0.015384615384615385,
+      "max": 0.0567305710162853
+    },
+    "cluster_max_overlap": {
+      "count": 17.0,
+      "mean": 0.0826863495981143,
+      "std": 0.0820042394691649,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.08333333333333333,
+      "75%": 0.14285714285714285,
+      "max": 0.2222222222222222
+    },
+    "cluster_n_pairs": {
+      "count": 17.0,
+      "mean": 17.0,
+      "std": 21.224985276791124,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 6.0,
+      "75%": 21.0,
+      "max": 66.0
+    },
+    "quality_score": {
+      "count": 17.0,
+      "mean": 3.818757331992626,
+      "std": 0.11340337619717573,
+      "min": 3.6666666666666665,
+      "25%": 3.733333333333333,
+      "50%": 3.8333333333333335,
+      "75%": 3.888888888888889,
+      "max": 4.051282051282051
+    }
+  },
+  "correlations": {
+    "cluster_mean_overlap_vs_avg_relevance": {
+      "n_samples": 17,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.5767875565930536,
+        "p_value": 0.015354003434382901,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.6653056282246291,
+        "p_value": 0.0035615743557476536,
+        "significant": true
+      },
+      "interpretation": "Strong positive"
+    },
+    "cluster_mean_overlap_vs_avg_coverage": {
+      "n_samples": 17,
+      "parametric": {
+        "test": "Pearson",
+        "r": -0.6095873327049818,
+        "p_value": 0.009378726559211395,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": -0.5651288423989723,
+        "p_value": 0.018082515462295345,
+        "significant": true
+      },
+      "interpretation": "Strong negative"
+    },
+    "cluster_mean_overlap_vs_quality_score": {
+      "n_samples": 17,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.40234553491248254,
+        "p_value": 0.10935899814740818,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.5840780189063581,
+        "p_value": 0.013819921363234912,
+        "significant": true
+      },
+      "interpretation": "Strong positive"
+    },
+    "num_clusters_vs_avg_relevance": {
+      "n_samples": 17,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.6624659562396433,
+        "p_value": 0.0037590504224761664,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.683371047692904,
+        "p_value": 0.0024932226730184173,
+        "significant": true
+      },
+      "interpretation": "Strong positive"
+    },
+    "num_clusters_vs_avg_coverage": {
+      "n_samples": 17,
+      "parametric": {
+        "test": "Pearson",
+        "r": -0.27722059776622165,
+        "p_value": 0.2813733760138453,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": -0.3798114058863586,
+        "p_value": 0.13264885291548595,
+        "significant": false
+      },
+      "interpretation": "Moderate negative"
+    },
+    "num_clusters_vs_quality_score": {
+      "n_samples": 17,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.7882979853684601,
+        "p_value": 0.0001704974413029333,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.7595912420582855,
+        "p_value": 0.00040419188115415136,
+        "significant": true
+      },
+      "interpretation": "Strong positive"
+    }
+  }
+}

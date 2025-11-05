@@ -151,22 +151,22 @@ def main():
     # ---------- COMMAND-LINE ARGUMENTS ----------
     parser = argparse.ArgumentParser(description='Semantic Preprocessing Pipeline')
     parser.add_argument('--input_file', type=str,
-                        default='data/corpus_raw/amazon/amazon_corpus_raw.csv',
+                        default='../data/corpus_raw/amazon/amazon_corpus_raw.csv',
                         help='Path to input data file')
     parser.add_argument('--output_file', type=str,
-                        default='data/processed/amazon/amazon_processed_semantic.pkl',
+                        default='../data/processed/amazon/amazon_processed_semantic.pkl',
                         help='Path to output processed file')
     parser.add_argument('--config_file', type=str,
-                        default='config/config.json',
+                        default='../config/config.json',
                         help='Configuration JSON file')
     parser.add_argument('--spotlight_endpoint', type=str,
                         default='http://localhost:2222/rest/annotate',
                         help='DBpedia Spotlight API endpoint')
     parser.add_argument('--dbo_ontology', type=str,
-                        default='data/ontologias/dbpedia_2016-10.owl',
+                        default='../data/ontologias/dbpedia_2016-10.owl',
                         help='Path to DBpedia ontology')
     parser.add_argument('--sumo_ontology', type=str,
-                        default='data/ontologias/SUMO.owl',
+                        default='../data/ontologias/SUMO.owl',
                         help='Path to SUMO ontology')
     parser.add_argument('--input_column', type=str,
                         default='text',

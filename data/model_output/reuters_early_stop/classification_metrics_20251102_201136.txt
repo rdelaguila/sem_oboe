@@ -1,0 +1,87 @@
+============================================================
+TOPIC CLASSIFICATION RESULTS
+============================================================
+
+KGE Model Type: transe
+Embedding Dimension: 192
+Classification Type: Multiclass
+Test Accuracy: 0.8772
+Test Log Loss: 0.4022
+Mean Per-Class Error: 0.1395
+
+ROC AUC (Macro): 0.9853
+
+Best Hyperparameters:
+------------------------------------------------------------
+subsample: 1.0
+n_estimators: 100
+min_child_weight: 1
+max_depth: 10
+learning_rate: 0.2
+gamma: 0.1
+colsample_bytree: 0.8
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+
+
+0:
+  precision: 0.8151
+  recall: 0.9038
+  f1-score: 0.8571
+  support: 395.0000
+
+1:
+  precision: 1.0000
+  recall: 0.7973
+  f1-score: 0.8872
+  support: 74.0000
+
+2:
+  precision: 0.9686
+  recall: 0.8235
+  f1-score: 0.8902
+  support: 187.0000
+
+3:
+  precision: 0.8161
+  recall: 0.8605
+  f1-score: 0.8377
+  support: 294.0000
+
+4:
+  precision: 0.8996
+  recall: 0.8921
+  f1-score: 0.8958
+  support: 241.0000
+
+5:
+  precision: 0.9231
+  recall: 0.8451
+  f1-score: 0.8824
+  support: 71.0000
+
+6:
+  precision: 0.9474
+  recall: 0.8491
+  f1-score: 0.8955
+  support: 212.0000
+
+7:
+  precision: 0.8836
+  recall: 0.9127
+  f1-score: 0.8979
+  support: 424.0000
+
+macro avg:
+  precision: 0.9067
+  recall: 0.8605
+  f1-score: 0.8805
+  support: 1898.0000
+
+weighted avg:
+  precision: 0.8824
+  recall: 0.8772
+  f1-score: 0.8778
+  support: 1898.0000

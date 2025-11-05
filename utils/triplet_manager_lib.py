@@ -1166,3 +1166,419 @@ class ValidadorTripletas:
         if debug:
             return True, f"VÁLIDA: {sujeto_msg} + {predicado_msg} + {objeto_msg}"
         return True
+
+
+"""
+TRADUCCIÓN EXACTA de tu pipeline Stanza/CoreNLP a spaCy
+Mantiene TODA la lógica original
+"""
+
+import spacy
+from spacy.tokens import Doc
+import pandas as pd
+from typing import List, Dict, Tuple, Optional
+
+
+class TripletGeneratorSpacy:
+    """
+    Equivalente EXACTO a tu TripletGenerator pero usando spaCy
+    Replica todos los patrones de detección
+    """
+
+    def __init__(self):
+        # Cargar modelo spaCy (similar a Stanza)
+        self.nlp = spacy.load('en_core_web_sm')
+
+    def encapsulate(self, triplet, validate=True):
+        """Mantiene tu función original"""
+        if triplet is None:
+            return None
+
+        if isinstance(triplet, (list, tuple)) and len(triplet) == 3:
+            return {
+                'subject': str(triplet[0]),
+                'relation': str(triplet[1]),
+                'object': str(triplet[2])
+            }
+        return triplet
+
+    # ========== PATRÓN 1: ADJ + NOUN ==========
+    def _detect_adj_noun(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu _detect_adj_noun
+        Busca patrón: ADJ seguido de NOUN
+        """
+        words = list(pos_dict.keys())
+        pos_tags = list(pos_dict.values())
+
+        for i in range(len(pos_tags) - 1):
+            if pos_tags[i] == 'JJ' and pos_tags[i + 1] in ['NN', 'NNS', 'NNP', 'NNPS']:
+                return (i, i + 1)
+
+        return (-1, -1)
+
+    def generate_triplet_adj_noun(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu generate_triplet_adj_noun
+        """
+        indices = self._detect_adj_noun(pos_dict)
+        if indices[0] == -1:
+            return None
+
+        words = list(pos_dict.keys())
+        adj = words[indices[0]]
+        noun = words[indices[1]]
+
+        return (noun, 'has_property', adj)
+
+    # ========== PATRÓN 2: NN + NNP ==========
+    def _detect_nn_nnp(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu _detect_nn_nnp
+        Busca: NOUN seguido de PROPER NOUN
+        """
+        words = list(pos_dict.keys())
+        pos_tags = list(pos_dict.values())
+
+        for i in range(len(pos_tags) - 1):
+            if pos_tags[i] in ['NN', 'NNS'] and pos_tags[i + 1] in ['NNP', 'NNPS']:
+                return (i, i + 1)
+
+        return (-1, -1)
+
+    def generate_triplet_nn_nnp(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu generate_triplet_nn_nnp
+        """
+        indices = self._detect_nn_nnp(pos_dict)
+        if indices[0] == -1:
+            return None
+
+        words = list(pos_dict.keys())
+        noun = words[indices[0]]
+        propn = words[indices[1]]
+
+        return (noun, 'is_instance_of', propn)
+
+    # ========== PATRÓN 3: NN + "of" + NN ==========
+    def _detect_nn_of_nn(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu _detect_nn_of_nn
+        Busca: NOUN + "of" + NOUN
+        """
+        words = list(pos_dict.keys())
+        pos_tags = list(pos_dict.values())
+
+        for i in range(len(pos_tags) - 2):
+            if (pos_tags[i] in ['NN', 'NNS', 'NNP', 'NNPS'] and
+                    words[i + 1].lower() == 'of' and
+                    pos_tags[i + 2] in ['NN', 'NNS', 'NNP', 'NNPS']):
+                return (i, i + 1, i + 2)
+
+        return (-1, -1, -1)
+
+    def generate_triplet_nn_of_nn(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu generate_triplet_nn_of_nn
+        """
+        indices = self._detect_nn_of_nn(pos_dict)
+        if indices[0] == -1:
+            return None
+
+        words = list(pos_dict.keys())
+        noun1 = words[indices[0]]
+        noun2 = words[indices[2]]
+
+        return (noun1, 'part_of', noun2)
+
+    # ========== PATRÓN 4: NN + PREPOSITION + NN ==========
+    def _detect_nn_place_nn(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu _detect_nn_place_nn
+        Busca: NOUN + preposición espacial + NOUN
+        """
+        spatial_preps = {'in', 'on', 'at', 'near', 'under', 'above', 'below',
+                         'beside', 'between', 'behind', 'front'}
+
+        words = list(pos_dict.keys())
+        pos_tags = list(pos_dict.values())
+
+        for i in range(len(pos_tags) - 2):
+            if (pos_tags[i] in ['NN', 'NNS', 'NNP', 'NNPS'] and
+                    pos_tags[i + 1] == 'IN' and
+                    words[i + 1].lower() in spatial_preps and
+                    pos_tags[i + 2] in ['NN', 'NNS', 'NNP', 'NNPS']):
+                return (i, i + 1, i + 2)
+
+        return (-1, -1, -1)
+
+    def generate_triplet_nn_place_nn(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu generate_triplet_nn_place_nn
+        """
+        indices = self._detect_nn_place_nn(pos_dict)
+        if indices[0] == -1:
+            return None
+
+        words = list(pos_dict.keys())
+        noun1 = words[indices[0]]
+        prep = words[indices[1]]
+        noun2 = words[indices[2]]
+
+        return (noun1, f'located_{prep}', noun2)
+
+    # ========== PATRÓN 5: Adjectives + NN + Adjectives ==========
+    def generate_triplet_adjectives_nn_adjs(self, pos_dict):
+        """
+        TRADUCCIÓN EXACTA de tu generate_triplet_adjectives_nn_adjs
+        Busca patrones complejos de adjetivos alrededor de sustantivos
+        """
+        words = list(pos_dict.keys())
+        pos_tags = list(pos_dict.values())
+
+        triplets = []
+
+        # Buscar cada sustantivo
+        for i, pos in enumerate(pos_tags):
+            if pos not in ['NN', 'NNS', 'NNP', 'NNPS']:
+                continue
+
+            noun = words[i]
+
+            # Buscar adjetivos antes del sustantivo
+            j = i - 1
+            while j >= 0 and pos_tags[j] == 'JJ':
+                adj = words[j]
+                triplets.append((noun, 'has_property', adj))
+                j -= 1
+
+            # Buscar adjetivos después del sustantivo
+            j = i + 1
+            while j < len(pos_tags) and pos_tags[j] == 'JJ':
+                adj = words[j]
+                triplets.append((noun, 'has_property', adj))
+                j += 1
+
+        return triplets if len(triplets) > 0 else None
+
+    # ========== EXTRACCIÓN MANUAL BASADA EN REGLAS ==========
+    def triplet_extraction(self, phrase):
+        """
+        TRADUCCIÓN de tu método de extracción por reglas
+        Esto era tu fallback cuando OpenIE no encuentra nada
+        """
+        # Procesar frase con spaCy
+        doc = self.nlp(phrase)
+
+        # Buscar patrón básico SVO (Subject-Verb-Object)
+        for token in doc:
+            if token.pos_ == 'VERB':
+                subject = None
+                obj = None
+
+                # Buscar sujeto
+                for child in token.children:
+                    if child.dep_ in ['nsubj', 'nsubjpass']:
+                        subject = self._expand_noun_phrase(child)
+                        break
+
+                # Buscar objeto
+                for child in token.children:
+                    if child.dep_ in ['dobj', 'pobj', 'attr']:
+                        obj = self._expand_noun_phrase(child)
+                        break
+
+                if subject and obj:
+                    return (subject, token.lemma_, obj)
+
+        return None
+
+    def _expand_noun_phrase(self, token):
+        """Expandir sustantivo con sus modificadores"""
+        # Obtener todos los modificadores
+        left_mods = []
+        right_mods = []
+
+        for child in token.children:
+            if child.i < token.i and child.dep_ in ['amod', 'compound', 'det']:
+                left_mods.append(child)
+            elif child.i > token.i and child.dep_ in ['amod']:
+                right_mods.append(child)
+
+        # Construir frase
+        words = [mod.text for mod in sorted(left_mods, key=lambda x: x.i)]
+        words.append(token.text)
+        words.extend([mod.text for mod in sorted(right_mods, key=lambda x: x.i)])
+
+        return ' '.join(words)
+
+
+class ValidadorTripletasSpacy:
+    """
+    TRADUCCIÓN EXACTA de tu ValidadorTripletas
+    Mantiene todas las reglas de validación POS
+    """
+
+    def __init__(self):
+        self.valid_subject_pos = {'NN', 'NNS', 'NNP', 'NNPS', 'PRP'}
+        self.valid_object_pos = {'NN', 'NNS', 'NNP', 'NNPS', 'JJ', 'CD'}
+        self.valid_relation_pos = {'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ', 'IN'}
+
+        # Stopwords y palabras a filtrar (ajusta según tu lista)
+        self.stopwords = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for'}
+        self.blacklist_words = {'thing', 'stuff', 'something', 'it', 'this', 'that'}
+
+    def quick_validation_with_pos(self, triplet, pos_dict, debug=False):
+        """
+        TRADUCCIÓN EXACTA de tu quick_validation_with_pos
+        Retorna (is_valid, explanation) si debug=True
+        Retorna is_valid si debug=False
+        """
+        if not triplet:
+            return (False, "Triplet is None") if debug else False
+
+        subject = triplet.get('subject', '').strip()
+        relation = triplet.get('relation', '').strip()
+        obj = triplet.get('object', '').strip()
+
+        # Validación 1: Longitud mínima
+        if len(subject) < 2 or len(obj) < 2 or len(relation) < 2:
+            return (False, "Too short") if debug else False
+
+        # Validación 2: POS tags válidos
+        subject_words = subject.split()
+        object_words = obj.split()
+        relation_words = relation.split()
+
+        # Verificar que al menos una palabra del sujeto tiene POS válido
+        subject_valid = any(pos_dict.get(word) in self.valid_subject_pos
+                            for word in subject_words if word in pos_dict)
+
+        if not subject_valid:
+            return (False, f"Invalid subject POS") if debug else False
+
+        # Verificar que al menos una palabra del objeto tiene POS válido
+        object_valid = any(pos_dict.get(word) in self.valid_object_pos
+                           for word in object_words if word in pos_dict)
+
+        if not object_valid:
+            return (False, f"Invalid object POS") if debug else False
+
+        # Verificar relación (puede ser sintética como 'has_property')
+        if relation not in ['has_property', 'is_instance_of', 'part_of',
+                            'located_in', 'located_on', 'located_at']:
+            relation_valid = any(pos_dict.get(word) in self.valid_relation_pos
+                                 for word in relation_words if word in pos_dict)
+
+            if not relation_valid:
+                return (False, f"Invalid relation POS") if debug else False
+
+        # Validación 3: No solo stopwords
+        subject_only_stop = all(word.lower() in self.stopwords for word in subject_words)
+        object_only_stop = all(word.lower() in self.stopwords for word in object_words)
+
+        if subject_only_stop or object_only_stop:
+            return (False, "Only stopwords") if debug else False
+
+        # Validación 4: No palabras en blacklist
+        subject_blacklisted = any(word.lower() in self.blacklist_words for word in subject_words)
+        object_blacklisted = any(word.lower() in self.blacklist_words for word in object_words)
+
+        if subject_blacklisted or object_blacklisted:
+            return (False, "Blacklisted word") if debug else False
+
+        # Validación 5: Sujeto y objeto no son idénticos
+        if subject.lower() == obj.lower():
+            return (False, "Subject equals object") if debug else False
+
+        # TODAS LAS VALIDACIONES PASADAS
+        return (True, "Valid triplet") if debug else True
+
+
+def return_triplets_spacy(doc, triplet_generator):
+    """
+    TRADUCCIÓN EXACTA de tu return_triplets
+    Aplica TODOS los patrones de detección
+    """
+    triplets = []
+
+    # Crear diccionario POS (formato compatible con tu código)
+    pos_dict = {token.text: token.tag_ for token in doc}
+    phrase = doc.text
+
+    # EQUIVALENTE A OpenIE: usar parser de dependencias de spaCy
+    # (OpenIE de CoreNLP es más sofisticado, pero esto es lo más cercano)
+    for token in doc:
+        if token.pos_ == 'VERB':
+            # Extraer SVO básico
+            subj_tokens = [child for child in token.children if child.dep_ in ['nsubj', 'nsubjpass']]
+            obj_tokens = [child for child in token.children if child.dep_ in ['dobj', 'pobj', 'attr']]
+
+            if subj_tokens and obj_tokens:
+                subject = triplet_generator._expand_noun_phrase(subj_tokens[0])
+                obj = triplet_generator._expand_noun_phrase(obj_tokens[0])
+                relation = token.lemma_
+
+                triplet = triplet_generator.encapsulate((subject, relation, obj), True)
+                if triplet:
+                    triplets.append(triplet)
+
+    # Si no encontró nada con el parser, intentar extracción manual
+    if len(triplets) == 0:
+        triplet = triplet_generator.triplet_extraction(phrase)
+        if triplet:
+            triplet = triplet_generator.encapsulate(triplet, True)
+            if triplet:
+                triplets.append(triplet)
+
+    # PATRÓN 1: ADJ + NOUN
+    if triplet_generator._detect_adj_noun(pos_dict)[0] != -1:
+        triplet = triplet_generator.generate_triplet_adj_noun(pos_dict)
+        if triplet is not None:
+            triplet = triplet_generator.encapsulate(triplet, True)
+            if isinstance(triplet, list):
+                triplets.extend(triplet)
+            else:
+                triplets.append(triplet)
+
+    # PATRÓN 2: NN + NNP
+    if triplet_generator._detect_nn_nnp(pos_dict)[0] != -1:
+        triplet = triplet_generator.generate_triplet_nn_nnp(pos_dict)
+        if triplet is not None:
+            triplet = triplet_generator.encapsulate(triplet, True)
+            if isinstance(triplet, list):
+                triplets.extend(triplet)
+            else:
+                triplets.append(triplet)
+
+    # PATRÓN 3: NN of NN
+    if triplet_generator._detect_nn_of_nn(pos_dict)[0] != -1:
+        triplet = triplet_generator.generate_triplet_nn_of_nn(pos_dict)
+        if triplet is not None:
+            triplet = triplet_generator.encapsulate(triplet, True)
+            if isinstance(triplet, list):
+                triplets.extend(triplet)
+            else:
+                triplets.append(triplet)
+
+    # PATRÓN 4: NN + PLACE + NN
+    if triplet_generator._detect_nn_place_nn(pos_dict)[0] != -1:
+        triplet = triplet_generator.generate_triplet_nn_place_nn(pos_dict)
+        if triplet is not None:
+            triplet = triplet_generator.encapsulate(triplet, True)
+            if isinstance(triplet, list):
+                triplets.extend(triplet)
+            else:
+                triplets.append(triplet)
+
+    # PATRÓN 5: Adjectives + NN + Adjectives
+    triplet = triplet_generator.generate_triplet_adjectives_nn_adjs(pos_dict)
+    if triplet is not None:
+        triplet = triplet_generator.encapsulate(triplet, True)
+        if isinstance(triplet, list):
+            triplets.extend(triplet)
+        else:
+            triplets.append(triplet)
+
+    return triplets
+

@@ -1,0 +1,44 @@
+======================================================================
+V5.0 ALTERNATIVE METRICS - SUMMARY
+======================================================================
+
+Topics analyzed: 17
+Corpora: bbc, reuters_activities, amazon
+
+NEW METRICS:
+  Topic-document entropy: M=9.304 ± 0.921
+  Topic entropy (normalized): M=0.948 ± 0.014
+  Topic concentration (Gini): M=-0.444 ± 0.052
+  Topic concentration (Top 10%): M=0.255 ± 0.071
+  Cluster overlap: M=0.012 ± 0.015
+
+QUALITY METRICS:
+  Coherence: M=4.00 ± 0.00
+  Relevance: M=3.94 ± 0.51
+  Coverage: M=3.51 ± 0.26
+
+======================================================================
+KEY CORRELATIONS
+======================================================================
+
+cluster_mean_overlap_vs_avg_relevance:
+  ρ = 0.665, p = 0.0036 *
+  Strong positive
+
+cluster_mean_overlap_vs_avg_coverage:
+  ρ = -0.565, p = 0.0181 *
+  Strong negative
+
+cluster_mean_overlap_vs_quality_score:
+  ρ = 0.584, p = 0.0138 *
+  Strong positive
+
+num_clusters_vs_avg_relevance:
+  ρ = 0.683, p = 0.0025 *
+  Strong positive
+
+num_clusters_vs_quality_score:
+  ρ = 0.760, p = 0.0004 *
+  Strong positive
+
+======================================================================

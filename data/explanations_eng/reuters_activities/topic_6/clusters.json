@@ -1,0 +1,32 @@
+{
+  "topic_id": 6,
+  "best_k": 4,
+  "selected_k": 4,
+  "automatic_optimal_k": 4,
+  "global_sil": 0.34879255655898816,
+  "clusters": {
+    "0": [
+      "proportion",
+      "consideration",
+      "portion",
+      "exploration",
+      "strength",
+      "organization",
+      "reserve",
+      "energy"
+    ],
+    "1": [
+      "gas",
+      "fuel",
+      "oil"
+    ],
+    "2": [
+      "firm",
+      "corp",
+      "company"
+    ],
+    "3": [
+      "pct"
+    ]
+  }
+}

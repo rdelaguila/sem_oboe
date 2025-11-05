@@ -1,0 +1,41 @@
+{
+  "topic_id": 0,
+  "best_k": 9,
+  "selected_k": 9,
+  "automatic_optimal_k": 9,
+  "global_sil": 0.321025928702494,
+  "clusters": {
+    "0": [
+      "arabian",
+      "saudi"
+    ],
+    "1": [
+      "cylinder",
+      "barrel"
+    ],
+    "2": [
+      "crude",
+      "oil"
+    ],
+    "3": [
+      "price",
+      "cost"
+    ],
+    "4": [
+      "production",
+      "manufacture"
+    ],
+    "5": [
+      "usda"
+    ],
+    "6": [
+      "opec"
+    ],
+    "7": [
+      "global_organization"
+    ],
+    "8": [
+      "executive_department"
+    ]
+  }
+}

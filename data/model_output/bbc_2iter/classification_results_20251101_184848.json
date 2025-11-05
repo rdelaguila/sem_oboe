@@ -1,0 +1,195 @@
+{
+  "timestamp": "2025-11-01T19:02:20.609495",
+  "model_type": "XGBoost",
+  "kge_model_type": "convkb",
+  "embedding_dim": 512,
+  "classification_type": "multiclass",
+  "best_params": {
+    "subsample": 1.0,
+    "n_estimators": 200,
+    "min_child_weight": 5,
+    "max_depth": 10,
+    "learning_rate": 0.2,
+    "gamma": 0.1,
+    "colsample_bytree": 0.6
+  },
+  "cv_results": {
+    "best_score": -0.558912233206213,
+    "best_params": {
+      "subsample": 1.0,
+      "n_estimators": 200,
+      "min_child_weight": 5,
+      "max_depth": 10,
+      "learning_rate": 0.2,
+      "gamma": 0.1,
+      "colsample_bytree": 0.6
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.8734903381642513,
+    "logloss": 0.4152422600864202,
+    "classification_report": {
+      "0": {
+        "precision": 0.9642857142857143,
+        "recall": 0.6428571428571429,
+        "f1-score": 0.7714285714285715,
+        "support": 42.0
+      },
+      "1": {
+        "precision": 0.979381443298969,
+        "recall": 0.7661290322580645,
+        "f1-score": 0.8597285067873304,
+        "support": 124.0
+      },
+      "2": {
+        "precision": 0.9053177691309987,
+        "recall": 0.8994845360824743,
+        "f1-score": 0.9023917259211377,
+        "support": 776.0
+      },
+      "3": {
+        "precision": 0.9520958083832335,
+        "recall": 0.8548387096774194,
+        "f1-score": 0.9008498583569405,
+        "support": 372.0
+      },
+      "4": {
+        "precision": 0.9047619047619048,
+        "recall": 0.7871939736346516,
+        "f1-score": 0.8418932527693856,
+        "support": 531.0
+      },
+      "5": {
+        "precision": 0.8042010502625656,
+        "recall": 0.9571428571428572,
+        "f1-score": 0.874031797798614,
+        "support": 1120.0
+      },
+      "6": {
+        "precision": 0.9233449477351916,
+        "recall": 0.7636887608069164,
+        "f1-score": 0.8359621451104101,
+        "support": 347.0
+      },
+      "accuracy": 0.8734903381642513,
+      "macro avg": {
+        "precision": 0.9190555196940826,
+        "recall": 0.8101907160656465,
+        "f1-score": 0.8551836940246272,
+        "support": 3312.0
+      },
+      "weighted avg": {
+        "precision": 0.8816980595169222,
+        "recall": 0.8734903381642513,
+        "f1-score": 0.87271082626012,
+        "support": 3312.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        27,
+        0,
+        2,
+        1,
+        1,
+        11,
+        0
+      ],
+      [
+        0,
+        95,
+        12,
+        0,
+        0,
+        13,
+        4
+      ],
+      [
+        0,
+        1,
+        698,
+        3,
+        7,
+        61,
+        6
+      ],
+      [
+        0,
+        0,
+        5,
+        318,
+        14,
+        32,
+        3
+      ],
+      [
+        1,
+        0,
+        13,
+        3,
+        418,
+        93,
+        3
+      ],
+      [
+        0,
+        1,
+        20,
+        4,
+        17,
+        1072,
+        6
+      ],
+      [
+        0,
+        0,
+        21,
+        5,
+        5,
+        51,
+        265
+      ]
+    ],
+    "per_class_metrics": {
+      "0": {
+        "accuracy": 0.6428571428571429,
+        "error": 0.3571428571428571,
+        "samples": 42
+      },
+      "1": {
+        "accuracy": 0.7661290322580645,
+        "error": 0.2338709677419355,
+        "samples": 124
+      },
+      "2": {
+        "accuracy": 0.8994845360824743,
+        "error": 0.10051546391752575,
+        "samples": 776
+      },
+      "3": {
+        "accuracy": 0.8548387096774194,
+        "error": 0.14516129032258063,
+        "samples": 372
+      },
+      "4": {
+        "accuracy": 0.7871939736346516,
+        "error": 0.2128060263653484,
+        "samples": 531
+      },
+      "5": {
+        "accuracy": 0.9571428571428572,
+        "error": 0.042857142857142816,
+        "samples": 1120
+      },
+      "6": {
+        "accuracy": 0.7636887608069164,
+        "error": 0.2363112391930836,
+        "samples": 347
+      }
+    },
+    "mean_per_class_error": 0.1898092839343534,
+    "auc_metrics": {
+      "roc_auc_macro": 0.9779804831672477
+    }
+  }
+}

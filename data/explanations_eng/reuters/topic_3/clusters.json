@@ -1,0 +1,27 @@
+{
+  "topic_id": 3,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.26041272942308813,
+  "clusters": {
+    "0": [
+      "organization",
+      "opposition",
+      "proportion",
+      "company",
+      "dissident",
+      "communicate",
+      "firm",
+      "corp"
+    ],
+    "1": [
+      "sell",
+      "inc",
+      "sale",
+      "pct",
+      "co",
+      "share"
+    ]
+  }
+}

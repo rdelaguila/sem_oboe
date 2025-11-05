@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. Proportion of interest\n2. Prevalence of concern\n3. Development in policy\n\nThese key phrases capture the essence of the semantic relationships within the given terms, highlighting their relevance to the technology domain. The first phrase emphasizes the importance or significance of a particular interest in relation to proportions. The second phrase focuses on the widespread worry or attention surrounding a specific issue. Lastly, the third phrase underscores the evolution or advancement of policies within the context of technological development. These key phrases effectively",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the examination of various aspects related to the impact and development of technology, focusing on its interests, concerns, and policy implications..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Currency exchange\"\n2. \"Financial transactions\" \n3. \"Banking system\" \n\nEXPLANATION:\n1. The terms \"dollar,\" \"greenback,\" and \"mark\" all refer to different currencies. The phrase \"currency exchange\" captures the essence of converting one currency to another, which is a common activity involving these terms.\n2. \"Financial transactions\" encompasses the broader context of money being moved or exchanged, including deposits, withdrawals, and transfers, which can",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around financial activities, specifically focusing on the exchange and handling of various currencies within the banking system.\",\n    \"coherence\": 4,\n    ..."
+  }
+}

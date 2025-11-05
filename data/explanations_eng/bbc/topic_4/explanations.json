@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of time, specifically focusing on specific months, days, and seasons within the context of the Gregorian calendar and European geographical context.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Summer Months",
+      "Gregorian Calendar",
+      "European Season"
+    ],
+    "reasoning": "The semantic coherence is high as all terms revolve around the same thematic area of time and its representation. The relevance to the technology domain is moderate, as it pertains to data analysis and understanding temporal patterns. The coverage is good, as the key phrases effectively summarize the cluster's focus."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the core concept of digital interaction and management, encompassing activities such as accessing websites, using computers, managing information, and tracking usage.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Website registration",
+      "Computer usage tracking",
+      "Information aggregation"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to digital engagement and data handling. The relevance is rated high because these terms are directly pertinent to the technology domain. Coverage is moderate due to the exclusion of some related terms like'search' and 'email'. The key phrases succinctly capture the essence of the cluster."
+  }
+}

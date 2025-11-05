@@ -1,0 +1,21 @@
+{
+  "solution": "Solution 1: 3 Categories",
+  "total_documents": 2400,
+  "categories": {
+    "Economics": 800,
+    "Markets": 800,
+    "Corporate_Industrial": 800
+  },
+  "category_mapping": {
+    "Corporate_Industrial": 0,
+    "Economics": 1,
+    "Markets": 2
+  },
+  "num_categories": 3,
+  "avg_word_count": 152.73833333333334,
+  "target_distribution": {
+    "1": 800,
+    "2": 800,
+    "0": 800
+  }
+}

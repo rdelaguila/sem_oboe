@@ -1,0 +1,36 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around agricultural commodities, specifically focusing on crops like wheat, their yields, and related products such as sugar and cereals. It also touches upon trade aspects through the mention of exports.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Wheat yield",
+      "Cereal commodity",
+      "Sugar sweetener"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to agricultural commodities and their economic implications. The relevance is rated high because these terms are directly pertinent to the technology domain of agriculture and trade. The coverage is moderate due to the limited number of terms that still effectively capture the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The terms 'year', 'council', 'period','soviet', 'weight_unit', and 'tonne' are interconnected through the concept of historical or governmental data organization, specifically related to the Soviet era. The cluster revolves around the idea of categorizing and quantifying information over time, with a focus on governmental councils and their associated units of measurement.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Soviet Council Period",
+      "Yearly Tonne Weight Unit"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to historical data management and analysis. The relevance score acknowledges the direct applicability of these terms to the technology domain, particularly in the context of historical data processing and analysis. The coverage score is high because the key phrases effectively summarize the cluster's content, providing a clear insight into its main focus."
+  },
+  "2": {
+    "explanation": "The cluster revolves around the concept of 'China porcelain industry' and its traditional techniques, highlighting the historical and cultural significance of porcelain production in China.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "China porcelain industry",
+      "Traditional Chinese pottery techniques"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, as they both pertain to the same subject area. The relevance is high because these terms are directly related to the technology domain, specifically within the context of manufacturing and design. The coverage is rated as 4 since all essential aspects of the cluster are captured by the key phrases provided."
+  }
+}

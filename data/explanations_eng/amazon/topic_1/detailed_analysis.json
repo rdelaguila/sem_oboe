@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. Character portrayal in fiction\n2. Existence of stories within a collection\n3. Quality of storytelling in a book\n\nPlease provide feedback on the extracted key phrases and suggest any improvements or alternative phrasing if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the given terms within the context of the technology domain. Here's a brief explanation of each:\n\n1. **Character portrayal in fiction**: This phrase highlights the connection between characters and fiction, emphasizing how characters are represented within fictional",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the central theme of 'fictional narratives', focusing on various aspects such as character representation, story existence, and book quality.\",\n    ..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"search technology\"\n2. \"evaluate content\"\n3. \"innovative solutions\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around human cognitive processes and the act of processing information, including perception, thought, and discovery. It suggests a focus on understanding ..."
+  }
+}

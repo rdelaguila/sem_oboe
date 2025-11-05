@@ -1,0 +1,392 @@
+{
+  "topic_characteristics": {
+    "0": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.023301605855667807,
+      "max_overlap": 0.07142857142857142,
+      "noise_ratio": 0.8,
+      "snr": 0.25
+    },
+    "1": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.028838167891968376,
+      "max_overlap": 0.05263157894736842,
+      "noise_ratio": 0.8333333333333334,
+      "snr": 0.2
+    },
+    "2": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.07619885318368814,
+      "max_overlap": 0.15384615384615385,
+      "noise_ratio": 0.5333333333333333,
+      "snr": 0.875
+    },
+    "3": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.07187836362065038,
+      "max_overlap": 0.09090909090909091,
+      "noise_ratio": 0.6,
+      "snr": 0.6666666666666666
+    },
+    "4": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.06631023498297409,
+      "max_overlap": 0.1320754716981132,
+      "noise_ratio": 0.6,
+      "snr": 0.6666666666666666
+    },
+    "5": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.05471857318675355,
+      "max_overlap": 0.1320754716981132,
+      "noise_ratio": 0.6666666666666666,
+      "snr": 0.5
+    },
+    "6": {
+      "vocab_size": 30,
+      "vocab_entropy": 4.906890595608519,
+      "avg_overlap": 0.04590720833915027,
+      "max_overlap": 0.15384615384615385,
+      "noise_ratio": 0.6666666666666666,
+      "snr": 0.5
+    }
+  },
+  "overlap_analysis": {
+    "n_topics": 7,
+    "mean_overlap": 0.052450429580121805,
+    "std_overlap": 0.04128147979854043,
+    "max_overlap": 0.15384615384615385,
+    "min_overlap": 0.0,
+    "high_overlap_pairs": [
+      {
+        "topic1": 2,
+        "topic2": 6,
+        "overlap": 0.15384615384615385
+      },
+      {
+        "topic1": 4,
+        "topic2": 5,
+        "overlap": 0.1320754716981132
+      }
+    ],
+    "overlap_matrix": [
+      [
+        0.0,
+        0.0,
+        0.01694915254237288,
+        0.07142857142857142,
+        0.034482758620689655,
+        0.01694915254237288,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.05263157894736842,
+        0.034482758620689655,
+        0.034482758620689655,
+        0.01694915254237288,
+        0.034482758620689655
+      ],
+      [
+        0.01694915254237288,
+        0.05263157894736842,
+        0.0,
+        0.09090909090909091,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.15384615384615385
+      ],
+      [
+        0.07142857142857142,
+        0.034482758620689655,
+        0.09090909090909091,
+        0.0,
+        0.09090909090909091,
+        0.09090909090909091,
+        0.05263157894736842
+      ],
+      [
+        0.034482758620689655,
+        0.034482758620689655,
+        0.07142857142857142,
+        0.09090909090909091,
+        0.0,
+        0.1320754716981132,
+        0.034482758620689655
+      ],
+      [
+        0.01694915254237288,
+        0.01694915254237288,
+        0.07142857142857142,
+        0.09090909090909091,
+        0.1320754716981132,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.034482758620689655,
+        0.15384615384615385,
+        0.05263157894736842,
+        0.034482758620689655,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "n_topics": 7,
+  "n_clusters": 44,
+  "assumptions": {
+    "coherence_normality": {
+      "test": "Shapiro-Wilk",
+      "statistic": 1.0,
+      "p_value": 1.0,
+      "is_normal": true,
+      "interpretation": "Normal"
+    },
+    "relevance_normality": {
+      "test": "Shapiro-Wilk",
+      "statistic": 0.7883873054653922,
+      "p_value": 1.647219688217817e-06,
+      "is_normal": false,
+      "interpretation": "Non-normal"
+    },
+    "coverage_normality": {
+      "test": "Shapiro-Wilk",
+      "statistic": 0.6362884909833056,
+      "p_value": 3.358270470093638e-09,
+      "is_normal": false,
+      "interpretation": "Non-normal"
+    },
+    "coherence_homogeneity": {
+      "test": "Levene",
+      "statistic": NaN,
+      "p_value": NaN,
+      "homogeneous": false,
+      "interpretation": "Heterogeneous"
+    },
+    "relevance_homogeneity": {
+      "test": "Levene",
+      "statistic": 1.2487681750853965,
+      "p_value": 0.3045366044668653,
+      "homogeneous": true,
+      "interpretation": "Homogeneous"
+    },
+    "coverage_homogeneity": {
+      "test": "Levene",
+      "statistic": 0.3595279767420197,
+      "p_value": 0.8996615829988094,
+      "homogeneous": true,
+      "interpretation": "Homogeneous"
+    },
+    "recommendation": "⚠️ Use non-parametric tests + report both"
+  },
+  "correlations": {
+    "topic_vocab_entropy_vs_coherence": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_vocab_entropy_vs_relevance": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_vocab_entropy_vs_coverage": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_vocab_entropy_vs_quality_score": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_noise_ratio_vs_coherence": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_noise_ratio_vs_relevance": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": -0.3991102596147063,
+        "p_value": 0.007280901079834061,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": -0.3223278963011455,
+        "p_value": 0.032855402886603116,
+        "significant": true
+      },
+      "interpretation": "Moderate negative"
+    },
+    "topic_noise_ratio_vs_coverage": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.008281103560393,
+        "p_value": 0.9574529393099313,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": -0.011163338257504068,
+        "p_value": 0.9426658678437811,
+        "significant": false
+      },
+      "interpretation": "No correlation"
+    },
+    "topic_noise_ratio_vs_quality_score": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": -0.3283542992072144,
+        "p_value": 0.029548821065777216,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": -0.2891393086970927,
+        "p_value": 0.05696217137535353,
+        "significant": false
+      },
+      "interpretation": "Weak negative"
+    },
+    "topic_avg_overlap_vs_coherence": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_avg_overlap_vs_relevance": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.36792375393318366,
+        "p_value": 0.014004767102371394,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.3253119683125866,
+        "p_value": 0.03118184930054478,
+        "significant": true
+      },
+      "interpretation": "Moderate positive"
+    },
+    "topic_avg_overlap_vs_coverage": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.09550178891374746,
+        "p_value": 0.5374575414692714,
+        "significant": false
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.03498685205948486,
+        "p_value": 0.8216180448952186,
+        "significant": false
+      },
+      "interpretation": "No correlation"
+    },
+    "topic_avg_overlap_vs_quality_score": {
+      "n_samples": 44,
+      "parametric": {
+        "test": "Pearson",
+        "r": 0.36698726823549876,
+        "p_value": 0.014269355182868324,
+        "significant": true
+      },
+      "non_parametric": {
+        "test": "Spearman",
+        "rho": 0.30889138637897545,
+        "p_value": 0.04133450020271554,
+        "significant": true
+      },
+      "interpretation": "Moderate positive"
+    }
+  },
+  "group_comparisons": {
+    "skipped": true,
+    "reason": "Insufficient variance (std=0.0000)"
+  },
+  "posthoc": {
+    "coherence": []
+  }
+}

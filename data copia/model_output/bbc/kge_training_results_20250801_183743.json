@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-01T18:46:22.815819",
+  "model_path": "data/triples_emb/bbc/transe_model.pkl",
+  "mappings_path": "data/triples_emb/bbc/transe_mappings.pkl",
+  "metrics": {
+    "model_type": "transe",
+    "model_name": "TransE",
+    "embedding_dim": 150,
+    "num_entities": 12941,
+    "num_relations": 2404,
+    "training_triples": 13323,
+    "testing_triples": 3331,
+    "evaluation": {
+      "hits_at_1": 0.47268087661362956,
+      "hits_at_3": 0.5670969678775143,
+      "hits_at_10": 0.6268387871510057,
+      "mrr": 0.5291679501533508,
+      "mr": 1656.2113037109375
+    }
+  }
+}

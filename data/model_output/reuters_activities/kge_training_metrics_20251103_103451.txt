@@ -1,0 +1,21 @@
+KGE MODEL TRAINING RESULTS
+==================================================
+
+Timestamp: 2025-11-03T10:36:58.209842
+Model: TransE (transe)
+Embedding Dimension: 192
+Entities: 7360
+Relations: 1328
+Training Triples: 7452
+Testing Triples: 1864
+Loss Threshold: 0.0075
+Final Loss: 0.475943
+Threshold Reached: False
+
+EVALUATION METRICS
+------------------------------
+Hits@1: 0.4928
+Hits@3: 0.5367
+Hits@10: 0.5877
+Mean Reciprocal Rank: 0.5240
+Mean Rank: 1078.0740

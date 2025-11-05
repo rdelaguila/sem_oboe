@@ -1,0 +1,320 @@
+[
+  {
+    "corpus": "amazon",
+    "topic_id": 0,
+    "n_terms": 35,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.22410191310128208,
+          "davies_bouldin": 1.194042179540331,
+          "calinski_harabasz": 11.177158676897893
+        },
+        {
+          "k": 3,
+          "silhouette": 0.16841082411747954,
+          "davies_bouldin": 1.618366214676925,
+          "calinski_harabasz": 10.360476891530455
+        },
+        {
+          "k": 4,
+          "silhouette": 0.19188895583358453,
+          "davies_bouldin": 1.4145293411957536,
+          "calinski_harabasz": 9.746239619344047
+        },
+        {
+          "k": 5,
+          "silhouette": 0.20934897243738088,
+          "davies_bouldin": 1.169069425553531,
+          "calinski_harabasz": 9.235503710620351
+        },
+        {
+          "k": 6,
+          "silhouette": 0.2246192629334351,
+          "davies_bouldin": 1.1029615899909444,
+          "calinski_harabasz": 9.363520541485551
+        },
+        {
+          "k": 7,
+          "silhouette": 0.2024787360510954,
+          "davies_bouldin": 1.2385418164921895,
+          "calinski_harabasz": 9.104726007114321
+        },
+        {
+          "k": 8,
+          "silhouette": 0.19802328284127918,
+          "davies_bouldin": 1.1310139676906483,
+          "calinski_harabasz": 8.643194347231429
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.292625811675988,
+          "davies_bouldin": 1.288243719824649,
+          "calinski_harabasz": 11.624720396529913
+        },
+        {
+          "k": 3,
+          "silhouette": 0.22768947908181766,
+          "davies_bouldin": 1.517620155884851,
+          "calinski_harabasz": 11.32967811878475
+        },
+        {
+          "k": 4,
+          "silhouette": 0.2252382502100642,
+          "davies_bouldin": 1.397405145901547,
+          "calinski_harabasz": 10.074716655708832
+        },
+        {
+          "k": 5,
+          "silhouette": 0.2303316058875784,
+          "davies_bouldin": 1.272804671901474,
+          "calinski_harabasz": 9.175410840168716
+        },
+        {
+          "k": 6,
+          "silhouette": 0.252431421941908,
+          "davies_bouldin": 1.0810272424361236,
+          "calinski_harabasz": 9.746918536444051
+        },
+        {
+          "k": 7,
+          "silhouette": 0.24624675643294322,
+          "davies_bouldin": 1.1496947672929088,
+          "calinski_harabasz": 9.510199493823492
+        },
+        {
+          "k": 8,
+          "silhouette": 0.25392095986424845,
+          "davies_bouldin": 1.131880532413346,
+          "calinski_harabasz": 9.159000919727754
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.2888472044515687,
+          "davies_bouldin": 1.016150615326258,
+          "calinski_harabasz": 10.072900291319934
+        },
+        {
+          "k": 3,
+          "silhouette": 0.22326940210207802,
+          "davies_bouldin": 1.5378227135457248,
+          "calinski_harabasz": 10.08612309119899
+        },
+        {
+          "k": 4,
+          "silhouette": 0.2212025524478204,
+          "davies_bouldin": 1.4465779160779326,
+          "calinski_harabasz": 8.923082192543134
+        },
+        {
+          "k": 5,
+          "silhouette": 0.23711568214502954,
+          "davies_bouldin": 1.3280418950758228,
+          "calinski_harabasz": 8.155760579404681
+        },
+        {
+          "k": 6,
+          "silhouette": 0.21251456463166632,
+          "davies_bouldin": 1.4342774987394187,
+          "calinski_harabasz": 7.366974687293026
+        },
+        {
+          "k": 7,
+          "silhouette": 0.18308886520740714,
+          "davies_bouldin": 1.6355048906498457,
+          "calinski_harabasz": 5.665933167139004
+        },
+        {
+          "k": 8,
+          "silhouette": 0.18248819192060856,
+          "davies_bouldin": 1.591856338785021,
+          "calinski_harabasz": 5.6876270636497175
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 6,
+        "silhouette": 0.2246192629334351,
+        "davies_bouldin": 1.1029615899909444,
+        "calinski_harabasz": 9.363520541485551
+      },
+      "kmeans": {
+        "k": 2,
+        "silhouette": 0.292625811675988,
+        "davies_bouldin": 1.288243719824649,
+        "calinski_harabasz": 11.624720396529913
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.2888472044515687,
+        "davies_bouldin": 1.016150615326258,
+        "calinski_harabasz": 10.072900291319934
+      }
+    }
+  },
+  {
+    "corpus": "amazon",
+    "topic_id": 1,
+    "n_terms": 33,
+    "comparison_full": {
+      "ward": [
+        {
+          "k": 2,
+          "silhouette": 0.2268918584947382,
+          "davies_bouldin": 1.0577392226368905,
+          "calinski_harabasz": 14.299900117424635
+        },
+        {
+          "k": 3,
+          "silhouette": 0.22173418686704707,
+          "davies_bouldin": 1.333303101417564,
+          "calinski_harabasz": 15.068302796787414
+        },
+        {
+          "k": 4,
+          "silhouette": 0.1878293595109982,
+          "davies_bouldin": 1.4437620709487136,
+          "calinski_harabasz": 12.134852687480413
+        },
+        {
+          "k": 5,
+          "silhouette": 0.1781737860460284,
+          "davies_bouldin": 1.3111183424364583,
+          "calinski_harabasz": 10.95537919132984
+        },
+        {
+          "k": 6,
+          "silhouette": 0.1794258442140969,
+          "davies_bouldin": 1.0758837445413274,
+          "calinski_harabasz": 10.108239051620316
+        },
+        {
+          "k": 7,
+          "silhouette": 0.20775445034775578,
+          "davies_bouldin": 1.0230100642373026,
+          "calinski_harabasz": 9.722967143013168
+        },
+        {
+          "k": 8,
+          "silhouette": 0.19938792375441095,
+          "davies_bouldin": 1.0535535699496124,
+          "calinski_harabasz": 9.352363975093548
+        }
+      ],
+      "kmeans": [
+        {
+          "k": 2,
+          "silhouette": 0.319099927436433,
+          "davies_bouldin": 1.0737115361819751,
+          "calinski_harabasz": 16.459115140754186
+        },
+        {
+          "k": 3,
+          "silhouette": 0.2736374652847908,
+          "davies_bouldin": 1.3305365749485951,
+          "calinski_harabasz": 15.968589974031797
+        },
+        {
+          "k": 4,
+          "silhouette": 0.27670278796095277,
+          "davies_bouldin": 1.123519411586205,
+          "calinski_harabasz": 12.888728408531888
+        },
+        {
+          "k": 5,
+          "silhouette": 0.23579135451321465,
+          "davies_bouldin": 1.351574507936431,
+          "calinski_harabasz": 11.37539270790883
+        },
+        {
+          "k": 6,
+          "silhouette": 0.22084623863584432,
+          "davies_bouldin": 1.1882303173065214,
+          "calinski_harabasz": 10.132560055884092
+        },
+        {
+          "k": 7,
+          "silhouette": 0.2367293256523005,
+          "davies_bouldin": 1.148162265536216,
+          "calinski_harabasz": 9.481585674429411
+        },
+        {
+          "k": 8,
+          "silhouette": 0.23708663248517628,
+          "davies_bouldin": 1.1229465229358877,
+          "calinski_harabasz": 9.240273112199997
+        }
+      ],
+      "spectral": [
+        {
+          "k": 2,
+          "silhouette": 0.319099927436433,
+          "davies_bouldin": 1.0737115361819751,
+          "calinski_harabasz": 16.459115140754186
+        },
+        {
+          "k": 3,
+          "silhouette": 0.262471928892727,
+          "davies_bouldin": 1.3313165231042643,
+          "calinski_harabasz": 15.042433720134603
+        },
+        {
+          "k": 4,
+          "silhouette": 0.20256232888545128,
+          "davies_bouldin": 1.7609800205184465,
+          "calinski_harabasz": 10.736692287394336
+        },
+        {
+          "k": 5,
+          "silhouette": 0.15445106325169286,
+          "davies_bouldin": 1.6497278576979297,
+          "calinski_harabasz": 9.831769264440116
+        },
+        {
+          "k": 6,
+          "silhouette": 0.11625663334181377,
+          "davies_bouldin": 1.703716312697492,
+          "calinski_harabasz": 5.992946037118464
+        },
+        {
+          "k": 7,
+          "silhouette": 0.12204091974840235,
+          "davies_bouldin": 1.3781141611427568,
+          "calinski_harabasz": 5.900577043157716
+        },
+        {
+          "k": 8,
+          "silhouette": 0.0820961854461414,
+          "davies_bouldin": 1.3711101116026656,
+          "calinski_harabasz": 4.835927806195707
+        }
+      ]
+    },
+    "optimal_per_method": {
+      "ward": {
+        "k": 2,
+        "silhouette": 0.2268918584947382,
+        "davies_bouldin": 1.0577392226368905,
+        "calinski_harabasz": 14.299900117424635
+      },
+      "kmeans": {
+        "k": 2,
+        "silhouette": 0.319099927436433,
+        "davies_bouldin": 1.0737115361819751,
+        "calinski_harabasz": 16.459115140754186
+      },
+      "spectral": {
+        "k": 2,
+        "silhouette": 0.319099927436433,
+        "davies_bouldin": 1.0737115361819751,
+        "calinski_harabasz": 16.459115140754186
+      }
+    }
+  }
+]

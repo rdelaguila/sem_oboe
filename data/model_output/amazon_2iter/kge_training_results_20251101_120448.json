@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-01T12:10:20.058945",
+  "model_path": "../data/triples_emb/amazon/complex_model.pkl",
+  "mappings_path": "../data/triples_emb/amazon/complex_mappings.pkl",
+  "metrics": {
+    "model_type": "complex",
+    "model_name": "ComplEx",
+    "embedding_dim": 256,
+    "num_entities": 8464,
+    "num_relations": 4640,
+    "training_triples": 9781,
+    "testing_triples": 4192,
+    "num_epochs": 300,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "evaluation": {
+      "hits_at_1": 0.0,
+      "hits_at_3": 0.00023854961832061068,
+      "hits_at_10": 0.0007156488549618321,
+      "mrr": 0.0006950437091290951,
+      "mr": 4236.34521484375
+    },
+    "grid_search_score": 0.0006950437091290951,
+    "grid_search_results": [
+      

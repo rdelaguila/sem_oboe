@@ -1,0 +1,18 @@
+KGE MODEL TRAINING RESULTS
+==================================================
+
+Timestamp: 2025-11-01T04:52:48.109389
+Model: ConvKB (convkb)
+Embedding Dimension: 256
+Entities: 12379
+Relations: 2279
+Training Triples: 12427
+Testing Triples: 3107
+
+EVALUATION METRICS
+------------------------------
+Hits@1: 0.0966
+Hits@3: 0.1511
+Hits@10: 0.2187
+Mean Reciprocal Rank: 0.1387
+Mean Rank: 1462.1768

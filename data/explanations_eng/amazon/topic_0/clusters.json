@@ -1,0 +1,27 @@
+{
+  "topic_id": 0,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.41576564885046813,
+  "clusters": {
+    "0": [
+      "quality",
+      "work",
+      "use",
+      "great",
+      "achiever",
+      "usage",
+      "purchase",
+      "good",
+      "substance",
+      "kind"
+    ],
+    "1": [
+      "cat",
+      "dog",
+      "felid",
+      "canine"
+    ]
+  }
+}

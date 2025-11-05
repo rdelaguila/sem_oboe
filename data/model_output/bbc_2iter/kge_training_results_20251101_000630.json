@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-01T00:24:00.487112",
+  "model_path": "../data/triples_emb/bbc_2iter/transe_model.pkl",
+  "mappings_path": "../data/triples_emb/bbc_2iter/transe_mappings.pkl",
+  "model_type": "transe",
+  "best_embedding_dim": 128,
+  "best_score": 0.518497884273529
+}

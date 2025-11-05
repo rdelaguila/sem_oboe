@@ -1,0 +1,17 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Wheat yield\"\n2. \"Cereal commodity\"\n3. \"Sugar sweetener\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around agricultural commodities, specifically focusing on crops like wheat, their yields, and related products such as sugar and cereals. It also touches u..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Yearly Soviet Council\"\n2. \"Periodic Tonne Weight Unit\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Soviet Council Period\"\n2. \"Yearly Tonne Weight Unit\"\n\nThese phrases capture the essence of the terms within the technology domain, focusing on their relationships and usage context. The first phrase emphasizes the connection between the \"Soviet Council\" and a specific \"period,\" while the second phrase highlights",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'year', 'council', 'period','soviet', 'weight_unit', and 'tonne' are interconnected through the concept of historical or governmental data organization, specifically ..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"China porcelain industry\"\n2. \"Traditional Chinese pottery techniques\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'China porcelain industry' and its traditional techniques, highlighting the historical and cultural significance of porcelain product..."
+  }
+}

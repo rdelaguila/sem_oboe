@@ -1,0 +1,71 @@
+{
+  "repository": "reuters",
+  "total_topics": 8,
+  "topics_processed": 8,
+  "topics_metrics": [
+    {
+      "topic_id": 0,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.0,
+      "avg_coverage": 4.0,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/reuters/topic_0"
+    },
+    {
+      "topic_id": 1,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.266666666666667,
+      "avg_coverage": 3.2,
+      "num_clusters": 15,
+      "output_dir": "../data/explanations_eng/reuters/topic_1"
+    },
+    {
+      "topic_id": 2,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.5,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/reuters/topic_2"
+    },
+    {
+      "topic_id": 3,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.0,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/reuters/topic_3"
+    },
+    {
+      "topic_id": 4,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.5,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/reuters/topic_4"
+    },
+    {
+      "topic_id": 5,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.0,
+      "avg_coverage": 4.0,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/reuters/topic_5"
+    },
+    {
+      "topic_id": 6,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.5,
+      "avg_coverage": 3.25,
+      "num_clusters": 4,
+      "output_dir": "../data/explanations_eng/reuters/topic_6"
+    },
+    {
+      "topic_id": 7,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.0,
+      "avg_coverage": 3.0,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/reuters/topic_7"
+    }
+  ]
+}

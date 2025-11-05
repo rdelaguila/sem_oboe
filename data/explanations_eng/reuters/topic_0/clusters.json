@@ -1,0 +1,29 @@
+{
+  "topic_id": 0,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.2770079971324383,
+  "clusters": {
+    "0": [
+      "proportion",
+      "consolidate",
+      "country",
+      "region",
+      "depository",
+      "period",
+      "strengthen",
+      "rate",
+      "rise",
+      "billion"
+    ],
+    "1": [
+      "gregorian_calendar_month",
+      "large_integer",
+      "north_american",
+      "pct",
+      "february",
+      "canadian"
+    ]
+  }
+}

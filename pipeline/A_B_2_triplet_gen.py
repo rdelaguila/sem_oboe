@@ -16,6 +16,7 @@ Requirements:
 import argparse
 import os
 import pandas as pd
+import ast
 import stanza
 from stanza.server import CoreNLPClient
 import joblib
@@ -304,13 +305,13 @@ def main():
     # ---------------- ARGUMENTOS DE LÍNEA DE COMANDOS ----------------
     parser = argparse.ArgumentParser(description='Generación de Tripletas desde Dataset')
     parser.add_argument('--input_data', type=str,
-                        default='data/lda_eval/amazon/df_topic.pkl',
+                        default='../data/lda_eval/reuters_activities/df_topic.pkl',
                         help='Ruta al archivo de datos de entrada')
     parser.add_argument('--output_dir', type=str,
-                        default='data/triples_raw/amazon',
+                        default='../data/triples_raw/reuters_activities',
                         help='Directorio de salida para los archivos generados')
     parser.add_argument('--output_name', type=str,
-                        default='amazon_semantic_tripletas_simplificado-contopic',
+                        default='reuters_semantic_tripletas_simplificado-contopic',
                         help='Nombre base para los archivos de salida')
     parser.add_argument('--corenlp_endpoint', type=str,
                         default='http://0.0.0.0:9000',
@@ -326,7 +327,7 @@ def main():
                         default='triplets_with_topics',
                         help='Modo de operación: 1=solo tripletas, 2=tripletas+tópicos, 3=añadir tópicos a tripletas existentes, 4=generar archivo de tripletas')
     parser.add_argument('--existing_triplets', type=str,
-                        default='data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv',
+                        default='data/triples_raw/amazon/dataset_triplet_reuters_activities_new_simplificado.csv',
 
                         help='Archivo de tripletas existentes (para modo add_topics_to_existing)')
     parser.add_argument('--enable_filtering', action='store_true',
@@ -565,11 +566,11 @@ def generate_triplets_with_topics(input_data, output_dir, output_name,
 
     print(df_result.shape)
     # Crear CSV de tripletas con tópicos
-    create_triplets_csv(df_result, output_dir, "dataset_triplet_amazon_new_simplificado.csv", include_topics=True)
+    create_triplets_csv(df_result, output_dir, "dataset_triplet_reuters_activities_new_simplificado.csv", include_topics=True)
 
     print(f"\nArchivos generados:")
     print(f"- Datos con tripletas: {output_path}")
-    print(f"- CSV de tripletas: {os.path.join(output_dir, 'dataset_triplet_amazon_new_simplificado.csv')}")
+    print(f"- CSV de tripletas: {os.path.join(output_dir, 'dataset_triplet_reuters_activities_new_simplificado.csv')}")
 
 
 def add_topics_to_existing_triplets(input_data, topics_file, output_dir, output_name, existing_triplets):

@@ -1,0 +1,75 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: reuters
+Topic ID: 3
+Selected vocabulary: 10 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected: 2
+Clustering quality (Silhouette): 0.260
+Method: Hierarchical clustering + Explanatory LLM
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: organization, opposition, proportion, company, dissident, communicate, firm, corp
+  
+  Explanation: The cluster revolves around the examination of organizational dynamics within the technology domain, focusing on the relationships between different entities such as companies, their proportions, dissident elements, and communication patterns.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+  
+  Strengths: Clear focus on organizational dynamics, Relevance to technology domain
+  Weaknesses: Limited coverage of key semantic relationships, Lacks mention of additional relevant relationships
+  
+  Justification: The explanation is coherent in its focus on organizational dynamics within the technology domain. It connects well with the relevance of the terms to the context. However, it could be more comprehensive by mentioning other potential relationships like cooperation or competition among firms.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "organization opposition"
+2. "company proportion"
+3. "dissident communication"
+     • Verification passed: True
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: sell, inc, sale, pct, co, share
+  
+  Explanation: The terms'sell', 'inc','sale', 'pct', 'co', and'share' are all interconnected within the context of financial transactions and corporate actions. They collectively describe various aspects of company sales, including the percentage change in shares, the increase in share value, and the act of selling a company.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 4/5
+  
+  Strengths: Clear connection between terms, Relevance to financial domain, Comprehensive coverage of cluster
+  Weaknesses: Lack of specific examples or data points to further illustrate the relationships, Limited depth in explaining the technical aspects of the terms
+  
+  Justification: The explanation effectively captures the semantic coherence by linking the terms together in the context of financial transactions and corporate actions. It is relevant to the technology domain, specifically focusing on financial aspects of companies. The explanation covers the main aspects of the cluster, addressing key semantic relationships such as sales, percentage changes, and corporate actions.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Company Sale Percentage"
+2. "Share Inc" (short for "Share Increase")
+3. "Sell Co" (short for "Sell Company") The key phrases that best represent the semantic relationship between the given terms are:
+
+1. "Company Sale Percentage"
+2. "Share Increase"
+3. "Sell Company"
+
+These phrases capture the essence of the terms within the technology domain, focusing on the financial transactions and ownership changes typically associated with this context. The first phrase highlights the
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 4.00/5
+  Average coverage: 3.50/5
+  Clustering quality: 0.260
+

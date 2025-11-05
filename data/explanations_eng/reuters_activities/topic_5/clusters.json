@@ -1,0 +1,35 @@
+{
+  "topic_id": 5,
+  "best_k": 4,
+  "selected_k": 4,
+  "automatic_optimal_k": 4,
+  "global_sil": 0.3762192154186312,
+  "clusters": {
+    "0": [
+      "country",
+      "polity",
+      "import",
+      "region",
+      "trade",
+      "commodity",
+      "government",
+      "exchange",
+      "official"
+    ],
+    "1": [
+      "global_organization",
+      "ec",
+      "lacquerware"
+    ],
+    "2": [
+      "japanese",
+      "asian",
+      "japan"
+    ],
+    "3": [
+      "levy",
+      "tax",
+      "adjudicator"
+    ]
+  }
+}

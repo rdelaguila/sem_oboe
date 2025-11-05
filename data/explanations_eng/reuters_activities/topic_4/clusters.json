@@ -1,0 +1,32 @@
+{
+  "topic_id": 4,
+  "best_k": 3,
+  "selected_k": 3,
+  "automatic_optimal_k": 3,
+  "global_sil": 0.2806338358968219,
+  "clusters": {
+    "0": [
+      "wheat",
+      "crop",
+      "grain",
+      "cereal",
+      "yield",
+      "sugar",
+      "commodity",
+      "sweetener",
+      "export"
+    ],
+    "1": [
+      "year",
+      "council",
+      "period",
+      "soviet",
+      "weight_unit",
+      "tonne"
+    ],
+    "2": [
+      "china",
+      "porcelain"
+    ]
+  }
+}

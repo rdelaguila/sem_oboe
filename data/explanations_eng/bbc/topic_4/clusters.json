@@ -1,0 +1,33 @@
+{
+  "topic_id": 4,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.2631073011410018,
+  "clusters": {
+    "0": [
+      "june",
+      "july",
+      "february",
+      "tuesday",
+      "summer",
+      "season",
+      "weekday",
+      "scottish",
+      "europe",
+      "gregorian_calendar_month"
+    ],
+    "1": [
+      "information",
+      "website",
+      "register",
+      "computer",
+      "search",
+      "site",
+      "file",
+      "aggregation",
+      "email",
+      "usage"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the examination of organizational dynamics within the technology domain, focusing on the relationships between different entities such as companies, their proportions, dissident elements, and communication patterns.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "organization opposition",
+      "company proportion",
+      "dissident communication"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection among the terms, which all pertain to organizational structures and interactions. The relevance score is high because these terms are directly applicable to the technology domain, particularly in contexts like corporate governance, market analysis, or organizational behavior studies. Coverage is rated moderately high as the terms cover various aspects of organizational dynamics but could be more extensive to include additional related concepts. The key phrases effectively capture the essence of the cluster by highlighting critical aspects of organizational interactions and dynamics."
+  },
+  "1": {
+    "explanation": "The terms'sell', 'inc','sale', 'pct', 'co', and'share' are all interconnected within the context of financial transactions and corporate actions. They collectively describe various aspects of company sales, including the percentage change in shares, the increase in share value, and the act of selling a company.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Company Sale Percentage",
+      "Share Increase",
+      "Sell Company"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which revolve around financial operations involving companies. The relevance score is high because these terms are directly related to the technology domain, particularly in areas such as finance, business intelligence, and corporate strategy. The coverage score acknowledges that while not all terms are explicitly represented in the key phrases, the phrases encapsulate the core concepts effectively."
+  }
+}

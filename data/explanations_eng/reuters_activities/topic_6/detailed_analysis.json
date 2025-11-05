@@ -1,0 +1,22 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Proportion exploration\"\n2. \"Consideration strength\"\n3. \"Organization reserve\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of analyzing and understanding proportions, considerations, and organizational structures within a technological context, particularly f..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. Energy source\n2. Combustion process\n3. Lubrication medium\n\nPlease provide a brief justification for your choices.\nThe key phrases \"Energy source,\" \"Combustion process,\" and \"Lubrication medium\" were chosen to best represent the semantic relationships between the terms \"gas,\" \"fuel,\" and \"oil.\" \n\n1. \"Energy source\" captures the fundamental role of these substances as providers of energy, which is their primary function in various technological applications such",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of energy provision through the use of gases, fuels, and oils in various technological applications.\",\n    \"coherence\": 5,\n    \"rel..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"Corporate entity\"\n2. \"Business organization\" Here are the key phrases that best represent the semantic relationship between the terms \"firm,\" \"corp,\" and \"company\":\n\n1. \"Corporate structure\"\n2. \"Business entity\"\n\nThese phrases capture the essence of these terms as representing different legal forms or organizational structures within the technology domain. They emphasize their role as entities or organizations involved in business activities.",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'firm', 'corp', and 'company' all refer to distinct yet related legal entities or organizational structures within the technology domain. They represent businesses th..."
+  },
+  "3": {
+    "key_phrases_extracted": "1. Percentage change in technology usage\n2. Proportion of technological advancements\n3. Rate of technological improvement\n\nPlease provide feedback on the quality of the extracted key phrases and suggest any improvements or alternative key phrases if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the term \"pct\" within the context of technology. Here's a brief analysis of each:\n\n1. **Percentage change in technology usage** - This phrase highlights the quantitative aspect of technology adoption or adaptation, focusing on",
+    "verification_passed": true,
+    "raw_output": " \n```json\n{\n    \"explanation\": \"The key phrases revolve around the concept of quantifying technological changes through percentages, which is central to understanding advancements and usage trends.\",\n..."
+  }
+}

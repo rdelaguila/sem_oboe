@@ -1,0 +1,28 @@
+{
+  "topic_id": 5,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.3073781823183103,
+  "clusters": {
+    "0": [
+      "technology",
+      "application",
+      "system",
+      "structure",
+      "network",
+      "assistance",
+      "service",
+      "user",
+      "person",
+      "mobile"
+    ],
+    "1": [
+      "saturday",
+      "summer",
+      "weekday",
+      "season",
+      "wale"
+    ]
+  }
+}

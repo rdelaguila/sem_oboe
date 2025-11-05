@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the examination of various aspects related to the impact and development of technology, focusing on its interests, concerns, and policy implications.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Proportion of interest",
+      "Prevalence of concern",
+      "Development in policy"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms, which all pertain to different facets of technology's role and influence. The relevance is rated high as these terms directly align with the technology domain. Coverage is moderate because the terms cover a range of perspectives but might not encompass every possible aspect of technology. The key phrases succinctly summarize the cluster's focus."
+  },
+  "1": {
+    "explanation": "The cluster revolves around financial activities, specifically focusing on the exchange and handling of various currencies within the banking system.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Currency exchange",
+      "Financial transactions",
+      "Banking system"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms and key phrases. The relevance score is high as these concepts are central to financial technology. Coverage is rated moderately because while the terms cover a specific aspect of finance, they could be part of a larger domain. The key phrases effectively summarize the cluster's focus."
+  }
+}

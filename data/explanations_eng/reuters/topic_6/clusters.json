@@ -1,0 +1,31 @@
+{
+  "topic_id": 6,
+  "best_k": 4,
+  "selected_k": 4,
+  "automatic_optimal_k": 4,
+  "global_sil": 0.37699132893646026,
+  "clusters": {
+    "0": [
+      "fuel",
+      "gas",
+      "oil",
+      "crude",
+      "price",
+      "cylinder",
+      "barrel",
+      "cost"
+    ],
+    "1": [
+      "oil_cartel",
+      "opec"
+    ],
+    "2": [
+      "gulf",
+      "chasm"
+    ],
+    "3": [
+      "attack",
+      "fight"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+============================================================
+KGE MODEL TRAINING RESULTS
+============================================================
+
+Model Type: ComplEx (complex)
+Best Embedding Dimension: 256
+Best Score (MRR): 0.0007
+Number of Entities: 12379
+Number of Relations: 4558
+Training Triples: 10873
+Testing Triples: 4661
+
+Grid Search Results:
+------------------------------------------------------------
+
+Embedding Dim: 256
+  Epochs: 300
+  Batch Size: 256
+  Learning Rate: 0.001
+  Hits@1: 0.0000
+  Hits@3: 0.0001
+  Hits@10: 0.0006
+  MRR: 0.0007
+  MR: 6067.1289
+  Score: 0.0007

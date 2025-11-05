@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-01T12:29:36.669830",
+  "model_path": "../data/triples_emb/amazon_2iter/transe_model.pkl",
+  "mappings_path": "../data/triples_emb/amazon_2iter/transe_mappings.pkl",
+  "model_type": "transe",
+  "best_embedding_dim": 192,
+  "best_score": 0.249235212802887
+}
