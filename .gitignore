@@ -14,4 +14,6 @@
 .output/*
 .models
 .models/*
-.model
+.data/explanations_eng_visualizations
+.model_output_visualization/explanations_eng_visualizations
+
