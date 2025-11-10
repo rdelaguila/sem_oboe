@@ -26,6 +26,8 @@ model_output_backup0511/
 model_output_backup0711/
 results/
 data\ copia/
+repo-backup.git/
+semantic_oboe.egg-info/
 error_analysis/
 
 # Ignorar notebooks y resultados
