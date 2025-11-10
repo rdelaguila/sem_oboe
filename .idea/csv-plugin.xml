@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data copia/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data copia/triples_raw/bbc/dataset_triplet_bbc_new_simplificado.csv">
           <value>
             <Attribute>
@@ -66,6 +73,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/data/corpus_raw/reuters/reuters_processed/reuters_test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/corpus_raw/reuters/reuters_processed/reuters_train.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/data/corpus_raw/reuters_activities/reuters_activities_dataset_raw.csv">
           <value>
             <Attribute>
@@ -74,6 +95,20 @@
           </value>
         </entry>
         <entry key="/data/corpus_raw/reuters_activities/reuters_processed/reuters_activities_corpus.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/corpus_raw/reuters_activities/reuters_processed/reuters_test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/corpus_raw/reuters_activities/reuters_processed/reuters_train.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -130,6 +165,13 @@
           </value>
         </entry>
         <entry key="/data/triples_raw/arxiv/dataset_triplet_arxiv_new_simplificado.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/triples_raw/arxiv/dataset_triplet_arxiv_sampled_15k.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
