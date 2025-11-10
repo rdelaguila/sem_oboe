@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the thematic concept of narrative representation and storytelling, encompassing various aspects such as fictional characters, their portrayal, the existence of stories within collections, and the quality of storytelling in books.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Character portrayal in fiction",
+      "Existence of stories within a collection",
+      "Quality of storytelling in a book"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which all revolve around narratives and storytelling. The relevance score is high because these terms directly pertain to the domain of literature and storytelling. The coverage score acknowledges that the key phrases capture the essence of the cluster without significant omissions."
+  },
+  "1": {
+    "explanation": "The cluster revolves around cognitive and evaluative processes related to understanding, appreciating, and discovering information or content through technological means.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "search technology",
+      "evaluate content",
+      "innovative solutions"
+    ],
+    "reasoning": "The semantic coherence score reflects the tight thematic connection between the terms, which all pertain to human cognition and evaluation in the context of technology. The relevance score is high because these terms are directly pertinent to the technology domain. Coverage is rated moderately as the cluster focuses on a specific subset of cognitive activities rather than encompassing the entire technology landscape."
+  }
+}

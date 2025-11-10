@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"organization opposition\"\n2. \"company proportion\"\n3. \"dissident communication\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the examination of organizational dynamics within the technology domain, focusing on the relationships between different entities such as companies,..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Company Sale Percentage\"\n2. \"Share Inc\" (short for \"Share Increase\")\n3. \"Sell Co\" (short for \"Sell Company\") The key phrases that best represent the semantic relationship between the given terms are:\n\n1. \"Company Sale Percentage\"\n2. \"Share Increase\"\n3. \"Sell Company\"\n\nThese phrases capture the essence of the terms within the technology domain, focusing on the financial transactions and ownership changes typically associated with this context. The first phrase highlights the",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The terms'sell', 'inc','sale', 'pct', 'co', and'share' are all interconnected within the context of financial transactions and corporate actions. They collectively describe var..."
+  }
+}

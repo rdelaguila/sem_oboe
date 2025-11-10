@@ -1,0 +1,42 @@
+{
+  "topic_id": 6,
+  "clustering_method": "spectral",
+  "best_k": 3,
+  "selected_k": 3,
+  "automatic_optimal_k": 3,
+  "global_sil": 0.2358777912574375,
+  "clusters": {
+    "0": [
+      "consideration",
+      "proportion",
+      "exploration",
+      "opposition",
+      "interest",
+      "component",
+      "organization",
+      "portion",
+      "document",
+      "concern"
+    ],
+    "1": [
+      "gas",
+      "oil",
+      "fuel",
+      "cylinder",
+      "petroleum",
+      "barrel"
+    ],
+    "2": [
+      "corp",
+      "inc",
+      "co",
+      "firm",
+      "sell",
+      "share",
+      "analyst",
+      "pct",
+      "year",
+      "sale"
+    ]
+  }
+}

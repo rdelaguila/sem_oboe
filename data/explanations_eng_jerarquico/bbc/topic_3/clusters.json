@@ -1,0 +1,70 @@
+{
+  "topic_id": 3,
+  "best_k": 13,
+  "selected_k": 13,
+  "automatic_optimal_k": 13,
+  "global_sil": 0.2547631993856139,
+  "clusters": {
+    "0": [
+      "worm",
+      "e - mail"
+    ],
+    "1": [
+      "large_integer",
+      "digital_computer",
+      "telecommunicate"
+    ],
+    "2": [
+      "period",
+      "time",
+      "thousand",
+      "year"
+    ],
+    "3": [
+      "music",
+      "performer",
+      "broadcast",
+      "sound",
+      "recreation"
+    ],
+    "4": [
+      "virus",
+      "terrorist"
+    ],
+    "5": [
+      "spammer",
+      "hacker",
+      "sender"
+    ],
+    "6": [
+      "steel",
+      "metal"
+    ],
+    "7": [
+      "game",
+      "play",
+      "player",
+      "gamble"
+    ],
+    "8": [
+      "invertebrate",
+      "microorganism"
+    ],
+    "9": [
+      "monarch",
+      "king"
+    ],
+    "10": [
+      "device",
+      "gadget"
+    ],
+    "11": [
+      "hour",
+      "minute"
+    ],
+    "12": [
+      "tv",
+      "pc"
+    ]
+  }
+}

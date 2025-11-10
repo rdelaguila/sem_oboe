@@ -1,0 +1,38 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of analyzing and understanding various aspects of technology through the lens of proportions, oppositions, and components.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Proportion consideration",
+      "Exploration of opposition",
+      "Interest in component"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection among the terms. The relevance score indicates their strong alignment with the technology domain. Coverage is high as all terms are meaningfully represented by the key phrases."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the core concept of energy extraction, processing, and storage, specifically focusing on fossil fuels like petroleum and oil.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Petroleum-based fuel",
+      "Cylinder combustion process",
+      "Oil barrel storage"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to the energy sector. The relevance is rated high as these terms are directly related to the technology domain of energy production and management. Coverage is moderate because while the terms cover a significant aspect of the domain, there might be other relevant aspects not included in this cluster. The key phrases effectively summarize the thematic focus of the cluster."
+  },
+  "2": {
+    "explanation": "The cluster revolves around corporate financial analysis, focusing on sales performance, share dynamics, and analyst evaluations within firms or companies.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Corporate Sales Analysis",
+      "Yearly Share Performance",
+      "Analyst Firm Evaluation"
+    ],
+    "reasoning": "The coherence score reflects the tight thematic connection between the terms, which all pertain to corporate financial activities. The relevance score is high as these terms are directly pertinent to the technology domain, particularly in finance and business intelligence. Coverage is rated moderately because while the terms cover a significant aspect of the domain, they might not encompass the full breadth of possible topics within it. The key phrases effectively summarize the central focus of the cluster."
+  }
+}

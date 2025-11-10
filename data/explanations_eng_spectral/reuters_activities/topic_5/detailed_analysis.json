@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"government policy\"\n2. \"official statement\" \n3. \"agreement provision\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of governance and its associated actions, such as formulating policies, making statements, and reaching agreements within a state or pol..."
+  },
+  "1": {
+    "key_phrases_extracted": "Japanese craftsmanship, Asian design, eco-friendly materials, global market, artisanal goods, traditional techniques, sustainable production, high-quality products, home decor, cultural heritage. TASK: Extract 2-3 key phrases that best represent the semantic relationship between these terms.\n\nTERMS: japan, lacquerware, japanese, asian, ec, drop, cut, global_organization, good, home\n\nKEY PHRASES:\n\n1. Japanese craftsmanship\n2. Eco-friendly lacquerware\n3. Global",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of Japanese culture, specifically focusing on traditional crafts, sustainability, and global appeal. The terms highlight the unique blen..."
+  }
+}

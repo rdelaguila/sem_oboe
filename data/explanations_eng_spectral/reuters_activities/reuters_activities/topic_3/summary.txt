@@ -1,0 +1,73 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: reuters_activities
+Topic ID: 3
+Selected vocabulary: 80 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected: 2
+Clustering quality (Silhouette): 0.244
+Method: Spectral clustering + Explanatory LLM
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: dividend, income, depository, rate, decline, debt, profit, earning, gain, period
+  
+  Explanation: The cluster revolves around financial metrics and indicators, specifically focusing on aspects such as dividend distribution, income generation, and debt management within a company or financial institution.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+  
+  Strengths: Captures the essence of the cluster, Relevant to financial domain
+  Weaknesses: Limited coverage due to exclusion of some key terms
+  
+  Justification: The explanation is coherent and relevant to the financial domain, capturing the essence of the cluster. However, it could be more comprehensive by including additional terms like 'profit' and 'gain'.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Dividend Decline"
+2. "Income Earning Rate"
+3. "Depository Debt Ratio" Here are the key phrases that best represent the semantic relationship between the given terms:
+
+1. "Dividend Decline": This phrase highlights the decrease or reduction in dividends paid by a company, which is often related to financial performance, profitability, and investor returns.
+
+2. "Income Earning Rate": This phrase emphasizes the rate at which income is generated from investments or operations
+     • Verification passed: True
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: jan, feb, april, japan, inc, friday, michigan, thursday, english, american
+  
+  Explanation: The cluster revolves around the concept of 'Temporal and Geographical Contexts in Technology Communication', focusing on specific months, regions, languages, and industries.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+  
+  Strengths: Clear connection between terms and theme, Relevance to technology domain
+  Weaknesses: Limited coverage of all terms in the cluster
+  
+  Justification: The explanation is coherent and relevant to the technology domain, connecting the terms to a meaningful theme. However, it could be more comprehensive by including additional terms like 'january', 'april', 'thursday', 'friday','michigan', and 'english' within the explanation.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Japanese technology company"
+2. "American English communication" 
+3. "February product release"
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 4.00/5
+  Average coverage: 3.00/5
+  Clustering quality: 0.244
+

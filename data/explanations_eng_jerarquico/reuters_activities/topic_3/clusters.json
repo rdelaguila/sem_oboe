@@ -1,0 +1,47 @@
+{
+  "topic_id": 3,
+  "best_k": 7,
+  "selected_k": 7,
+  "automatic_optimal_k": 7,
+  "global_sil": 0.3327487193918838,
+  "clusters": {
+    "0": [
+      "large_integer",
+      "lacquerware",
+      "card"
+    ],
+    "1": [
+      "debt",
+      "billion",
+      "net",
+      "income",
+      "loan",
+      "loss",
+      "decline"
+    ],
+    "2": [
+      "artificer",
+      "wright"
+    ],
+    "3": [
+      "thursday",
+      "friday",
+      "weekday"
+    ],
+    "4": [
+      "japan",
+      "american",
+      "english",
+      "michigan"
+    ],
+    "5": [
+      "congress",
+      "senate",
+      "legislature"
+    ],
+    "6": [
+      "home",
+      "house"
+    ]
+  }
+}

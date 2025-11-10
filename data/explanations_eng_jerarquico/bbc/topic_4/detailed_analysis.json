@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Summer Months\"\n2. \"Gregorian Calendar\"\n3. \"European Season\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of time, specifically focusing on specific months, days, and seasons within the context of the Gregorian calendar and European geographi..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Website registration\"\n2. \"Computer usage tracking\"\n3. \"Information aggregation\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of digital interaction and management, encompassing activities such as accessing websites, using computers, managing information, a..."
+  }
+}

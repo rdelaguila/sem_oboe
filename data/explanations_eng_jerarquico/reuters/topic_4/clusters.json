@@ -1,0 +1,27 @@
+{
+  "topic_id": 4,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.43690902604220117,
+  "clusters": {
+    "0": [
+      "government",
+      "polity",
+      "authority",
+      "state",
+      "country",
+      "official",
+      "minister",
+      "region",
+      "exchange",
+      "integrate"
+    ],
+    "1": [
+      "japanese",
+      "japan",
+      "asian",
+      "lacquerware"
+    ]
+  }
+}

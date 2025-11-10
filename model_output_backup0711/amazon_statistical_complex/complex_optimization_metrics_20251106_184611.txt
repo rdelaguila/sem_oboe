@@ -1,0 +1,14 @@
+KGE MODEL TRAINING RESULTS
+==================================================
+
+Timestamp: 2025-11-06T19:19:26.825957
+Model: ComplEx (complex)
+Embedding Dimension: 128
+Entities: 8464
+Relations: 4640
+
+EVALUATION METRICS
+------------------------------
+Hits@1: 0.6080
+Hits@10: 0.8191
+MRR: 0.6829

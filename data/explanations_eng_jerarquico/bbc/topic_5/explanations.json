@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The key phrases highlight the central role of technology in driving applications, emphasizing its importance in the development of systems, networks, and services that assist users.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Technology-driven applications",
+      "System-based network services",
+      "User-focused assistance tools"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection among the terms, while relevance is high as all terms are directly related to technology. Coverage is moderate because not all terms were used in the key phrases, but the selected phrases still encompass the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of seasonal activities and routines, particularly those associated with weekends and summer, contrasting with weekday activities.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "weekend getaway",
+      "summer vacation",
+      "weekday routine"
+    ],
+    "reasoning": "The semantic coherence is high as all terms revolve around the themes of leisure, activity, and time-specific routines. The relevance to the technology domain is moderate since it involves human behavior and preferences rather than technical aspects. The coverage is good as the key phrases succinctly capture the essence of the cluster."
+  }
+}

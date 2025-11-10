@@ -1,0 +1,30 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent in linking the terms through themes of rest, disaster, and computing. It shows relevance to technology by connecting disasters with computing, but could be more specific to the tech domain. Coverage is good, addressing key semantic relationships.",
+    "strengths": [
+      "Links terms through thematic coherence",
+      "Broadens perspective by including natural phenomena and cultural practices"
+    ],
+    "weaknesses": [
+      "Lacks specificity to technology domain",
+      "Could benefit from more direct connections to computing concepts"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation demonstrates a clear thematic coherence with the terms grouped around 'Technology and Security'. It connects well to the technology domain and broadly covers the cluster's aspects. However, the inclusion of'microorganisms' might be seen as stretching the relevance to technology, potentially limiting coverage.",
+    "strengths": [
+      "Strong thematic coherence",
+      "Good connection to technology domain"
+    ],
+    "weaknesses": [
+      "Limited relevance of microorganisms to technology",
+      "Could benefit from more specific coverage"
+    ]
+  }
+}

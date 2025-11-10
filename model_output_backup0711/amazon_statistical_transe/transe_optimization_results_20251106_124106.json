@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-06T12:44:40.726595",
+  "model_path": "../data/triples_emb/amazon_statistical_transe/transe_best_model.pkl",
+  "mappings_path": "../data/triples_emb/amazon_statistical_transe/transe_best_mappings.pkl",
+  "model_type": "transe",
+  "best_embedding_dim": 200,
+  "best_mrr_score": 0.7092767953872681
+}

@@ -1,0 +1,27 @@
+{
+  "topic_id": 7,
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.31902368373495943,
+  "clusters": {
+    "0": [
+      "proportion",
+      "interest",
+      "prevalence",
+      "development",
+      "argumentation",
+      "concern",
+      "policy",
+      "growth",
+      "depository",
+      "currency"
+    ],
+    "1": [
+      "dollar",
+      "greenback",
+      "bank",
+      "mark"
+    ]
+  }
+}

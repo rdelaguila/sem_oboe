@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"administration organization\"\n2. \"establishment settlement\"\n3. \"document reference\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"administration organization\": This phrase highlights the connection between the act of managing or overseeing an organization, which is a common function within the technology domain.\n2. \"establishment settlement\": This phrase emphasizes the process of setting up or founding an organization or company, often related to the initial stages of business development in the",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the central theme of organizational management and establishment within the technology domain.\",\n    \"coherence\": 4,\n    \"relevance\": 5,\n    \"covera..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Grain-based sweetener\"\n2. \"Cereal production\"\n3. \"Wheat-oil extraction\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around agricultural commodities and their processing, focusing on the production and utilization of grains and related products.\",\n    \"coherence\": 4,\n    ..."
+  }
+}

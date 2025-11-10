@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around economic and political dynamics within the technology domain, focusing on aspects such as inflation, government policy, exchange, and resource allocation.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Inflation Development",
+      "Government Exchange",
+      "Proportion Deficiency"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, emphasizing economic and political factors. The relevance score acknowledges the direct applicability of these concepts to technology, considering the influence of economic policies and market dynamics on technological development. The coverage score is high due to the comprehensive representation of key concepts within the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of time-based data analysis, particularly focusing on financial metrics and calendar representations.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Monthly percentage change",
+      "Calendar month representation",
+      "Quarterly financial reporting"
+    ],
+    "reasoning": "The semantic coherence score is high due to the clear thematic connection between the terms. The relevance score is full as all terms are directly related to financial or temporal data analysis. Coverage is rated moderately high because the terms cover various aspects of time-series data analysis, but not every possible subfield within the technology domain. The key phrases are chosen based on their significance in summarizing the cluster's focus."
+  }
+}

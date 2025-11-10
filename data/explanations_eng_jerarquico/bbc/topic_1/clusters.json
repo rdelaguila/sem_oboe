@@ -1,0 +1,38 @@
+{
+  "topic_id": 1,
+  "best_k": 5,
+  "selected_k": 5,
+  "automatic_optimal_k": 5,
+  "global_sil": 0.3044655767620923,
+  "clusters": {
+    "0": [
+      "social_scientist",
+      "gregorian_calendar_month",
+      "car",
+      "christmas",
+      "half"
+    ],
+    "1": [
+      "game",
+      "play",
+      "season"
+    ],
+    "2": [
+      "federation",
+      "nation",
+      "compartment",
+      "division",
+      "economist",
+      "letter"
+    ],
+    "3": [
+      "january",
+      "december"
+    ],
+    "4": [
+      "try",
+      "decide",
+      "we"
+    ]
+  }
+}

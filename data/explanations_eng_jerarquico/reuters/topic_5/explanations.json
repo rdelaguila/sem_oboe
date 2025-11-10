@@ -1,0 +1,25 @@
+{
+  "0": {
+    "explanation": "The terms 'profit', 'income', and 'net' are closely related as they all pertain to financial outcomes or measurements of earnings within a business context. They collectively represent various aspects of financial performance and profitability.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Financial performance",
+      "Earnings measurement"
+    ],
+    "reasoning": "The coherence score reflects the strong semantic connection between the terms, which are all directly related to financial outcomes. The relevance score is high because these terms are fundamental in the technology domain, particularly in areas such as finance, accounting, and business intelligence. The coverage score acknowledges that the key phrases capture the essence of the cluster without being overly broad."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of negative change or diminishment in the technology sector, specifically focusing on loss and decline as indicators of downturns, stagnation, and erosion.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Technological regression",
+      "Market erosion",
+      "Innovation stagnation"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all denote a reduction or setback in technological advancements or market conditions. The relevance is rated high as these phrases directly pertain to the technology domain. Coverage is moderate because not all possible related terms are included, but the selected ones effectively capture the essence of the cluster."
+  }
+}

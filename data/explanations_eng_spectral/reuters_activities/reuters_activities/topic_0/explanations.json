@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of 'International Oil Politics', focusing on the leadership dynamics within oil cartels, diplomatic relations between countries, and the role of specific entities like the Saudi executive department.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Oil Cartel Leadership",
+      "Arabian Diplomatic Relations",
+      "Saudi Executive Department"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which all pertain to international oil politics. The relevance is rated high as these terms are directly related to the technology domain, particularly in the context of AI applications in economics and global affairs. Coverage is moderate because not all terms are equally represented in the key phrases, but they still provide a comprehensive overview of the cluster's focus."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the core concepts of supply chain management, manufacturing, and market dynamics within the technology domain, particularly focusing on the petroleum industry. It highlights the importance of optimizing various aspects such as supply chain integration, manufacturing efficiency, and market demand analysis.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Supply chain integration",
+      "Manufacturing efficiency",
+      "Market demand analysis"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, as they all pertain to strategic operations and decision-making processes in the technology domain. The relevance score is high because these terms are directly applicable to the petroleum industry, which is a significant part of the technology sector. Coverage is rated moderately due to the exclusion of some terms like 'export strategy optimization' and 'production capacity enhancement', which also contribute significantly to the cluster's meaning. The selected key phrases encapsulate the essence of the cluster by emphasizing critical areas of focus within the technology domain."
+  }
+}

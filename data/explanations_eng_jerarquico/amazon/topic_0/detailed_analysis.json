@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"great work\"\n2. \"quality substance\"\n3. \"good usage\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around positive evaluations and experiences related to the quality and performance of a product or service, often associated with high achievement or excel..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Felid Canine Distinction\"\n2. \"Domesticated Carnivores\" \n\nEXPLANATION:\n- The first key phrase highlights the distinction between the broader category of felids (which includes cats) and the specific category of canines (which includes dogs). This emphasizes the hierarchical relationship within the animal kingdom.\n- The second key phrase focuses on the shared characteristic of being domesticated carnivores, which is a significant aspect of how cats and dogs are perceived and utilized in",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster analysis groups together terms that are related to the classification and characteristics of domesticated carnivorous mammals, specifically focusing on cats and dog..."
+  }
+}

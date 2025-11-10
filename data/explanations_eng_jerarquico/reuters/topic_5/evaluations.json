@@ -1,0 +1,29 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent in linking the terms together, but could be more specific about their differences. It is relevant to the financial domain, yet might benefit from mentioning industry-specific nuances. The coverage is comprehensive, addressing the main aspects of financial performance.",
+    "strengths": [
+      "Clear linkage between terms",
+      "Broad relevance to financial domain"
+    ],
+    "weaknesses": [
+      "Lack of specificity on differences between terms",
+      "Potential for deeper industry context"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "justification": "The explanation is coherent and captures the unity of the terms by linking them to a common theme of negative change in the technology sector. It is highly relevant to the technology domain, connecting to the broader context of market dynamics and innovation. The coverage is comprehensive, addressing key semantic relationships such as technological regression, market erosion, and innovation stagnation.",
+    "strengths": [
+      "Clear connection between terms and a common theme",
+      "Strong relevance to technology domain"
+    ],
+    "weaknesses": [
+      "Lacks specific examples or data points to further strengthen the explanation"
+    ]
+  }
+}

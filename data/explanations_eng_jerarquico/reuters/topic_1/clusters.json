@@ -1,0 +1,68 @@
+{
+  "topic_id": 1,
+  "best_k": 15,
+  "selected_k": 15,
+  "automatic_optimal_k": 15,
+  "global_sil": 0.29616992808154463,
+  "clusters": {
+    "0": [
+      "weekday",
+      "friday"
+    ],
+    "1": [
+      "device",
+      "buffer"
+    ],
+    "2": [
+      "coffee",
+      "cocoa",
+      "drink"
+    ],
+    "3": [
+      "depository",
+      "depositary",
+      "allotment"
+    ],
+    "4": [
+      "merchandise",
+      "foodstuff"
+    ],
+    "5": [
+      "creator",
+      "producer"
+    ],
+    "6": [
+      "treasury",
+      "bank"
+    ],
+    "7": [
+      "edible_nut"
+    ],
+    "8": [
+      "market",
+      "stock"
+    ],
+    "9": [
+      "country",
+      "region"
+    ],
+    "10": [
+      "today",
+      "nowadays"
+    ],
+    "11": [
+      "quota"
+    ],
+    "12": [
+      "brazil"
+    ],
+    "13": [
+      "march",
+      "protest"
+    ],
+    "14": [
+      "cost",
+      "price"
+    ]
+  }
+}

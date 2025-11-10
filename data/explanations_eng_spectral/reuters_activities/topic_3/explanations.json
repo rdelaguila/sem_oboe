@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around financial metrics and indicators, specifically focusing on aspects such as dividend distribution, income generation, and debt management within a company or financial institution.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Dividend Decline",
+      "Income Earning Rate",
+      "Depository Debt Ratio"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which all pertain to financial analysis and decision-making. The relevance score is high because these terms are directly applicable to the financial technology domain. Coverage is rated moderately high as the terms cover various aspects of financial performance and risk assessment. The key phrases effectively summarize the central concepts of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of 'Temporal and Geographical Contexts in Technology Communication', focusing on specific months, regions, languages, and industries.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Japanese technology company",
+      "American English communication",
+      "February product release"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms, which all relate to time, location, language, and industry within the technology sector. The relevance is high as these terms are directly pertinent to the technology domain. The coverage is rated as 4 because while the terms cover a range of aspects, they could be more diverse to fully encompass the breadth of the technology field. The key phrases are chosen for their direct relevance and representational power within the cluster."
+  }
+}

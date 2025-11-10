@@ -1,0 +1,63 @@
+{
+  "repository": "bbc",
+  "total_topics": 7,
+  "topics_processed": 7,
+  "topics_metrics": [
+    {
+      "topic_id": 0,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.5,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/bbc/topic_0"
+    },
+    {
+      "topic_id": 1,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.6,
+      "avg_coverage": 3.6,
+      "num_clusters": 5,
+      "output_dir": "../data/explanations_eng/bbc/topic_1"
+    },
+    {
+      "topic_id": 2,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.416666666666667,
+      "avg_coverage": 3.4166666666666665,
+      "num_clusters": 12,
+      "output_dir": "../data/explanations_eng/bbc/topic_2"
+    },
+    {
+      "topic_id": 3,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.384615384615385,
+      "avg_coverage": 3.769230769230769,
+      "num_clusters": 13,
+      "output_dir": "../data/explanations_eng/bbc/topic_3"
+    },
+    {
+      "topic_id": 4,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.0,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/bbc/topic_4"
+    },
+    {
+      "topic_id": 5,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.0,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng/bbc/topic_5"
+    },
+    {
+      "topic_id": 6,
+      "avg_coherence": 4.0,
+      "avg_relevance": 4.375,
+      "avg_coverage": 3.25,
+      "num_clusters": 8,
+      "output_dir": "../data/explanations_eng/bbc/topic_6"
+    }
+  ]
+}

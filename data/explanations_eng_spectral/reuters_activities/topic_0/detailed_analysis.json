@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Oil Cartel Leadership\"\n2. \"Arabian Diplomatic Relations\"\n3. \"Saudi Executive Department\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'International Oil Politics', focusing on the leadership dynamics within oil cartels, diplomatic relations between countries, and the..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. Supply chain integration\n2. Manufacturing efficiency\n3. Export strategy optimization\n4. Production capacity enhancement\n5. Commodity pricing dynamics\n6. Pipeline logistics coordination\n7. Market demand analysis\n8. Refinery output optimization\n9. Company performance benchmarking\n10. Petroleum industry trends\n\nPlease select 2-3 key phrases that best capture the essence of the semantic relationships among the given terms.\nBased on the context provided, which includes terms related to technology domain clustering",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concepts of supply chain management, manufacturing, and market dynamics within the technology domain, particularly focusing on the petroleu..."
+  }
+}

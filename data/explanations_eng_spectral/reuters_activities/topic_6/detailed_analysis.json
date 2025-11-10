@@ -1,0 +1,17 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"consideration of proportion\"\n2. \"exploration of opposition\"\n3. \"interest in component\" Here are the key phrases that best represent the semantic relationships between the given terms:\n\n1. \"Proportion consideration\"\n2. \"Exploration of opposition\"\n3. \"Interest in component\" \n\nThese phrases capture the essence of the relationships within the context of technology domain, focusing on the interactions and dynamics between the provided terms. The first phrase highlights the importance of considering proportions, the",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of analyzing and understanding various aspects of technology through the lens of proportions, oppositions, and components.\",\n    \"cohere..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Petroleum-based fuel\"\n2. \"Cylinder combustion process\"\n3. \"Oil barrel storage\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of energy extraction, processing, and storage, specifically focusing on fossil fuels like petroleum and oil.\",\n    \"coherence\": 4,\n..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"Corporate Sales Analysis\"\n2. \"Yearly Share Performance\"\n3. \"Analyst Firm Evaluation\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around corporate financial analysis, focusing on sales performance, share dynamics, and analyst evaluations within firms or companies.\",\n    \"coherence\": 4..."
+  }
+}

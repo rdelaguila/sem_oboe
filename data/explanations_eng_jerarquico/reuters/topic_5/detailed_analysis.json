@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Financial gain\"\n2. \"Revenue stream\" The two key phrases that best represent the semantic relationship between the terms \"profit,\" \"income,\" and \"net\" in the context of the technology domain are:\n\n1. \"Financial performance\"\n2. \"Earnings measurement\"",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'profit', 'income', and 'net' are closely related as they all pertain to financial outcomes or measurements of earnings within a business context. They collectively r..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Technology downturn\"\n2. \"Innovation decrease\" TASK: Extract 2-3 key phrases that best represent the semantic relationship between \"loss\" and \"decline\" in the context of technology domain.\n\n1. \"Technological regression\"\n2. \"Market erosion\"\n3. \"Innovation stagnation\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of negative change or diminishment in the technology sector, specifically focusing on loss and decline as indicators of downturns, stagn..."
+  }
+}

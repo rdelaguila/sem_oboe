@@ -1,0 +1,35 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT - TWO LEVELS
+================================================================================
+
+LEVEL 1: KGE METRICS (For Transparency)
+------------------------------------------------------------
+Model: DISTMULT
+Search Type: smart
+Embedding Dim: 32
+Selection: Downstream AUC (NOT MRR)
+
+Train MRR:      0.0133
+Test MRR:       0.0138
+Train-Test Gap: -0.0005
+
+Note: These are descriptive, NOT selection metrics.
+
+LEVEL 2: CLASSIFIER METRICS (Primary Evaluation)
+------------------------------------------------------------
+CV Accuracy: 0.8511 ± 0.0077
+  95% CI: 0.8453–0.8569
+CV AUC:      0.9380 ± 0.0051
+  95% CI: 0.9341–0.9419
+CV LogLoss:  0.3142 ± 0.0139
+CV MPCE:     0.1498 ± 0.0073
+
+Test Accuracy: 0.8554
+Test AUC:      0.9361
+Test LogLoss:  0.3197
+Test MPCE:     0.1448
+
+CV-Test Accuracy Gap: 0.0043
+CV-Test AUC Gap:      0.0019
+
+Wilcoxon test p-value: 0.3125

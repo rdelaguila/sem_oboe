@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of aggregation and enhancement within a geographical context, specifically focusing on countries and regions. The terms 'proportion', 'consolidate', 'country','region', 'depository', 'period','strengthen', 'rate', 'rise', and 'billion' collectively suggest an analysis of economic or financial consolidation and growth trends across different territories.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Country Consolidation Rate",
+      "Proportion Strengthening",
+      "Regional Depository Rise"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which all pertain to the aggregation and improvement of economic indicators in specific areas. The relevance score is high because these terms are pertinent to the financial and economic analysis domain. Coverage is rated as 4 due to the comprehensive representation of the cluster's main ideas through the selected key phrases."
+  },
+  "1": {
+    "explanation": "The key phrases are derived from the given terms and encapsulate specific aspects related to time measurement, mathematical operations, and geographical context.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Gregorian-month calendar",
+      "Large-integer computation",
+      "North-American date system"
+    ],
+    "reasoning": "The coherence score reflects that the phrases are clear and directly related to the terms. Relevance is high as they pertain to the technology domain, particularly in computing and data processing. Coverage is good since they encompass different aspects of the input terms."
+  }
+}

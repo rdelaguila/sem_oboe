@@ -1,0 +1,42 @@
+{
+  "topic_id": 0,
+  "clustering_method": "spectral",
+  "best_k": 9,
+  "selected_k": 9,
+  "automatic_optimal_k": 9,
+  "global_sil": 0.32102592870249413,
+  "clusters": {
+    "0": [
+      "opec"
+    ],
+    "1": [
+      "production",
+      "manufacture"
+    ],
+    "2": [
+      "crude",
+      "oil"
+    ],
+    "3": [
+      "arabian",
+      "saudi"
+    ],
+    "4": [
+      "price",
+      "cost"
+    ],
+    "5": [
+      "executive_department"
+    ],
+    "6": [
+      "oil_cartel"
+    ],
+    "7": [
+      "cylinder",
+      "barrel"
+    ],
+    "8": [
+      "usda"
+    ]
+  }
+}

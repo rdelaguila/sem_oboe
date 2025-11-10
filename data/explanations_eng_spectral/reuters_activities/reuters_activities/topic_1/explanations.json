@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around military activities, focusing on personnel, transport, aggression, and attacks within a structured context, often documented and reported by officials.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Military personnel transport",
+      "Official report on aggression",
+      "Documented military structure attack"
+    ],
+    "reasoning": "The coherence score reflects the tight thematic connection between the terms, which all pertain to military operations. The relevance score is high as these terms directly align with the technology domain, particularly cybersecurity and defense systems. Coverage is rated moderately due to the limited number of terms, but they collectively cover significant aspects of the domain."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of technology, specifically focusing on CT scan technology and its implications in the digital divide within the Middle East, particularly Kuwait.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "key_phrases": [
+      "CT scan technology",
+      "Cross-cultural digital divide",
+      "Middle Eastern tech landscape"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all relate to technology and its applications or implications. The relevance score is high as these terms are directly related to the technology domain. Coverage is rated lower because not all terms were used in the key phrases, and some may not be fully represented by them."
+  }
+}

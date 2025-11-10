@@ -1,0 +1,30 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent and covers the main aspects of the cluster, focusing on fictional narratives. However, it could be more specific about the technology domain, as the terms are more general narrative concepts.",
+    "strengths": [
+      "Clear focus on central theme",
+      "Addresses key semantic relationships"
+    ],
+    "weaknesses": [
+      "Lacks explicit connection to technology domain",
+      "Could benefit from more specific examples or applications"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent in describing the human cognitive processes related to information processing. However, it could be more specific about how these processes relate to AI technologies. The coverage is adequate, addressing key aspects like perception, thought, and discovery. The relevance is moderate since it connects the terms to the broader topic but might not fully capture the technological implications.",
+    "strengths": [
+      "Clear connection to human cognitive processes",
+      "Adequate coverage of cluster terms"
+    ],
+    "weaknesses": [
+      "Lack of explicit AI technology connections",
+      "Moderate relevance to the technology domain"
+    ]
+  }
+}

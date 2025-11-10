@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of purchasing and consuming food items, particularly those originating from South America, with a focus on coffee, cocoa, and related products.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "key_phrases": [
+      "Buy coffee",
+      "South American foodstuff",
+      "Cocoa weight unit"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms, which all pertain to the consumption and trade of specific food items. The relevance score is high as these terms are directly related to the technology domain of data analysis and machine learning, particularly in the context of topic modeling. The coverage score is moderate because not all terms within the cluster are represented by the key phrases, especially 'drink', 'weight_unit', and 'edible_nut'."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of international cooperation and technology exchange, emphasizing agreements, provisions, allocations, and future meetings.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "International exchange agreement",
+      "Country provision allocation",
+      "Future technology transfer meeting"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection among the terms. The relevance score is high as these terms directly pertain to technology-related activities. Coverage is moderate because not all terms were used in the key phrases, but they still represent the core concepts of the cluster."
+  }
+}

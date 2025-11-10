@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. Character portrayal in fiction\n2. Existence of stories within a collection\n3. Quality of storytelling in a book\n\nNote: The provided context and clustering quality are for illustration purposes only. In reality, you would analyze the text data to determine the appropriate key phrases based on the semantic relationships between the given terms.",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the thematic concept of narrative representation and storytelling, encompassing various aspects such as fictional characters, their portrayal, the e..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"search technology\"\n2. \"evaluate content\"\n3. \"innovative solutions\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around cognitive and evaluative processes related to understanding, appreciating, and discovering information or content through technological means.\",\n   ..."
+  }
+}

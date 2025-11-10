@@ -1,0 +1,74 @@
+{
+  "topic_id": 4,
+  "clustering_method": "spectral",
+  "best_k": 8,
+  "selected_k": 8,
+  "automatic_optimal_k": 8,
+  "global_sil": 0.29966074069731735,
+  "clusters": {
+    "0": [
+      "wheat",
+      "soybean",
+      "cereal",
+      "corn",
+      "legume",
+      "crop",
+      "grain",
+      "sugar",
+      "sweetener"
+    ],
+    "1": [
+      "estimate",
+      "calculate",
+      "total",
+      "yield",
+      "tonne",
+      "cost",
+      "number"
+    ],
+    "2": [
+      "department",
+      "division",
+      "report",
+      "council",
+      "document"
+    ],
+    "3": [
+      "import",
+      "export",
+      "manufacture",
+      "production",
+      "cultivation",
+      "commodity",
+      "product",
+      "shipment",
+      "agriculture"
+    ],
+    "4": [
+      "year",
+      "month",
+      "week",
+      "season",
+      "period"
+    ],
+    "5": [
+      "porcelain",
+      "fabric",
+      "china",
+      "cotton"
+    ],
+    "6": [
+      "sale",
+      "sell",
+      "price"
+    ],
+    "7": [
+      "weight_unit",
+      "gregorian_calendar_month",
+      "executive_department",
+      "usda",
+      "soviet",
+      "april"
+    ]
+  }
+}

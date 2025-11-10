@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. Military personnel transport\n2. Official report on aggression\n3. Documented military structure attack\n\nThese key phrases capture the essence of the semantic relationships within the given terms, highlighting specific aspects related to the technology domain. They emphasize interactions involving personnel, forces, and military operations, while also considering documentation and official reports. The phrases effectively convey the context and interconnections among the provided terms.",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around military activities, focusing on personnel, transport, aggression, and attacks within a structured context, often documented and reported by officia..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"CT scan technology\"\n2. \"Cross-cultural digital divide\"\n3. \"Middle Eastern tech landscape\"",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of technology, specifically focusing on CT scan technology and its implications in the digital divide within the Middle East, particular..."
+  }
+}

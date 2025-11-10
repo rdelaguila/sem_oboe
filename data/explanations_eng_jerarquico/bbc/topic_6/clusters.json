@@ -1,0 +1,53 @@
+{
+  "topic_id": 6,
+  "best_k": 8,
+  "selected_k": 8,
+  "automatic_optimal_k": 8,
+  "global_sil": 0.24524736530406785,
+  "clusters": {
+    "0": [
+      "player",
+      "league",
+      "game",
+      "team",
+      "club",
+      "play",
+      "score",
+      "goal"
+    ],
+    "1": [
+      "moment",
+      "time",
+      "figure",
+      "digit",
+      "chancellor"
+    ],
+    "2": [
+      "arm",
+      "armrest"
+    ],
+    "3": [
+      "google",
+      "search"
+    ],
+    "4": [
+      "association",
+      "union",
+      "group",
+      "principal",
+      "conflict",
+      "performer"
+    ],
+    "5": [
+      "colour",
+      "brown"
+    ],
+    "6": [
+      "feud"
+    ],
+    "7": [
+      "two",
+      "one"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "topic_id": 2,
+  "best_k": 6,
+  "selected_k": 6,
+  "automatic_optimal_k": 6,
+  "global_sil": 0.3332429557324143,
+  "clusters": {
+    "0": [
+      "gregorian_calendar_month",
+      "large_integer",
+      "pct"
+    ],
+    "1": [
+      "year",
+      "period",
+      "billion"
+    ],
+    "2": [
+      "rise",
+      "fall"
+    ],
+    "3": [
+      "depository",
+      "bank",
+      "proportion"
+    ],
+    "4": [
+      "price",
+      "cost"
+    ],
+    "5": [
+      "january",
+      "february"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around positive evaluations and experiences related to the quality and performance of a product or service, often associated with high achievement or excellence.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "great work",
+      "quality substance",
+      "good usage"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic unity among the terms, which all revolve around positive assessments. The relevance score is high as these terms are directly pertinent to the technology domain, particularly in contexts where user feedback, product reviews, or performance metrics are discussed. The coverage score acknowledges that while the terms cover a specific aspect of user experience, they might not encompass the full breadth of possible topics within the technology domain."
+  },
+  "1": {
+    "explanation": "The cluster analysis groups together terms that are related to the classification and characteristics of domesticated carnivorous mammals, specifically focusing on cats and dogs.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "Felid Canine Distinction",
+      "Domesticated Carnivores"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms, emphasizing their biological classification and domestication. The relevance score is high because these terms directly pertain to the study of AI and machine learning, particularly in the context of understanding and modeling human perception of animals. The coverage score acknowledges that while the terms are specific, they adequately represent the scope of the cluster without being overly broad."
+  }
+}

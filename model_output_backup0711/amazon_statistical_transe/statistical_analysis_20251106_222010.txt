@@ -1,0 +1,35 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT - TWO LEVELS
+================================================================================
+
+LEVEL 1: KGE METRICS (For Transparency)
+------------------------------------------------------------
+Model: TRANSE
+Search Type: smart
+Embedding Dim: 32
+Selection: Downstream AUC (NOT MRR)
+
+Train MRR:      0.5606
+Test MRR:       0.1346
+Train-Test Gap: 0.4260
+
+Note: These are descriptive, NOT selection metrics.
+
+LEVEL 2: CLASSIFIER METRICS (Primary Evaluation)
+------------------------------------------------------------
+CV Accuracy: 0.8962 ± 0.0049
+  95% CI: 0.8924–0.8999
+CV AUC:      0.9632 ± 0.0037
+  95% CI: 0.9603–0.9660
+CV LogLoss:  0.2459 ± 0.0134
+CV MPCE:     0.1043 ± 0.0050
+
+Test Accuracy: 0.8847
+Test AUC:      0.9553
+Test LogLoss:  0.2762
+Test MPCE:     0.1163
+
+CV-Test Accuracy Gap: 0.0114
+CV-Test AUC Gap:      0.0079
+
+Wilcoxon test p-value: 0.4375

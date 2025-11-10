@@ -1,0 +1,28 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation is coherent and relevant to the financial domain, capturing the essence of the cluster. However, it could be more comprehensive by including additional terms like 'profit' and 'gain'.",
+    "strengths": [
+      "Captures the essence of the cluster",
+      "Relevant to financial domain"
+    ],
+    "weaknesses": [
+      "Limited coverage due to exclusion of some key terms"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation is coherent and relevant to the technology domain, connecting the terms to a meaningful theme. However, it could be more comprehensive by including additional terms like 'january', 'april', 'thursday', 'friday','michigan', and 'english' within the explanation.",
+    "strengths": [
+      "Clear connection between terms and theme",
+      "Relevance to technology domain"
+    ],
+    "weaknesses": [
+      "Limited coverage of all terms in the cluster"
+    ]
+  }
+}
