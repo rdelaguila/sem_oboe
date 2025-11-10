@@ -1,8 +1,0 @@
-{
-  "timestamp": "2025-11-01T18:48:48.722541",
-  "model_path": "../data/triples_emb/bbc_2iter/convkb_model.pkl",
-  "mappings_path": "../data/triples_emb/bbc_2iter/convkb_mappings.pkl",
-  "model_type": "convkb",
-  "best_embedding_dim": 512,
-  "best_score": 0.14956200122833252
-}
