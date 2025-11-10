@@ -1,0 +1,67 @@
+{
+  "topic_id": 1,
+  "clustering_method": "spectral",
+  "best_k": 6,
+  "selected_k": 6,
+  "automatic_optimal_k": 6,
+  "global_sil": 0.17291373457922085,
+  "clusters": {
+    "0": [
+      "match",
+      "game",
+      "score",
+      "play",
+      "lead",
+      "second",
+      "contest",
+      "season",
+      "kick"
+    ],
+    "1": [
+      "year",
+      "week",
+      "december",
+      "january",
+      "minute",
+      "time",
+      "period",
+      "half"
+    ],
+    "2": [
+      "compartment",
+      "federation",
+      "nation",
+      "position",
+      "division",
+      "rating",
+      "centre",
+      "area",
+      "line",
+      "route"
+    ],
+    "3": [
+      "irish",
+      "gaelic",
+      "gregorian_calendar_month",
+      "social_scientist",
+      "christmas",
+      "letter"
+    ],
+    "4": [
+      "go",
+      "try",
+      "fly",
+      "decide",
+      "we",
+      "bounce",
+      "break"
+    ],
+    "5": [
+      "trainer",
+      "accident",
+      "coach",
+      "injury",
+      "car"
+    ]
+  }
+}

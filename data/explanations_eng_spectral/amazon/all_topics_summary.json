@@ -1,0 +1,25 @@
+{
+  "repository": "amazon",
+  "clustering_method": "spectral",
+  "generation_model": "Qwen/Qwen2-7B-Instruct",
+  "total_topics": 2,
+  "topics_processed": 2,
+  "topics_metrics": [
+    {
+      "topic_id": 0,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.5,
+      "avg_coverage": 3.5,
+      "num_clusters": 4,
+      "output_dir": "../data/explanations_eng_spectral/amazon/topic_0"
+    },
+    {
+      "topic_id": 1,
+      "avg_coherence": 4.0,
+      "avg_relevance": 3.5,
+      "avg_coverage": 3.5,
+      "num_clusters": 2,
+      "output_dir": "../data/explanations_eng_spectral/amazon/topic_1"
+    }
+  ]
+}

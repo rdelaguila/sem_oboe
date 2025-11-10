@@ -1,0 +1,17 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"football game\"\n2. \"player score\"\n3. \"league club\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of'sports events', specifically focusing on football games, including aspects like players' scores, the involvement of clubs and leagues..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"association leader\"\n2. \"municipality union\"\n3. \"administrator conflict\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of organizational leadership and governance within specific geographical contexts, particularly focusing on associations, administrators..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"search for information\"\n2. \"need to see\" \n3. \"google search results\" \n\nEXPLANATION:\n1. \"search for information\" captures the act of looking up or finding data using technology, which is relevant to the context of technology domain.\n2. \"need to see\" represents the desire or requirement to view something, often related to visual content or information, which aligns with the context of technology usage.\n3. \"google search results\" highlights the",
+    "verification_passed": true,
+    "raw_output": " {\n    \"explanation\": \"The cluster revolves around the concept of seeking and accessing information through technological means, particularly focusing on visual content and utilizing search engines.\",..."
+  }
+}

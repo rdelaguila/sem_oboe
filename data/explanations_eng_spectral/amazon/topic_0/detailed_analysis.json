@@ -1,0 +1,22 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Felid Canine Distinction\"\n2. \"Pet Toy Classification\" The two key phrases that best represent the semantic relationship between the terms \"cat,\" \"dog,\" \"felid,\" \"canine,\" and \"toy\" within the technology domain could be:\n\n1. \"Pet Species Identification\"\n2. \"Toy Compatibility with Species\"\n\nThese phrases capture the essence of distinguishing between feline and canine species and the relevance of toys for different pet types, which is pertinent to the technology",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'cat', 'dog', 'felid', 'canine', and 'toy' are grouped together because they all pertain to the concept of pet species and their associated items. This cluster highli..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"think about\"\n2. \"like technology\"\n3. \"try new gadgets\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of engagement with technology, encompassing thoughts, preferences, experimentation, and decision-making processes.\",\n    \"coherence\": 4,..."
+  },
+  "2": {
+    "key_phrases_extracted": "1. \"past time\"\n2. \"small indefinite amount of time\"\n3. \"old period\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'time', encompassing various temporal dimensions such as past, present, and future, along with related notions of duration and age.\",..."
+  },
+  "3": {
+    "key_phrases_extracted": "1. \"product quality\"\n2. \"nutrient usage\"\n3. \"liquid quantity\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of managing and understanding various aspects of substances or products, including their quality, usage, and quantity.\",\n    \"coherence\"..."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Technology access\"\n2. \"Internet application\"\n3. \"System structure\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the central theme of 'Technology Access and Utilization', encompassing various aspects such as internet applications, system structures, and the bro..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"Summer season\"\n2. \"Computer network\"\n3. \"Large indefinite amount\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Summer season\": This phrase connects the terms \"summer\" and \"season,\" highlighting the seasonal context.\n2. \"Weekday vs. Saturday\": This phrase contrasts \"weekday\" with \"saturday,\" emphasizing the difference between workdays and weekends.\n3. \"Million in technology\": This phrase links \"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of time, specifically focusing on seasons, days of the week, and large quantities related to technology.\",\n    \"coherence\": 4,\n    \"rele..."
+  }
+}

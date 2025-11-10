@@ -1,0 +1,35 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT - TWO LEVELS
+================================================================================
+
+LEVEL 1: KGE METRICS (For Transparency)
+------------------------------------------------------------
+Model: CONVKB
+Search Type: smart
+Embedding Dim: 8
+Selection: Downstream AUC (NOT MRR)
+
+Train MRR:      0.1134
+Test MRR:       0.0787
+Train-Test Gap: 0.0347
+
+Note: These are descriptive, NOT selection metrics.
+
+LEVEL 2: CLASSIFIER METRICS (Primary Evaluation)
+------------------------------------------------------------
+CV Accuracy: 0.8421 ± 0.0071
+  95% CI: 0.8367–0.8475
+CV AUC:      0.9297 ± 0.0052
+  95% CI: 0.9258–0.9336
+CV LogLoss:  0.3331 ± 0.0106
+CV MPCE:     0.1589 ± 0.0071
+
+Test Accuracy: 0.8375
+Test AUC:      0.9228
+Test LogLoss:  0.3514
+Test MPCE:     0.1628
+
+CV-Test Accuracy Gap: 0.0045
+CV-Test AUC Gap:      0.0069
+
+Wilcoxon test p-value: 1.0000

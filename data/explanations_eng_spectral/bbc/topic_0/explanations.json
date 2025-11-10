@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around concepts related to technology, computation, and disaster scenarios, specifically focusing on the role of digital computers in handling large integers and the impact of catastrophic events like tsunamis.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "key_phrases": [
+      "Sunday rest",
+      "Digital computer catastrophe",
+      "Large integer calculation"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms, which revolve around technology and its implications in both routine activities (like Sunday rest) and extreme events (like digital computer catastrophes). The relevance score is high as all terms are directly connected to the technology domain. Coverage is moderate because not all terms are equally represented in the key phrases, but they still capture the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the core concepts of software applications within the technology domain, focusing on their functionality, documentation, organizational structure, and usage within companies.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "application software",
+      "document interpretation",
+      "system organization"
+    ],
+    "reasoning": "The coherence score reflects the tight thematic connection between the terms, which all pertain to software and its various aspects. The relevance score is high as these terms are directly related to the technology domain. Coverage is rated moderately since not all aspects of the technology domain are represented, but the selected terms cover a significant portion of it. The key phrases effectively summarize the cluster's focus."
+  }
+}

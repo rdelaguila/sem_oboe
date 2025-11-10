@@ -1,0 +1,69 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: bbc
+Topic ID: 0
+Selected vocabulary: 85 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected: 2
+Clustering quality (Silhouette): 0.259
+Method: Spectral clustering + Explanatory LLM
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: sunday, tsunami, digital_computer, large_integer, day_of_rest, thousand, catastrophe, inhabitant, third, window
+  
+  Explanation: The cluster revolves around concepts related to technology, computation, and disaster scenarios, specifically focusing on the role of digital computers in handling large integers and the impact of catastrophic events like tsunamis.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+  
+  Strengths: Clear connection between terms, Relevance to technology domain
+  Weaknesses: Limited coverage of specific relationships, Lack of concrete examples
+  
+  Justification: The explanation is coherent and relevant to the technology domain, connecting concepts like digital computers, large integers, and disaster scenarios. However, it could be more comprehensive by including more specific examples or connections between the terms.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "Sunday rest"
+2. "Digital computer catastrophe"
+3. "Large integer calculation"
+     • Verification passed: True
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: application, document, system, software, program, organization, computer, interpretation, individual, company
+  
+  Explanation: The cluster revolves around the core concepts of software applications within the technology domain, focusing on their functionality, documentation, organizational structure, and usage within companies.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 5/5
+     • Coverage: 3/5
+  
+  Strengths: Clear connection to technology domain, Logical clustering
+  Weaknesses: Limited coverage of specific technical aspects, Could benefit from additional terms for completeness
+  
+  Justification: The explanation is coherent in its focus on software applications within the technology domain. It connects well with the broader context by mentioning the relevance to companies and organizational structures. However, it could be more comprehensive by including more specific terms related to programming, development, and user interaction.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "application software"
+2. "document interpretation"
+3. "system organization"
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 4.50/5
+  Average coverage: 3.00/5
+  Clustering quality: 0.259
+

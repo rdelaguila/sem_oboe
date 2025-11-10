@@ -1,0 +1,86 @@
+{
+  "amazon": {
+    "status": "SUCCESS",
+    "ces_applied": false,
+    "kge_metrics": {
+      "pre_ces": {
+        "train": {
+          "mrr": 0.6625323295593262,
+          "hits_at_1": 0.5425836464483808,
+          "hits_at_10": 0.8308284129540168
+        },
+        "test": {
+          "mrr": 0.17320263385772705,
+          "hits_at_1": 0.13595706618962433,
+          "hits_at_10": 0.2372093023255814
+        },
+        "gap": 0.4893296957015991
+      },
+      "post_ces": null,
+      "gap_improvement": null,
+      "final_train_mrr": 0.6625323295593262,
+      "final_test_mrr": 0.17320263385772705,
+      "final_train_test_gap": 0.4893296957015991
+    },
+    "test_accuracy": 0.8931580721267274,
+    "test_auc": 0.9592795302741808,
+    "cv_mean_accuracy": 0.9011535951929595,
+    "cv_mean_auc": 0.9660824461178604
+  },
+  "bbc": {
+    "status": "SUCCESS",
+    "ces_applied": false,
+    "kge_metrics": {
+      "pre_ces": {
+        "train": {
+          "mrr": 0.7483397722244263,
+          "hits_at_1": 0.618089643518146,
+          "hits_at_10": 0.9265309406936509
+        },
+        "test": {
+          "mrr": 0.3302673399448395,
+          "hits_at_1": 0.2621499839073061,
+          "hits_at_10": 0.4757000321853878
+        },
+        "gap": 0.4180724322795868
+      },
+      "post_ces": null,
+      "gap_improvement": null,
+      "final_train_mrr": 0.7483397722244263,
+      "final_test_mrr": 0.3302673399448395,
+      "final_train_test_gap": 0.4180724322795868
+    },
+    "test_accuracy": 0.8870772946859904,
+    "test_auc": 0.9845779717547988,
+    "cv_mean_accuracy": 0.8964317614606594,
+    "cv_mean_auc": 0.9845283102945261
+  },
+  "reuters_activities": {
+    "status": "SUCCESS",
+    "ces_applied": false,
+    "kge_metrics": {
+      "pre_ces": {
+        "train": {
+          "mrr": 0.7788296937942505,
+          "hits_at_1": 0.6592860976918948,
+          "hits_at_10": 0.9400831991411701
+        },
+        "test": {
+          "mrr": 0.4286726415157318,
+          "hits_at_1": 0.3792918454935622,
+          "hits_at_10": 0.5244098712446352
+        },
+        "gap": 0.3501570522785187
+      },
+      "post_ces": null,
+      "gap_improvement": null,
+      "final_train_mrr": 0.7788296937942505,
+      "final_test_mrr": 0.4286726415157318,
+      "final_train_test_gap": 0.3501570522785187
+    },
+    "test_accuracy": 0.8657314629258517,
+    "test_auc": 0.9824609614135942,
+    "cv_mean_accuracy": 0.8816401107129002,
+    "cv_mean_auc": 0.9857283021446065
+  }
+}

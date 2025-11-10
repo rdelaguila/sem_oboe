@@ -1,0 +1,33 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT - WITH CES STRATEGY
+================================================================================
+
+LEVEL 1: KGE METRICS (With CES Impact)
+------------------------------------------------------------
+Model: DISTMULT
+Search Type: smart
+Embedding Dim: 20
+CES Applied: False
+
+Train MRR: 0.3940
+Test MRR:  0.1593
+Gap:       0.2347
+
+LEVEL 2: CLASSIFIER METRICS (Using POST-CES Embeddings)
+------------------------------------------------------------
+CV Accuracy: 0.8648 ± 0.0052
+  95% CI: 0.8609–0.8687
+CV AUC:      0.9774 ± 0.0033
+  95% CI: 0.9749–0.9798
+CV LogLoss:  0.4432 ± 0.0165
+CV MPCE:     0.1882 ± 0.0175
+
+Test Accuracy: 0.8620
+Test AUC:      0.9768
+Test LogLoss:  0.4545
+Test MPCE:     0.2041
+
+CV-Test Accuracy Gap: 0.0028
+CV-Test AUC Gap:      0.0005
+
+Wilcoxon test p-value: 0.4375

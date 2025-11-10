@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of fictional narratives, focusing on elements such as novels, series, authors, books, collections, stories, portrayals, characters, and texts. These terms collectively represent the creative output of human imagination and storytelling within the literary domain.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "fictional narrative",
+      "author's creation",
+      "book series"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to the creation and presentation of fictional stories. The relevance score is high because these terms are directly related to the domain of literature and storytelling. The coverage score acknowledges that while the terms cover a significant aspect of the literary domain, they might not encompass every possible term related to fiction or storytelling. The key phrases were chosen based on their ability to succinctly capture the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around understanding, desiring, and perceiving aspects related to technology, emphasizing human cognition and attitudes towards technological advancements.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "understand technology",
+      "desire innovation",
+      "perceive functionality"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection among the terms. The relevance is rated high as all terms directly pertain to the technology domain. Coverage is moderate because not all terms were used in the key phrases, but they still represent the essence of the cluster."
+  }
+}

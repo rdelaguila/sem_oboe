@@ -1,0 +1,30 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation is coherent and relevant to the technology domain, connecting concepts like digital computers, large integers, and disaster scenarios. However, it could be more comprehensive by including more specific examples or connections between the terms.",
+    "strengths": [
+      "Clear connection between terms",
+      "Relevance to technology domain"
+    ],
+    "weaknesses": [
+      "Limited coverage of specific relationships",
+      "Lack of concrete examples"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 3,
+    "justification": "The explanation is coherent in its focus on software applications within the technology domain. It connects well with the broader context by mentioning the relevance to companies and organizational structures. However, it could be more comprehensive by including more specific terms related to programming, development, and user interaction.",
+    "strengths": [
+      "Clear connection to technology domain",
+      "Logical clustering"
+    ],
+    "weaknesses": [
+      "Limited coverage of specific technical aspects",
+      "Could benefit from additional terms for completeness"
+    ]
+  }
+}

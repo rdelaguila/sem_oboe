@@ -1,0 +1,34 @@
+{
+  "topic_id": 1,
+  "clustering_method": "spectral",
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.26337133524643513,
+  "clusters": {
+    "0": [
+      "fiction",
+      "novel",
+      "series",
+      "author",
+      "book",
+      "collection",
+      "story",
+      "portrayal",
+      "character",
+      "text"
+    ],
+    "1": [
+      "know",
+      "think",
+      "like",
+      "want",
+      "feel",
+      "come",
+      "kind",
+      "need",
+      "find",
+      "see"
+    ]
+  }
+}

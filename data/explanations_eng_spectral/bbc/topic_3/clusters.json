@@ -1,0 +1,70 @@
+{
+  "topic_id": 3,
+  "clustering_method": "spectral",
+  "best_k": 5,
+  "selected_k": 5,
+  "automatic_optimal_k": 5,
+  "global_sil": 0.1732592897525955,
+  "clusters": {
+    "0": [
+      "thousand",
+      "monarch",
+      "year",
+      "virus",
+      "king",
+      "minute",
+      "period",
+      "hour",
+      "terrorist",
+      "people"
+    ],
+    "1": [
+      "music",
+      "performer",
+      "play",
+      "film",
+      "show",
+      "broadcast",
+      "player",
+      "game",
+      "sound",
+      "video"
+    ],
+    "2": [
+      "gadget",
+      "user",
+      "hacker",
+      "spammer",
+      "sender",
+      "pc",
+      "mobile",
+      "device",
+      "e - mail",
+      "console"
+    ],
+    "3": [
+      "aggregation",
+      "industry",
+      "organization",
+      "business",
+      "company",
+      "recreation",
+      "consumer",
+      "application",
+      "technology",
+      "market"
+    ],
+    "4": [
+      "pome",
+      "digital_computer",
+      "large_integer",
+      "telecommunicate",
+      "worm",
+      "steel",
+      "tv",
+      "sell",
+      "sale",
+      "apple"
+    ]
+  }
+}

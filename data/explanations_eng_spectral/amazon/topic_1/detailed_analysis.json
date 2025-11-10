@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"fictional narrative\"\n2. \"author's creation\"\n3. \"book series\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of fictional narratives, focusing on elements such as novels, series, authors, books, collections, stories, portrayals, characters, and ..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. understand technology\n2. desire innovation\n3. perceive functionality\n\nPlease provide feedback on the quality of the extracted key phrases and suggest improvements if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the given terms within the technology domain. Here's a brief explanation of each phrase:\n\n1. Understand technology: This phrase highlights the cognitive process of grasping and comprehending technological concepts or systems. It emphasizes the importance of knowledge acquisition in the technology domain.\n\n2. Desire innovation: This",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around understanding, desiring, and perceiving aspects related to technology, emphasizing human cognition and attitudes towards technological advancements...."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of'sports competition', focusing on specific events within a series of games or matches, such as the second game, the final outcome, team records, and individual achievements like victories.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "1. \"second game\"",
+      "2. \"final victory\"",
+      "3. \"team record\""
+    ],
+    "reasoning": "The coherence score is high because the terms are tightly connected to the idea of sports competition. The relevance score is full because these terms are directly related to the sports domain. Coverage is rated moderately high as they cover various aspects of a competitive event, but could be more extensive if including other relevant terms. The key phrases are essential components that succinctly capture the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around emotional states and personal experiences, particularly focusing on feelings of positivity, openness, and external suffering.",
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "key_phrases": [
+      "feel good",
+      "heart open",
+      "suffer outside"
+    ],
+    "reasoning": "The coherence score is high because the terms are closely related to emotions and personal experiences. The relevance score is moderate as the terms are not exclusively tied to AI or machine learning but can be relevant in contexts discussing user experience or emotional AI. The coverage score is high since the key phrases effectively summarize the thematic focus of the cluster."
+  }
+}

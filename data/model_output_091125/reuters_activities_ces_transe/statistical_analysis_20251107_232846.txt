@@ -1,0 +1,33 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT - WITH CES STRATEGY
+================================================================================
+
+LEVEL 1: KGE METRICS (With CES Impact)
+------------------------------------------------------------
+Model: TRANSE
+Search Type: smart
+Embedding Dim: 32
+CES Applied: False
+
+Train MRR: 0.7788
+Test MRR:  0.4287
+Gap:       0.3502
+
+LEVEL 2: CLASSIFIER METRICS (Using POST-CES Embeddings)
+------------------------------------------------------------
+CV Accuracy: 0.8816 ± 0.0071
+  95% CI: 0.8763–0.8870
+CV AUC:      0.9857 ± 0.0015
+  95% CI: 0.9846–0.9869
+CV LogLoss:  0.3902 ± 0.0182
+CV MPCE:     0.1411 ± 0.0091
+
+Test Accuracy: 0.8657
+Test AUC:      0.9825
+Test LogLoss:  0.4297
+Test MPCE:     0.1675
+
+CV-Test Accuracy Gap: 0.0159
+CV-Test AUC Gap:      0.0033
+
+Wilcoxon test p-value: 0.8125

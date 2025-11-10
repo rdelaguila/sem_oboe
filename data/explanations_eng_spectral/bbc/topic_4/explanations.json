@@ -1,0 +1,25 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of utilizing computers for information-related tasks, emphasizing actions such as searching, working with data, decision-making, and knowledge acquisition.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "computer search",
+      "information work",
+      "decide think"
+    ],
+    "reasoning": "The coherence score reflects the tight thematic connection between the terms, which all pertain to computer usage in information-intensive activities. The relevance score is high because these terms are directly related to the technology domain, particularly in the context of computing and information processing. The coverage score acknowledges that while not every term is represented in each key phrase, the overall set of terms is well-captured by the three key phrases provided."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the thematic concept of 'Seasonal Technology', focusing on specific months (February, July, June) and seasons (Summer), which are indicative of temporal aspects. The inclusion of 'Electro-acoustic Transducer' suggests an emphasis on technological devices that operate within these seasonal contexts.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "key_phrases": [
+      "Seasonal Technology",
+      "Electro-Acoustic Transducer Usage"
+    ],
+    "reasoning": "The coherence score reflects the clear thematic connection between the terms, despite their varying specificity. The relevance is high as the terms are directly related to technology, particularly in the context of seasonal applications. Coverage is rated lower because not all terms are fully explained by the key phrases, especially 'year', 'weekday', and 'Scottish'. The key phrases succinctly capture the essence of the cluster, providing a strong basis for further exploration."
+  }
+}

@@ -1,0 +1,69 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: bbc
+Topic ID: 2
+Selected vocabulary: 79 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected: 2
+Clustering quality (Silhouette): 0.152
+Method: Spectral clustering + Explanatory LLM
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: second, final, match, victory, team, player, contest, record, first, game
+  
+  Explanation: The cluster revolves around the concept of'sports competition', focusing on specific events within a series of games or matches, such as the second game, the final outcome, team records, and individual achievements like victories.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 3/5
+     • Coverage: 4/5
+  
+  Strengths: Clear focus on sports competition, Comprehensive coverage of cluster terms
+  Weaknesses: Lacks explicit AI technology connections, Limited relevance to broader technology context
+  
+  Justification: The explanation is coherent and covers the main aspects of the cluster, focusing on sports competition. However, it lacks explicit connections to AI technologies, which reduces its relevance. The coverage is complete, addressing key semantic relationships.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "second game"
+2. "final victory"
+3. "team record"
+     • Verification passed: True
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: feel, come, good, heart, suffer, great, way, open, outside, lose
+  
+  Explanation: The cluster revolves around emotional states and personal experiences, particularly focusing on feelings of positivity, openness, and external suffering.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 3/5
+     • Coverage: 4/5
+  
+  Strengths: Clear focus on emotional states and personal experiences, Logical clustering based on the provided terms
+  Weaknesses: Lack of explicit connection to the technology domain, Could benefit from more specific examples or applications
+  
+  Justification: The explanation is coherent in its focus on emotional states and personal experiences. It connects well with the terms provided. However, it could be more specific to the technology domain. The explanation covers the main aspects of the cluster, including positive feelings, openness, and external suffering.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "feel good"
+2. "heart open"
+3. "suffer outside"
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 3.00/5
+  Average coverage: 4.00/5
+  Clustering quality: 0.152
+

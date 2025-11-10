@@ -1,0 +1,344 @@
+{
+  "amazon": {
+    "transe": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.6615946292877197,
+            "hits_at_1": 0.5413311862587225,
+            "hits_at_10": 0.8310073358382537
+          },
+          "test": {
+            "mrr": 0.17285291850566864,
+            "hits_at_1": 0.13542039355992844,
+            "hits_at_10": 0.2366726296958855
+          },
+          "gap": 0.4887417107820511
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.6615946292877197,
+        "final_test_mrr": 0.17285291850566864,
+        "final_train_test_gap": 0.4887417107820511
+      },
+      "test_accuracy": 0.8887765419615774,
+      "test_auc": 0.9594338525338616,
+      "cv_mean_accuracy": 0.9010861188710144,
+      "cv_mean_auc": 0.9660805117790456
+    },
+    "convkb": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.12330298125743866,
+            "hits_at_1": 0.10502773304705672,
+            "hits_at_10": 0.15745213812846662
+          },
+          "test": {
+            "mrr": 0.08804444223642349,
+            "hits_at_1": 0.07245080500894455,
+            "hits_at_10": 0.11305903398926655
+          },
+          "gap": 0.03525853902101517
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.12330298125743866,
+        "final_test_mrr": 0.08804444223642349,
+        "final_train_test_gap": 0.03525853902101517
+      },
+      "test_accuracy": 0.8355240984159084,
+      "test_auc": 0.9228333750049228,
+      "cv_mean_accuracy": 0.8424928161572394,
+      "cv_mean_auc": 0.9306113220868969
+    },
+    "complex": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.4909903407096863,
+            "hits_at_1": 0.3765879405976024,
+            "hits_at_10": 0.7262927178386116
+          },
+          "test": {
+            "mrr": 0.11258931457996368,
+            "hits_at_1": 0.07799642218246869,
+            "hits_at_10": 0.17227191413237924
+          },
+          "gap": 0.3784010261297226
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.4909903407096863,
+        "final_test_mrr": 0.11258931457996368,
+        "final_train_test_gap": 0.3784010261297226
+      },
+      "test_accuracy": 0.8661948095719582,
+      "test_auc": 0.9431956705508251,
+      "cv_mean_accuracy": 0.8819373383521782,
+      "cv_mean_auc": 0.9541701903908179
+    },
+    "distmult": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.18843331933021545,
+            "hits_at_1": 0.16411701556629094,
+            "hits_at_10": 0.23273394167113973
+          },
+          "test": {
+            "mrr": 0.07079926133155823,
+            "hits_at_1": 0.06368515205724508,
+            "hits_at_10": 0.08228980322003578
+          },
+          "gap": 0.11763405799865723
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.18843331933021545,
+        "final_test_mrr": 0.07079926133155823,
+        "final_train_test_gap": 0.11763405799865723
+      },
+      "test_accuracy": 0.846309403437816,
+      "test_auc": 0.9323418242631225,
+      "cv_mean_accuracy": 0.8552366169689545,
+      "cv_mean_auc": 0.9399544671968251
+    }
+  },
+  "bbc": {
+    "transe": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.7004574537277222,
+            "hits_at_1": 0.5546793272712642,
+            "hits_at_10": 0.9169147823288002
+          },
+          "test": {
+            "mrr": 0.3252945840358734,
+            "hits_at_1": 0.2568393949147087,
+            "hits_at_10": 0.4692629546186032
+          },
+          "gap": 0.37516286969184875
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.7004574537277222,
+        "final_test_mrr": 0.3252945840358734,
+        "final_train_test_gap": 0.37516286969184875
+      },
+      "test_accuracy": 0.8882850241545893,
+      "test_auc": 0.9854070101208545,
+      "cv_mean_accuracy": 0.8966127749317689,
+      "cv_mean_auc": 0.985220809564567
+    },
+    "convkb": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.5273894667625427,
+            "hits_at_1": 0.40637321960247846,
+            "hits_at_10": 0.7522330409592017
+          },
+          "test": {
+            "mrr": 0.023198209702968597,
+            "hits_at_1": 0.011103958802703573,
+            "hits_at_10": 0.04200193112327003
+          },
+          "gap": 0.5041912570595741
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.5273894667625427,
+        "final_test_mrr": 0.023198209702968597,
+        "final_train_test_gap": 0.5041912570595741
+      },
+      "test_accuracy": 0.8460144927536232,
+      "test_auc": 0.9702132882784219,
+      "cv_mean_accuracy": 0.849085737846082,
+      "cv_mean_auc": 0.9723433415014202
+    },
+    "complex": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.0008195906993933023,
+            "hits_at_1": 8.04699444757383e-05,
+            "hits_at_10": 0.0009254043614709906
+          },
+          "test": {
+            "mrr": 0.0007313104579225183,
+            "hits_at_1": 0.0,
+            "hits_at_10": 0.000643707756678468
+          },
+          "gap": 8.828024147078406e-05
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.0008195906993933023,
+        "final_test_mrr": 0.0007313104579225183,
+        "final_train_test_gap": 8.828024147078406e-05
+      },
+      "test_accuracy": 0.8538647342995169,
+      "test_auc": 0.9755734279286391,
+      "cv_mean_accuracy": 0.8588691857495221,
+      "cv_mean_auc": 0.9768359161698426
+    },
+    "distmult": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.39401936531066895,
+            "hits_at_1": 0.36320109439124487,
+            "hits_at_10": 0.4457230224511145
+          },
+          "test": {
+            "mrr": 0.15932181477546692,
+            "hits_at_1": 0.14322497586095911,
+            "hits_at_10": 0.18925008046346958
+          },
+          "gap": 0.23469755053520203
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.39401936531066895,
+        "final_test_mrr": 0.15932181477546692,
+        "final_train_test_gap": 0.23469755053520203
+      },
+      "test_accuracy": 0.8620169082125604,
+      "test_auc": 0.9768043220737326,
+      "cv_mean_accuracy": 0.8648475560809725,
+      "cv_mean_auc": 0.9773514490442144
+    }
+  },
+  "reuters_activities": {
+    "transe": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.7861387133598327,
+            "hits_at_1": 0.6703569511540526,
+            "hits_at_10": 0.9397477187332259
+          },
+          "test": {
+            "mrr": 0.4317781627178192,
+            "hits_at_1": 0.38492489270386265,
+            "hits_at_10": 0.5244098712446352
+          },
+          "gap": 0.35436055064201344
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.7861387133598327,
+        "final_test_mrr": 0.4317781627178192,
+        "final_train_test_gap": 0.35436055064201344
+      },
+      "test_accuracy": 0.8702404809619239,
+      "test_auc": 0.982269569935557,
+      "cv_mean_accuracy": 0.8803369024910402,
+      "cv_mean_auc": 0.9850391578856679
+    },
+    "convkb": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.5563254952430725,
+            "hits_at_1": 0.43364197530864196,
+            "hits_at_10": 0.7965646806226516
+          },
+          "test": {
+            "mrr": 0.03310428559780121,
+            "hits_at_1": 0.014484978540772532,
+            "hits_at_10": 0.06330472103004292
+          },
+          "gap": 0.5232212096452713
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.5563254952430725,
+        "final_test_mrr": 0.03310428559780121,
+        "final_train_test_gap": 0.5232212096452713
+      },
+      "test_accuracy": 0.811623246492986,
+      "test_auc": 0.9657755650176925,
+      "cv_mean_accuracy": 0.819502897469965,
+      "cv_mean_auc": 0.9695995845458703
+    },
+    "complex": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.6528212428092957,
+            "hits_at_1": 0.5323403113258186,
+            "hits_at_10": 0.8746645195920558
+          },
+          "test": {
+            "mrr": 0.21708899736404416,
+            "hits_at_1": 0.15262875536480686,
+            "hits_at_10": 0.3387875536480687
+          },
+          "gap": 0.43573224544525146
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.6528212428092957,
+        "final_test_mrr": 0.21708899736404416,
+        "final_train_test_gap": 0.43573224544525146
+      },
+      "test_accuracy": 0.8572144288577155,
+      "test_auc": 0.9754258529886246,
+      "cv_mean_accuracy": 0.8595909974412216,
+      "cv_mean_auc": 0.9791097371907533
+    },
+    "distmult": {
+      "status": "SUCCESS",
+      "ces_applied": false,
+      "kge_metrics": {
+        "pre_ces": {
+          "train": {
+            "mrr": 0.2903178930282593,
+            "hits_at_1": 0.2606682769726248,
+            "hits_at_10": 0.3435319377348363
+          },
+          "test": {
+            "mrr": 0.0860944613814354,
+            "hits_at_1": 0.0700107296137339,
+            "hits_at_10": 0.11722103004291845
+          },
+          "gap": 0.20422343164682388
+        },
+        "post_ces": null,
+        "gap_improvement": null,
+        "final_train_mrr": 0.2903178930282593,
+        "final_test_mrr": 0.0860944613814354,
+        "final_train_test_gap": 0.20422343164682388
+      },
+      "test_accuracy": 0.8316633266533067,
+      "test_auc": 0.9701559699379867,
+      "cv_mean_accuracy": 0.8418542199745529,
+      "cv_mean_auc": 0.9737108446067128
+    }
+  }
+}

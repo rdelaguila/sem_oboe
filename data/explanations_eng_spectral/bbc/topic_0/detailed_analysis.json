@@ -1,0 +1,12 @@
+{
+  "0": {
+    "key_phrases_extracted": "1. \"Sunday rest\"\n2. \"Digital computer catastrophe\"\n3. \"Large integer calculation\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around concepts related to technology, computation, and disaster scenarios, specifically focusing on the role of digital computers in handling large intege..."
+  },
+  "1": {
+    "key_phrases_extracted": "1. \"application software\"\n2. \"document interpretation\"\n3. \"system organization\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concepts of software applications within the technology domain, focusing on their functionality, documentation, organizational structure, a..."
+  }
+}

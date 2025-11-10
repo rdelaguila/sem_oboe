@@ -1,0 +1,38 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the concept of'sports events', specifically focusing on football games, including aspects like players' scores, the involvement of clubs and leagues, and the overall dynamics of the game.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "football game",
+      "player score",
+      "league club"
+    ],
+    "reasoning": "The coherence score is high because the terms are tightly related to sports events, particularly football. The relevance score is full as all terms are directly associated with the sports domain. Coverage is rated moderately high since the terms cover various aspects of a football game but might not encompass all possible football-related terms. The key phrases effectively summarize the thematic focus of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of organizational leadership and governance within specific geographical contexts, particularly focusing on associations, administrators, and municipalities.",
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "key_phrases": [
+      "association leader",
+      "municipality union",
+      "administrator conflict"
+    ],
+    "reasoning": "The coherence score is high because the terms are closely related to leadership, governance, and organization. The relevance score is moderate as the terms primarily pertain to social sciences rather than technology directly. The coverage score is high due to the clear thematic focus and the presence of key phrases that encapsulate the essence of the cluster."
+  },
+  "2": {
+    "explanation": "The cluster revolves around the concept of seeking and accessing information through technological means, particularly focusing on visual content and utilizing search engines.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "search for information",
+      "need to see",
+      "google search results"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all revolve around the act of searching and viewing information. The relevance score is high as these terms directly pertain to the technology domain, especially considering their use in digital search and information retrieval. Coverage is rated moderately high because while the terms cover a specific aspect of technology usage, they might not encompass the entire breadth of the technology domain. The key phrases effectively summarize the essence of the cluster, providing clear insights into its focus."
+  }
+}

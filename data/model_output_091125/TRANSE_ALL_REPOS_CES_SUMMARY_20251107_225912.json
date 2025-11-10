@@ -1,0 +1,14 @@
+{
+  "amazon": {
+    "status": "FAILED",
+    "error": "keys must be str, int, float, bool or None, not int64"
+  },
+  "bbc": {
+    "status": "FAILED",
+    "error": "keys must be str, int, float, bool or None, not int64"
+  },
+  "reuters_activities": {
+    "status": "FAILED",
+    "error": "keys must be str, int, float, bool or None, not int64"
+  }
+}

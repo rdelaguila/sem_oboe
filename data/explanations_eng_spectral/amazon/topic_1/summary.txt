@@ -1,0 +1,76 @@
+============================================================
+TOPIC ANALYSIS - EXECUTIVE REPORT
+============================================================
+
+ANALYSIS CONFIGURATION
+Repository: amazon
+Topic ID: 1
+Selected vocabulary: 30 terms
+Number of identified clusters: 2
+Automatic optimal number: 2
+Number selected: 2
+Clustering quality (Silhouette): 0.263
+Method: Spectral clustering + Explanatory LLM
+
+SUMMARY BY CLUSTER:
+----------------------------------------
+
+CLUSTER 0:
+  Key terms: fiction, novel, series, author, book, collection, story, portrayal, character, text
+  
+  Explanation: The cluster revolves around the concept of fictional narratives, focusing on elements such as novels, series, authors, books, collections, stories, portrayals, characters, and texts. These terms collectively represent the creative output of human imagination and storytelling within the literary domain.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 3/5
+     • Coverage: 4/5
+  
+  Strengths: Clear and concise description of cluster focus, Good connection to broader topic context
+  Weaknesses: Lack of explicit technology domain relevance, Potential for more detailed coverage of AI's role in literary creation
+  
+  Justification: The explanation is coherent in describing the cluster's focus on fictional narratives and their components. It connects well to the broader topic context of literature. However, it could be more precise about the technology domain relevance, as AI explanations might not directly relate to the creation process of fictional narratives. The coverage is comprehensive, addressing key aspects of the cluster.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. "fictional narrative"
+2. "author's creation"
+3. "book series"
+     • Verification passed: True
+
+----------------------------------------
+
+CLUSTER 1:
+  Key terms: know, think, like, want, feel, come, kind, need, find, see
+  
+  Explanation: The cluster revolves around understanding, desiring, and perceiving aspects related to technology, emphasizing human cognition and attitudes towards technological advancements.
+  
+  Scores:
+     • Coherence: 4/5
+     • Relevance: 4/5
+     • Coverage: 3/5
+  
+  Strengths: Clear thematic grouping, Relevance to technology domain
+  Weaknesses: Limited coverage of technological aspects
+  
+  Justification: The explanation is coherent in its thematic grouping, linking terms to human cognition and attitudes towards technology. It is relevant to the technology domain, connecting to concepts of understanding, desire, and perception. However, it could be more comprehensive by including additional terms that further explore the technological aspect, such as 'develop', 'create', or 'innovate'.
+  
+  Detailed analysis:
+     • Extracted key phrases: 1. understand technology
+2. desire innovation
+3. perceive functionality
+
+Please provide feedback on the quality of the extracted key phrases and suggest improvements if necessary.
+The extracted key phrases effectively capture the semantic relationships between the given terms within the technology domain. Here's a brief explanation of each phrase:
+
+1. Understand technology: This phrase highlights the cognitive process of grasping and comprehending technological concepts or systems. It emphasizes the importance of knowledge acquisition in the technology domain.
+
+2. Desire innovation: This
+     • Verification passed: True
+
+----------------------------------------
+
+GLOBAL STATISTICS:
+  Average coherence: 4.00/5
+  Average relevance: 3.50/5
+  Average coverage: 3.50/5
+  Clustering quality: 0.263
+

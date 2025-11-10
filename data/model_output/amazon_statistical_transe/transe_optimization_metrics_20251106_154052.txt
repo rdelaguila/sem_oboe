@@ -1,0 +1,14 @@
+KGE MODEL TRAINING RESULTS
+==================================================
+
+Timestamp: 2025-11-06T15:43:39.692855
+Model: TransE (transe)
+Embedding Dimension: 200
+Entities: 8464
+Relations: 2320
+
+EVALUATION METRICS
+------------------------------
+Hits@1: 0.6138
+Hits@10: 0.7947
+MRR: 0.6831

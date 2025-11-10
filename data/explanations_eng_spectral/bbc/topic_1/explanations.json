@@ -1,0 +1,73 @@
+{
+  "0": {
+    "explanation": "The cluster revolves around the core concepts of sports competition and performance, focusing on elements such as scoring, gameplay dynamics, and seasonal events.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "score lead",
+      "game play",
+      "season contest"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to competitive sports scenarios. The relevance is rated high because these terms are directly applicable to the sports domain. Coverage is moderate since not all terms are represented in the key phrases, but the key phrases capture the essence of the cluster."
+  },
+  "1": {
+    "explanation": "The cluster revolves around the concept of 'time' and its measurement across different granularities, such as years, weeks, and specific months. It also touches upon the temporal transitions between months, particularly December and January.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 4,
+    "key_phrases": [
+      "Yearly Time Period",
+      "Weekly Time Frame",
+      "December-January Transition"
+    ],
+    "reasoning": "The coherence score is high because all terms are directly related to time and its representation in various contexts. The relevance score is also high since these concepts are fundamental in data analysis, especially in time-series datasets. The coverage score reflects that the key phrases capture the essence of the cluster, providing a comprehensive understanding of its focus on temporal aspects."
+  },
+  "2": {
+    "explanation": "The terms within this cluster are primarily associated with organizational structures and hierarchical classifications within the technology domain. They suggest a focus on how technology is organized, managed, and evaluated across different levels of a system or industry.",
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "key_phrases": [
+      "Technology Federation",
+      "National Division",
+      "System Rating"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all revolve around organization and classification. The relevance score acknowledges their direct applicability to technology management and systems. Coverage is rated lower because not all terms were used in the key phrases, but they still represent the core concepts of the cluster."
+  },
+  "3": {
+    "explanation": "The terms 'irish', 'gaelic', 'gregorian_calendar_month','social_scientist', 'christmas', and 'letter' are semantically coherent as they all pertain to cultural aspects, specifically those related to Irish culture and its historical, linguistic, and societal dimensions.",
+    "coherence": 4,
+    "relevance": 2,
+    "coverage": 4,
+    "key_phrases": [
+      "Irish language",
+      "Gregorian calendar",
+      "Social science study"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which revolve around cultural elements. The relevance score is lower because the terms do not directly pertain to technology; however, they can be relevant in the context of technological documentation or analysis of cultural impacts on technology. The coverage score is high as it captures the essence of the cluster, and the key phrases effectively summarize the semantic relationships."
+  },
+  "4": {
+    "explanation": "The terms 'go', 'try', 'fly', 'decide', 'we', 'bounce', and 'break' are interconnected through the concept of action and progression in the technology domain. They collectively represent various stages of development, experimentation, and decision-making processes involved in technological advancement.",
+    "coherence": 4,
+    "relevance": 5,
+    "coverage": 4,
+    "key_phrases": [
+      "decide technology",
+      "bounce innovation",
+      "try breakthroughs"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, as they all pertain to actions and decisions in the technology field. The relevance score is high because these terms are directly related to the technology domain. Coverage is rated moderately since not all terms have been fully utilized in the key phrases, but the selected phrases effectively capture the essence of the cluster."
+  },
+  "5": {
+    "explanation": "The cluster revolves around incidents involving trainers, coaches, and accidents or injuries, suggesting a focus on human safety and risk management within a context that could be sports, education, or another field where human involvement is critical.",
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 3,
+    "key_phrases": [
+      "trainer accident",
+      "coach injury"
+    ],
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all relate to human safety and risk events. The relevance score is moderate because while the terms are related to human factors, they are not strictly tied to the technology domain without additional context. Coverage is limited as only two key phrases were identified, but these are central to understanding the cluster."
+  }
+}

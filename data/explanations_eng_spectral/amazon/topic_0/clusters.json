@@ -1,0 +1,51 @@
+{
+  "topic_id": 0,
+  "clustering_method": "spectral",
+  "best_k": 4,
+  "selected_k": 4,
+  "automatic_optimal_k": 4,
+  "global_sil": 0.2634730910503227,
+  "clusters": {
+    "0": [
+      "cat",
+      "dog",
+      "felid",
+      "canine",
+      "toy"
+    ],
+    "1": [
+      "think",
+      "see",
+      "like",
+      "look",
+      "try",
+      "come",
+      "love",
+      "decide",
+      "good",
+      "kind"
+    ],
+    "2": [
+      "month",
+      "day",
+      "past",
+      "period",
+      "small_indefinite_amount",
+      "old",
+      "time",
+      "moment"
+    ],
+    "3": [
+      "product",
+      "quantity",
+      "substance",
+      "quality",
+      "nutriment",
+      "usage",
+      "liquid",
+      "water",
+      "level",
+      "size"
+    ]
+  }
+}

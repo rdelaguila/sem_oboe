@@ -1,0 +1,85 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation effectively captures the core concepts of sports competition and performance, focusing on scoring, gameplay dynamics, and seasonal events. The terms are semantically related and form a coherent cluster.",
+    "strengths": [
+      "Clear focus on sports-related concepts",
+      "Logical grouping of terms"
+    ],
+    "weaknesses": [
+      "Lack of specific examples or metrics to enhance relevance",
+      "Limited coverage of additional aspects like team performance, strategy, and player roles"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent in discussing the concept of time and its measurement across different granularities. It connects well with the broader topic context by mentioning temporal transitions. However, it could be more relevant to a specific technology domain, as the connection to AI or machine learning is not explicitly mentioned. The coverage is complete, addressing key semantic relationships within the term set.",
+    "strengths": [
+      "Clear and concise explanation of the cluster's concept",
+      "Logical grouping of terms based on time-related themes"
+    ],
+    "weaknesses": [
+      "Lack of explicit connection to AI or machine learning domain",
+      "Limited relevance to a specific technology context"
+    ]
+  },
+  "2": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation demonstrates logical coherence by linking the terms to organizational structures in the technology domain. It also shows relevance by connecting to the broader context of technology management and evaluation. However, it could be more comprehensive by including additional terms that might also belong to this cluster, such as 'department' or 'team'.",
+    "strengths": [
+      "Logical coherence between terms and concept",
+      "Relevance to technology domain"
+    ],
+    "weaknesses": [
+      "Limited coverage due to exclusion of potentially relevant terms"
+    ]
+  },
+  "3": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation demonstrates a good understanding of the semantic coherence among the terms, grouping them under Irish culture. However, it could be more precise in linking each term to the broader technology domain. The coverage is adequate, addressing the main aspects of the cluster.",
+    "strengths": [
+      "Strong semantic coherence explanation",
+      "Adequate coverage of the cluster"
+    ],
+    "weaknesses": [
+      "Lack of explicit connection to technology domain",
+      "Limited relevance to technology context"
+    ]
+  },
+  "4": {
+    "coherence": 4,
+    "relevance": 4,
+    "coverage": 3,
+    "justification": "The explanation demonstrates a logical connection between the terms and their role in the technology domain. It captures the essence of action and progression. However, it could be more specific about how these terms interrelate within the technology context. The relevance is high as the terms are commonly used in technology discussions. Coverage is somewhat limited as it does not delve into specific examples or applications of these terms in technology.",
+    "strengths": [
+      "Clear connection between terms and technology domain",
+      "Logical explanation of action and progression"
+    ],
+    "weaknesses": [
+      "Limited specificity on interrelation within technology context",
+      "Somewhat broad coverage"
+    ]
+  },
+  "5": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation demonstrates a coherent connection between the terms, focusing on human safety and risk management. It is relevant to domains like sports, education, and others with human involvement, but could benefit from more specific domain examples. The explanation covers the main aspects of the cluster, including the relationship between trainers, coaches, and accidents/injuries.",
+    "strengths": [
+      "Clear connection between terms",
+      "Relevance to human-focused contexts"
+    ],
+    "weaknesses": [
+      "Lack of specificity in domain examples",
+      "Limited coverage of potential cluster applications"
+    ]
+  }
+}

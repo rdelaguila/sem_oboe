@@ -1,0 +1,30 @@
+{
+  "0": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent and covers the main aspects of the cluster, focusing on sports competition. However, it lacks explicit connections to AI technologies, which reduces its relevance. The coverage is complete, addressing key semantic relationships.",
+    "strengths": [
+      "Clear focus on sports competition",
+      "Comprehensive coverage of cluster terms"
+    ],
+    "weaknesses": [
+      "Lacks explicit AI technology connections",
+      "Limited relevance to broader technology context"
+    ]
+  },
+  "1": {
+    "coherence": 4,
+    "relevance": 3,
+    "coverage": 4,
+    "justification": "The explanation is coherent in its focus on emotional states and personal experiences. It connects well with the terms provided. However, it could be more specific to the technology domain. The explanation covers the main aspects of the cluster, including positive feelings, openness, and external suffering.",
+    "strengths": [
+      "Clear focus on emotional states and personal experiences",
+      "Logical clustering based on the provided terms"
+    ],
+    "weaknesses": [
+      "Lack of explicit connection to the technology domain",
+      "Could benefit from more specific examples or applications"
+    ]
+  }
+}

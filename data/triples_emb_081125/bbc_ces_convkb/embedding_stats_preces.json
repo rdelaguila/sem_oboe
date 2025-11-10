@@ -1,0 +1,6 @@
+{
+  "num_entities": 12379,
+  "embedding_dim": 12,
+  "model_type": "ConvKB",
+  "suffix": "preces"
+}

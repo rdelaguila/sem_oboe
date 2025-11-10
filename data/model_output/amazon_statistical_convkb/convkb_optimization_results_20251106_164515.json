@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-06T18:44:54.091915",
+  "model_path": "../data/triples_emb/amazon_statistical_convkb/convkb_best_model.pkl",
+  "mappings_path": "../data/triples_emb/amazon_statistical_convkb/convkb_best_mappings.pkl",
+  "model_type": "convkb",
+  "best_embedding_dim": 64,
+  "best_mrr_score": 0.4975946545600891
+}

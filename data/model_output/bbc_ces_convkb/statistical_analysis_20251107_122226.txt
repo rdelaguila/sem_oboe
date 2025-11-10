@@ -1,0 +1,33 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT - WITH CES STRATEGY
+================================================================================
+
+LEVEL 1: KGE METRICS (With CES Impact)
+------------------------------------------------------------
+Model: CONVKB
+Search Type: smart
+Embedding Dim: 12
+CES Applied: False
+
+Train MRR: 0.5069
+Test MRR:  0.0223
+Gap:       0.4845
+
+LEVEL 2: CLASSIFIER METRICS (Using POST-CES Embeddings)
+------------------------------------------------------------
+CV Accuracy: 0.8479 ± 0.0064
+  95% CI: 0.8431–0.8527
+CV AUC:      0.9722 ± 0.0036
+  95% CI: 0.9695–0.9750
+CV LogLoss:  0.4943 ± 0.0194
+CV MPCE:     0.2119 ± 0.0221
+
+Test Accuracy: 0.8418
+Test AUC:      0.9716
+Test LogLoss:  0.5116
+Test MPCE:     0.2259
+
+CV-Test Accuracy Gap: 0.0062
+CV-Test AUC Gap:      0.0006
+
+Wilcoxon test p-value: 0.0625

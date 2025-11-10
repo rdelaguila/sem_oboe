@@ -1,0 +1,46 @@
+{
+  "topic_id": 6,
+  "clustering_method": "spectral",
+  "best_k": 3,
+  "selected_k": 3,
+  "automatic_optimal_k": 3,
+  "global_sil": 0.1736477509304542,
+  "clusters": {
+    "0": [
+      "game",
+      "season",
+      "ball",
+      "league",
+      "club",
+      "score",
+      "football",
+      "player",
+      "play",
+      "goal"
+    ],
+    "1": [
+      "association",
+      "administrator",
+      "principal",
+      "municipality",
+      "group",
+      "united",
+      "leader",
+      "union",
+      "conflict",
+      "armament"
+    ],
+    "2": [
+      "look",
+      "want",
+      "see",
+      "need",
+      "good",
+      "come",
+      "colour",
+      "google",
+      "brown",
+      "search"
+    ]
+  }
+}

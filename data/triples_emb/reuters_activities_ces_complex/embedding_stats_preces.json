@@ -1,0 +1,6 @@
+{
+  "num_entities": 7360,
+  "embedding_dim": 64,
+  "model_type": "ComplEx",
+  "suffix": "preces"
+}

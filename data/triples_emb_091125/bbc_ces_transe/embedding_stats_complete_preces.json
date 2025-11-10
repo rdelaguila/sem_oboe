@@ -1,0 +1,21 @@
+{
+  "num_samples": 16559,
+  "embedding_dim": 64,
+  "num_unique_topics": 7,
+  "topics_distribution": {
+    "0": 209,
+    "1": 620,
+    "2": 3881,
+    "3": 1858,
+    "4": 2656,
+    "5": 5598,
+    "6": 1737
+  },
+  "num_entities": 12379,
+  "dataset_shape": [
+    16559,
+    5
+  ],
+  "suffix": "complete_preces",
+  "description": "Complete embeddings for UMAP visualization (subject+object concatenated)"
+}

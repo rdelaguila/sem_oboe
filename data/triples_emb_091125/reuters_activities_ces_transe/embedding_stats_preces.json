@@ -1,0 +1,6 @@
+{
+  "num_entities": 7360,
+  "embedding_dim": 32,
+  "model_type": "TransE",
+  "suffix": "preces"
+}
