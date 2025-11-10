@@ -20,11 +20,12 @@ models/
 data/explanations_eng_visualizations/
 model_output_visualization/explanations_eng_visualizations/
 visualizations/
-visualizations_utils/
+visualization_utils/
 notebooks/
 model_output_backup0511/
 model_output_backup0711/
 results/
+data\ copia/
 error_analysis/
 
 # Ignorar notebooks y resultados
