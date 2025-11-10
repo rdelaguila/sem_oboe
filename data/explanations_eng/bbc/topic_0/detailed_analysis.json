@@ -1,12 +1,12 @@
 {
   "0": {
-    "key_phrases_extracted": "1. \"Sunday rest\"\n2. \"Catastrophic tsunami\"\n3. \"Large integer computation\" Here are the key phrases that best represent the semantic relationships between the given terms:\n\n1. \"Sunday rest\" - This phrase connects the terms \"sunday\" and \"day of rest,\" highlighting a cultural or religious aspect related to the concept of taking a break on Sundays.\n2. \"Catastrophic tsunami\" - This phrase combines \"tsunami\" and \"catast",
+    "key_phrases_extracted": "semantic cluster, tsunami related",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around themes of rest, disaster, and computing, intertwining cultural practices, natural phenomena, and technological advancements.\",\n    \"coherence\": 4,\n ..."
+    "raw_output": "{\"explanation\": \"Technology cluster: tsunami, sunday, day_of_rest\", \"coherence\": 3, \"relevance\": 3, \"coverage\": 3}"
   },
   "1": {
-    "key_phrases_extracted": "1. \"document security\"\n2. \"software program\"\n3. \"individual user\"",
+    "key_phrases_extracted": "semantic cluster, document related",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the central theme of 'Technology and Security', focusing on various entities within the technological ecosystem such as documents, systems, individu..."
+    "raw_output": "{\"explanation\": \"Technology cluster: document, software, system\", \"coherence\": 3, \"relevance\": 3, \"coverage\": 3}"
   }
 }

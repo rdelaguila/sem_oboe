@@ -1,26 +1,14 @@
 {
   "0": {
-    "explanation": "The cluster revolves around themes of rest, disaster, and computing, intertwining cultural practices, natural phenomena, and technological advancements.",
-    "coherence": 4,
+    "explanation": "Technology cluster: tsunami, sunday, day_of_rest",
+    "coherence": 3,
     "relevance": 3,
-    "coverage": 3,
-    "key_phrases": [
-      "Sunday rest",
-      "Catastrophic tsunami",
-      "Large integer computation"
-    ],
-    "reasoning": "The coherence score reflects the thematic connection between the terms, while relevance is moderate as not all terms directly pertain to technology. Coverage is limited due to the diverse nature of the terms."
+    "coverage": 3
   },
   "1": {
-    "explanation": "The cluster revolves around the central theme of 'Technology and Security', focusing on various entities within the technological ecosystem such as documents, systems, individuals, software, programs, and users. This theme is further nuanced by the inclusion of concepts related to security, business, and microorganisms, which might suggest a broad scope encompassing both cybersecurity and biological systems.",
-    "coherence": 4,
-    "relevance": 5,
-    "coverage": 4,
-    "key_phrases": [
-      "document security",
-      "software program",
-      "individual user"
-    ],
-    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all relate to aspects of technology and security. The relevance score is high because these terms are directly pertinent to the technology domain. Coverage is rated moderately high due to the diverse range of entities included, from documents to microorganisms, though some may not directly relate to traditional technology security contexts. The key phrases effectively capture the essence of the cluster, highlighting its focus on security measures applied to documents, software, and users."
+    "explanation": "Technology cluster: document, software, system",
+    "coherence": 3,
+    "relevance": 3,
+    "coverage": 3
   }
 }

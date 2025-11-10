@@ -1,37 +1,12 @@
 {
   "0": {
-    "key_phrases_extracted": "1. \"Large integer processing\"\n2. \"Lacquerware technology application\" (Note: This phrase might not directly relate to the card context but could be relevant in a broader sense of material processing or design)\n3. \"Card-based large integer operations\" (Combines the technology aspect with the card context) TASK: Extract 2-3 key phrases that best represent the semantic relationship between these terms within the technology domain.\n\nTERMS: large_integer, lacquerware, card",
+    "key_phrases_extracted": "1. \"Dividend Decline\"\n2. \"Income Earning Rate\"\n3. \"Depository Debt Ratio\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Dividend Decline\": This phrase highlights the decrease or reduction in dividends paid by a company, which is often related to financial performance, profitability, and investor returns.\n\n2. \"Income Earning Rate\": This phrase emphasizes the rate at which income is generated from investments or operations",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'large integer processing' in the context of technology, with 'lacquerware' possibly indicating a material or design aspect that coul..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around financial metrics and indicators, specifically focusing on aspects such as dividend distribution, income generation, and debt management within a co..."
   },
   "1": {
-    "key_phrases_extracted": "1. \"Billion Dollar Debt\"\n2. \"Net Income Decline\"\n3. \"Loan Losses\"",
+    "key_phrases_extracted": "1. \"Japanese technology company\"\n2. \"American English communication\" \n3. \"February product release\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around financial distress and instability, specifically focusing on significant monetary values, income fluctuations, and credit risk.\",\n    \"coherence\": 4..."
-  },
-  "2": {
-    "key_phrases_extracted": "Artificer Craftwright Technology Fabricator\n\nEXPLANATION:\n- Artificer: A skilled craftsman who creates objects using various materials and techniques.\n- Craftwright: A term often used interchangeably with artificer, emphasizing expertise in a specific craft or trade.\n- Technology Fabricator: This phrase combines the concepts of technology and fabrication, highlighting the use of advanced methods and tools in creating objects. It suggests a modern or industrial context, where the focus is on efficiency, precision, and",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of skilled craftsmanship and technological innovation, specifically focusing on the creation of objects through advanced fabrication tec..."
-  },
-  "3": {
-    "key_phrases_extracted": "1. \"Workweek schedule\"\n2. \"End of week transition\"",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The terms 'thursday', 'friday', and 'weekday' collectively represent the concept of the workweek schedule, specifically focusing on the transition from mid-week to the end of t..."
-  },
-  "4": {
-    "key_phrases_extracted": "Japanese-American English in Michigan technology industry\n\nEXPLANATION:\nThe key phrases highlight the cultural, linguistic, and geographical aspects of the technology domain in Michigan. The term \"Japanese-American\" emphasizes the presence of individuals from both Japan and America within the technology sector, reflecting a diverse workforce. \"English\" refers to the common language used for communication and documentation in the industry. Lastly, \"Michigan technology industry\" specifies the location and the focus on technology, which is the context provided by the clustering quality.",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The key phrases 'Japanese-American English in Michigan technology industry' cohesively represent a specific demographic and linguistic context within the technology sector, hig..."
-  },
-  "5": {
-    "key_phrases_extracted": "1. \"Legislative body\"\n2. \"Congressional process\"",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The terms 'congress','senate', and 'legislature' all pertain to legislative bodies that are responsible for creating laws within their respective jurisdictions. This shared fun..."
-  },
-  "6": {
-    "key_phrases_extracted": "1. \"dwelling structure\"\n2. \"residential accommodation\" TASK: Extract 2-3 key phrases that best represent the semantic relationship between \"home\" and \"house\" in the context of technology domain.\n\n1. \"digital dwelling\"\n2. \"smart accommodation\"\n3. \"connected residence\"",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'dwelling' and its technological enhancement, focusing on digital, smart, and connected aspects of residential spaces.\",\n    \"coheren..."
+    "raw_output": " \n\n```json\n{\n    \"explanation\": \"The cluster revolves around the concept of 'Temporal and Geographical Contexts in Technology Communication', focusing on specific months, regions, languages, and indus..."
   }
 }

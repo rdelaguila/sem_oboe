@@ -1,47 +1,34 @@
 {
   "topic_id": 3,
-  "best_k": 7,
-  "selected_k": 7,
-  "automatic_optimal_k": 7,
-  "global_sil": 0.3327487193918838,
+  "clustering_method": "spectral",
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.24419409910970874,
   "clusters": {
     "0": [
-      "large_integer",
-      "lacquerware",
-      "card"
+      "dividend",
+      "income",
+      "depository",
+      "rate",
+      "decline",
+      "debt",
+      "profit",
+      "earning",
+      "gain",
+      "period"
     ],
     "1": [
-      "debt",
-      "billion",
-      "net",
-      "income",
-      "loan",
-      "loss",
-      "decline"
-    ],
-    "2": [
-      "artificer",
-      "wright"
-    ],
-    "3": [
-      "thursday",
-      "friday",
-      "weekday"
-    ],
-    "4": [
+      "jan",
+      "feb",
+      "april",
       "japan",
-      "american",
+      "inc",
+      "friday",
+      "michigan",
+      "thursday",
       "english",
-      "michigan"
-    ],
-    "5": [
-      "congress",
-      "senate",
-      "legislature"
-    ],
-    "6": [
-      "home",
-      "house"
+      "american"
     ]
   }
 }

@@ -1,9 +1,10 @@
 {
   "topic_id": 0,
+  "clustering_method": "spectral",
   "best_k": 2,
   "selected_k": 2,
   "automatic_optimal_k": 2,
-  "global_sil": 0.41576564885046813,
+  "global_sil": 0.4157656488504682,
   "clusters": {
     "0": [
       "quality",

@@ -1,69 +1,26 @@
 {
   "0": {
-    "explanation": "The cluster revolves around concepts related to time measurement and numerical representation, specifically focusing on calendar-based calculations and handling large integers.",
+    "explanation": "The cluster revolves around economic and political dynamics within the technology domain, focusing on aspects such as inflation, government policy, exchange, and resource allocation.",
     "coherence": 4,
-    "relevance": 5,
+    "relevance": 4,
     "coverage": 4,
     "key_phrases": [
-      "Calendar-based calculations",
-      "Large number representation"
+      "Inflation Development",
+      "Government Exchange",
+      "Proportion Deficiency"
     ],
-    "reasoning": "The semantic coherence score is high due to the clear thematic connection between the terms. The relevance score is full as these concepts are directly pertinent to computing and data processing tasks. Coverage is rated at 4 because the cluster could potentially include more terms related to time and number manipulation. The key phrases effectively summarize the thematic focus."
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, emphasizing economic and political factors. The relevance score acknowledges the direct applicability of these concepts to technology, considering the influence of economic policies and market dynamics on technological development. The coverage score is high due to the comprehensive representation of key concepts within the cluster."
   },
   "1": {
-    "explanation": "The cluster revolves around the concept of technological advancement over time, specifically focusing on significant financial investments in the technology sector.",
+    "explanation": "The cluster revolves around the concept of time-based data analysis, particularly focusing on financial metrics and calendar representations.",
     "coherence": 4,
     "relevance": 5,
     "coverage": 4,
     "key_phrases": [
-      "annual technology growth",
-      "periodic billion-dollar investments"
+      "Monthly percentage change",
+      "Calendar month representation",
+      "Quarterly financial reporting"
     ],
-    "reasoning": "The coherence score reflects the clear thematic connection between the terms, which all pertain to the evolution of technology and its associated financial activities. The relevance score is high because these terms are directly pertinent to the technology domain, particularly in the context of investment and growth. The coverage score acknowledges that while the terms provide a good overview, they might not capture the full spectrum of topics within the technology domain. The key phrases are selected based on their ability to succinctly summarize the essence of the cluster."
-  },
-  "2": {
-    "explanation": "The cluster revolves around the concept of 'change' within the technology domain, specifically focusing on the dynamics of growth and decline, innovation cycles, and market volatility.",
-    "coherence": 4,
-    "relevance": 5,
-    "coverage": 4,
-    "key_phrases": [
-      "Tech growth and decline",
-      "Innovation cycle"
-    ],
-    "reasoning": "The coherence score reflects the clear thematic connection between the terms, emphasizing change. The relevance score is high as it directly pertains to the technology domain. Coverage is moderate because only two key phrases were identified, but they effectively encapsulate the essence of the cluster."
-  },
-  "3": {
-    "explanation": "The terms 'depository', 'bank', and 'proportion' are interconnected within the financial technology domain, specifically focusing on banking operations and financial management.",
-    "coherence": 4,
-    "relevance": 5,
-    "coverage": 4,
-    "key_phrases": [
-      "Depository banking",
-      "Proportional finance"
-    ],
-    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which is evident through the shared context of banking and finance. The relevance score is high as the terms directly pertain to the financial technology sector. Coverage is rated moderately because the key phrases encompass the main concepts but might not cover all possible variations. The key phrases were chosen based on their ability to succinctly represent the semantic relationships between the terms."
-  },
-  "4": {
-    "explanation": "The cluster revolves around the concept of affordability and value in technology products, focusing on how price and cost considerations influence purchasing decisions.",
-    "coherence": 4,
-    "relevance": 5,
-    "coverage": 4,
-    "key_phrases": [
-      "Economic Technology Solutions",
-      "Price vs. Cost Analysis",
-      "Cost-Effective Software Products"
-    ],
-    "reasoning": "The coherence score reflects the tight thematic connection between the terms 'price' and 'cost' in the context of technology affordability. The relevance is rated high as these terms directly pertain to the technology domain. Coverage is moderate because not all aspects of price and cost are explored, but the selected phrases capture the essence of the cluster."
-  },
-  "5": {
-    "explanation": "The cluster revolves around the concept of'seasonal shifts' in technology, focusing on how technological trends evolve over time, particularly within specific months like January and February.",
-    "coherence": 4,
-    "relevance": 5,
-    "coverage": 3,
-    "key_phrases": [
-      "Monthly Technology Shifts",
-      "Seasonal Tech Trends"
-    ],
-    "reasoning": "The coherence score reflects the clear thematic connection between the terms, which allude to temporal changes in technology. The relevance score is high as these terms directly pertain to the technology domain. However, the coverage score is lower because the cluster only includes two terms, limiting its representativeness of broader seasonal tech trends."
+    "reasoning": "The semantic coherence score is high due to the clear thematic connection between the terms. The relevance score is full as all terms are directly related to financial or temporal data analysis. Coverage is rated moderately high because the terms cover various aspects of time-series data analysis, but not every possible subfield within the technology domain. The key phrases are chosen based on their significance in summarizing the cluster's focus."
   }
 }

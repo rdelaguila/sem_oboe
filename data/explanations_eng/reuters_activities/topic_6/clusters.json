@@ -1,32 +1,42 @@
 {
   "topic_id": 6,
-  "best_k": 4,
-  "selected_k": 4,
-  "automatic_optimal_k": 4,
-  "global_sil": 0.34879255655898816,
+  "clustering_method": "spectral",
+  "best_k": 3,
+  "selected_k": 3,
+  "automatic_optimal_k": 3,
+  "global_sil": 0.2358777912574375,
   "clusters": {
     "0": [
-      "proportion",
       "consideration",
-      "portion",
+      "proportion",
       "exploration",
-      "strength",
+      "opposition",
+      "interest",
+      "component",
       "organization",
-      "reserve",
-      "energy"
+      "portion",
+      "document",
+      "concern"
     ],
     "1": [
       "gas",
+      "oil",
       "fuel",
-      "oil"
+      "cylinder",
+      "petroleum",
+      "barrel"
     ],
     "2": [
-      "firm",
       "corp",
-      "company"
-    ],
-    "3": [
-      "pct"
+      "inc",
+      "co",
+      "firm",
+      "sell",
+      "share",
+      "analyst",
+      "pct",
+      "year",
+      "sale"
     ]
   }
 }

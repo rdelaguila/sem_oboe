@@ -1,5 +1,6 @@
 # File: topic_explanation_algorithm_enhanced.py
 """
+Component D: Explanations
 Implementation with advanced prompting strategies based on QualIT and XAI surveys:
 - Key phrase extraction
 - Hallucination verification
@@ -8,6 +9,9 @@ Implementation with advanced prompting strategies based on QualIT and XAI survey
 - Evaluation with specific criteria
 - Dynamic configuration of datasets and vocabularies
 - Support for analyzing single topic or all topics
+
+Autor: OBOE team!
+
 """
 
 import os

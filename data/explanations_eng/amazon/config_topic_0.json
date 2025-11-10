@@ -23,12 +23,13 @@
     "toy",
     "water"
   ],
-  "triples_path": "data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
-  "output_dir": "data/explanations_eng/amazon",
+  "triples_path": "../data/triples_raw/amazon/dataset_triplet_amazon_new_simplificado.csv",
+  "output_dir": "../data/explanations_eng/amazon",
+  "analyze_all": false,
   "vocabulary_stats": {
     "total_terms": 20,
     "ner_available": 0,
     "dbpedia_available": 0,
-    "lda_available": 30
+    "lda_available": 0
   }
 }

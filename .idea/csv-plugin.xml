@@ -52,13 +52,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/data/corpus_raw/arxiv/arxiv_subset_5000.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/data/corpus_raw/bbc/bbc_dataset_raw.csv">
           <value>
             <Attribute>
@@ -144,6 +137,13 @@
           </value>
         </entry>
         <entry key="/data/triples_raw/bbc/dataset_triplet_bbc_new_simplificado.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/data/triples_raw/reuters_activities/dataset_triplet_reuters_activities_new_simplificado.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

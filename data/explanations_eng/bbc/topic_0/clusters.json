@@ -1,32 +1,33 @@
 {
   "topic_id": 0,
+  "clustering_method": "spectral",
   "best_k": 2,
   "selected_k": 2,
   "automatic_optimal_k": 2,
-  "global_sil": 0.2589740005708652,
+  "global_sil": 0.25778293006629577,
   "clusters": {
     "0": [
-      "sunday",
       "tsunami",
-      "large_integer",
-      "digital_computer",
+      "sunday",
       "day_of_rest",
+      "digital_computer",
+      "large_integer",
       "catastrophe",
       "thousand",
       "inhabitant",
-      "pc",
-      "virus"
+      "virus",
+      "third"
     ],
     "1": [
       "document",
-      "system",
-      "individual",
       "software",
+      "system",
       "program",
       "business",
+      "individual",
       "security",
-      "position",
       "user",
+      "position",
       "microorganism"
     ]
   }

@@ -1,49 +1,38 @@
 {
   "0": {
-    "explanation": "The cluster revolves around the concept of analyzing and understanding proportions, considerations, and organizational structures within a technological context, particularly focusing on the exploration of these elements and their inherent strengths.",
+    "explanation": "The cluster revolves around the concept of analyzing and understanding various aspects of technology through the lens of proportions, oppositions, and components.",
     "coherence": 4,
     "relevance": 4,
     "coverage": 4,
     "key_phrases": [
-      "Proportion exploration",
-      "Consideration strength",
-      "Organization reserve"
+      "Proportion consideration",
+      "Exploration of opposition",
+      "Interest in component"
     ],
-    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all revolve around the examination and evaluation of various aspects within a technological framework. The relevance is high as these concepts are pertinent to the analysis and optimization of systems or processes in technology. The coverage is rated as good because the key phrases encapsulate the essence of the cluster, providing a clear insight into its focus."
+    "reasoning": "The coherence score reflects the clear thematic connection among the terms. The relevance score indicates their strong alignment with the technology domain. Coverage is high as all terms are meaningfully represented by the key phrases."
   },
   "1": {
-    "explanation": "The cluster revolves around the core concept of energy provision through the use of gases, fuels, and oils in various technological applications.",
-    "coherence": 5,
+    "explanation": "The cluster revolves around the core concept of energy extraction, processing, and storage, specifically focusing on fossil fuels like petroleum and oil.",
+    "coherence": 4,
     "relevance": 5,
     "coverage": 4,
     "key_phrases": [
-      "Energy source",
-      "Combustion process",
-      "Lubrication medium"
+      "Petroleum-based fuel",
+      "Cylinder combustion process",
+      "Oil barrel storage"
     ],
-    "reasoning": "The coherence score reflects the strong thematic connection between the terms, as they all relate to energy provision. The relevance score is high because these concepts are central to the technology domain, particularly in engineering and energy sectors. Coverage is rated moderately high, considering that the key phrases capture the essence of the cluster without excluding related aspects. The key phrases were selected based on their ability to succinctly encapsulate the semantic relationships among 'gas', 'fuel', and 'oil' within the context of their usage."
+    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to the energy sector. The relevance is rated high as these terms are directly related to the technology domain of energy production and management. Coverage is moderate because while the terms cover a significant aspect of the domain, there might be other relevant aspects not included in this cluster. The key phrases effectively summarize the thematic focus of the cluster."
   },
   "2": {
-    "explanation": "The terms 'firm', 'corp', and 'company' all refer to distinct yet related legal entities or organizational structures within the technology domain. They represent businesses that operate under various legal frameworks, such as corporations, partnerships, or sole proprietorships.",
+    "explanation": "The cluster revolves around corporate financial analysis, focusing on sales performance, share dynamics, and analyst evaluations within firms or companies.",
     "coherence": 4,
     "relevance": 5,
-    "coverage": 5,
+    "coverage": 4,
     "key_phrases": [
-      "Corporate structure",
-      "Business entity"
+      "Corporate Sales Analysis",
+      "Yearly Share Performance",
+      "Analyst Firm Evaluation"
     ],
-    "reasoning": "The coherence score reflects the strong thematic connection between the terms, which all pertain to business organizations. The relevance score is high because these terms are directly applicable to the technology domain, as they describe entities involved in tech-related ventures. The coverage score is full, as the key phrases effectively summarize the essence of the cluster."
-  },
-  "3": {
-    "explanation": "The key phrases revolve around the concept of quantifying technological changes through percentages, which is central to understanding advancements and usage trends.",
-    "coherence": 5,
-    "relevance": 5,
-    "coverage": 5,
-    "key_phrases": [
-      "Percentage change in technology usage",
-      "Proportion of technological advancements",
-      "Rate of technological improvement"
-    ],
-    "reasoning": "Each phrase directly relates to the core concept of measuring technological progress using percentage metrics, ensuring high coherence, relevance, and coverage within the technology domain."
+    "reasoning": "The coherence score reflects the tight thematic connection between the terms, which all pertain to corporate financial activities. The relevance score is high as these terms are directly pertinent to the technology domain, particularly in finance and business intelligence. Coverage is rated moderately because while the terms cover a significant aspect of the domain, they might not encompass the full breadth of possible topics within it. The key phrases effectively summarize the central focus of the cluster."
   }
 }

@@ -1,41 +1,34 @@
 {
   "topic_id": 0,
-  "best_k": 9,
-  "selected_k": 9,
-  "automatic_optimal_k": 9,
-  "global_sil": 0.321025928702494,
+  "clustering_method": "spectral",
+  "best_k": 2,
+  "selected_k": 2,
+  "automatic_optimal_k": 2,
+  "global_sil": 0.2808660452646556,
   "clusters": {
     "0": [
+      "opec",
+      "executive_department",
+      "oil_cartel",
+      "diplomat",
+      "usda",
+      "week",
+      "day",
+      "minister",
       "arabian",
       "saudi"
     ],
     "1": [
-      "cylinder",
-      "barrel"
-    ],
-    "2": [
-      "crude",
-      "oil"
-    ],
-    "3": [
-      "price",
-      "cost"
-    ],
-    "4": [
+      "supply",
+      "manufacture",
+      "export",
       "production",
-      "manufacture"
-    ],
-    "5": [
-      "usda"
-    ],
-    "6": [
-      "opec"
-    ],
-    "7": [
-      "global_organization"
-    ],
-    "8": [
-      "executive_department"
+      "commodity",
+      "pipeline",
+      "market",
+      "refinery",
+      "company",
+      "petroleum"
     ]
   }
 }

@@ -12,6 +12,9 @@ Supports multiple modes:
 
 Requirements:
 - stanza, CoreNLP server, pandas, dask, joblib
+
+Autor: OBOE team!
+
 """
 import argparse
 import os

@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-Integrated KGE + Classification Pipeline with Guan et al. (2025) CES Strategy
+Component C: Integrated KGE + Classification Pipeline with Guan et al. (2025) CES Strategy
 ==============================================================================
 
-Mejoras implementadas:
+Major improvements:
 1. Capacity-aware Entity Scaling (CES) post-training
-2. Grid search ajustado según resultados de MRR
-3. Evaluación antes/después del reescalado
-4. Múltiples valores de alpha para CES
+2. Grid search KGE
+3. Evaluation pre and post CES
 
-Autor: Data Scientist Expert
+Autor: OBOE team!
 Fecha: Nov 2025
 """
 
@@ -1343,7 +1342,7 @@ class IntegratedClassificationPipeline:
 
 
 # ==============================================================================
-# FUNCIONES PARA EJECUTAR MÚLTIPLES EXPERIMENTOS CON CES
+# MULTIPLE EXPERIMENTS WITH CES
 # ==============================================================================
 
 def run_one_model_all_repos(model: str, base_path: str = '../data',

@@ -1,18 +1,18 @@
 {
   "0": {
-    "explanation": "The cluster revolves around the central theme of 'fictional narratives', focusing on various aspects such as character representation, story existence, and book quality.",
+    "explanation": "The cluster revolves around the thematic concept of narrative representation and storytelling, encompassing various aspects such as fictional characters, their portrayal, the existence of stories within collections, and the quality of storytelling in books.",
     "coherence": 4,
-    "relevance": 4,
+    "relevance": 5,
     "coverage": 4,
     "key_phrases": [
       "Character portrayal in fiction",
       "Existence of stories within a collection",
       "Quality of storytelling in a book"
     ],
-    "reasoning": "The coherence score reflects the strong thematic connection among the terms. The relevance score indicates that these terms are pertinent to the technology domain, particularly in the context of analyzing and understanding digital content related to literature. The coverage score acknowledges that all significant aspects of the cluster are adequately represented by the key phrases."
+    "reasoning": "The coherence score reflects the strong thematic connection among the terms, which all revolve around narratives and storytelling. The relevance score is high because these terms directly pertain to the domain of literature and storytelling. The coverage score acknowledges that the key phrases capture the essence of the cluster without significant omissions."
   },
   "1": {
-    "explanation": "The cluster revolves around human cognitive processes and the act of processing information, including perception, thought, and discovery. It suggests a focus on understanding and evaluating content through various means such as reading, thinking, and searching.",
+    "explanation": "The cluster revolves around cognitive and evaluative processes related to understanding, appreciating, and discovering information or content through technological means.",
     "coherence": 4,
     "relevance": 5,
     "coverage": 4,
@@ -21,6 +21,6 @@
       "evaluate content",
       "innovative solutions"
     ],
-    "reasoning": "The coherence score reflects the tight thematic connection between the terms, which all pertain to human interaction with information. The relevance is rated high because these terms are directly applicable to the technology domain, particularly in areas like information retrieval, user experience, and content analysis. Coverage is moderate since the cluster focuses on cognitive aspects rather than technical details or specific technologies. The key phrases were chosen based on their direct relevance to the cluster's themes and their ability to encapsulate the essence of the cluster."
+    "reasoning": "The semantic coherence score reflects the tight thematic connection between the terms, which all pertain to human cognition and evaluation in the context of technology. The relevance score is high because these terms are directly pertinent to the technology domain. Coverage is rated moderately as the cluster focuses on a specific subset of cognitive activities rather than encompassing the entire technology landscape."
   }
 }

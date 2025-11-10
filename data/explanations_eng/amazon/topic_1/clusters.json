@@ -1,5 +1,6 @@
 {
   "topic_id": 1,
+  "clustering_method": "agglomerative",
   "best_k": 2,
   "selected_k": 2,
   "automatic_optimal_k": 2,

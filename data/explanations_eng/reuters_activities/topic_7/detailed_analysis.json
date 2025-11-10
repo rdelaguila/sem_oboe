@@ -1,22 +1,12 @@
 {
   "0": {
-    "key_phrases_extracted": "1. Market price dynamics\n2. Commodity allocation strategies\n3. Stock cost fluctuations\n4. Export quota management\n\nPlease select the top 2 key phrases based on their relevance and clarity.\nBased on relevance and clarity, the top 2 key phrases are:\n\n1. Market price dynamics\n2. Commodity allocation strategies\n\nThese phrases capture the essence of the semantic relationships between the given terms within the technology domain context. \"Market price dynamics\" highlights the fluctuation and determination of prices",
+    "key_phrases_extracted": "1. \"Buy coffee\"\n2. \"South American foodstuff\" \n3. \"Cocoa weight unit\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of market dynamics and resource management within the technology domain, specifically focusing on pricing mechanisms, commodity dis..."
+    "raw_output": " \n\n```json\n{\n    \"explanation\": \"The cluster revolves around the concept of purchasing and consuming food items, particularly those originating from South America, with a focus on coffee, cocoa, and r..."
   },
   "1": {
-    "key_phrases_extracted": "1. \"content creation\"\n2. \"production process\" Here are the two key phrases that best represent the semantic relationship between \"creator\" and \"producer\" in the context of technology:\n\n1. \"content production\"\n2. \"innovation facilitation\" \n\nThese phrases capture the essence of both terms within the technology domain, emphasizing the creation and production of content or products through innovative processes. The first phrase highlights the act of creating content, while the second emphasizes the role of creators and producers",
+    "key_phrases_extracted": "1. International exchange agreement\n2. Country provision allocation\n3. Future technology transfer meeting\n\nPlease provide feedback on the quality of the extracted key phrases and suggest any improvements if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the given terms within the technology domain. Here's a brief explanation of each:\n\n1. **International exchange agreement**: This phrase highlights the connection between international cooperation, exchange, and agreements, which is relevant in the context of technology sharing or collaboration across countries.\n\n2",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the central theme of 'content creation and production,' highlighting the roles of creators and producers in the technology domain.\",\n    \"coherence\"..."
-  },
-  "2": {
-    "key_phrases_extracted": "1. \"Caffeine-rich beverage\"\n2. \"Brazilian specialty\"\n3. \"Food and drink commodities\"",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'food and drink commodities', specifically focusing on items like coffee and cocoa that are consumed as beverages or part of culinary..."
-  },
-  "3": {
-    "key_phrases_extracted": "1. \"Nutritional Technology\"\n2. \"Food Processing Innovation\" Here are the key phrases that best represent the semantic relationship between \"edible_nut\" in the context of technology:\n\n1. \"Nutritional Engineering\"\n2. \"Smart Food Packaging\"\n\nThese key phrases capture the essence of technology's role in enhancing, preserving, and delivering the nutritional value of edible nuts. \"Nutritional Engineering\" emphasizes the technological advancements in improving the nutritional content or extraction methods of nuts. \"Smart Food",
-    "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the integration of technology in enhancing the nutritional aspects and processing of edible nuts, highlighting innovations in both extraction method..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of international cooperation and technology exchange, emphasizing agreements, provisions, allocations, and future meetings.\",\n    \"coher..."
   }
 }

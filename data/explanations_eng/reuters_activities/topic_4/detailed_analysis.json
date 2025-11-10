@@ -1,17 +1,42 @@
 {
   "0": {
-    "key_phrases_extracted": "1. \"Wheat yield\"\n2. \"Cereal commodity\"\n3. \"Sugar sweetener\"",
+    "key_phrases_extracted": "1. \"Grain-based crops\"\n2. \"Legumes and sweeteners\"\n3. \"Cereal and corn varieties\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around agricultural commodities, specifically focusing on crops like wheat, their yields, and related products such as sugar and cereals. It also touches u..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around agricultural commodities, specifically focusing on various types of crops that are fundamental to global food production and trade.\",\n    \"coherence..."
   },
   "1": {
-    "key_phrases_extracted": "1. \"Yearly Soviet Council\"\n2. \"Periodic Tonne Weight Unit\" Here are the key phrases that best represent the semantic relationship between the given terms:\n\n1. \"Soviet Council Period\"\n2. \"Yearly Tonne Weight Unit\"\n\nThese phrases capture the essence of the terms within the technology domain, focusing on their relationships and usage context. The first phrase emphasizes the connection between the \"Soviet Council\" and a specific \"period,\" while the second phrase highlights",
+    "key_phrases_extracted": "1. \"Cost estimation\"\n2. \"Total calculation\"\n3. \"Yield prediction\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The terms 'year', 'council', 'period','soviet', 'weight_unit', and 'tonne' are interconnected through the concept of historical or governmental data organization, specifically ..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of quantification and analysis in various aspects of technology, particularly focusing on economic and operational metrics.\",\n    \"coher..."
   },
   "2": {
-    "key_phrases_extracted": "1. \"China porcelain industry\"\n2. \"Traditional Chinese pottery techniques\"",
+    "key_phrases_extracted": "1. \"Department Report\"\n2. \"Division Council\" The two key phrases that best represent the semantic relationship between the given terms in the context of the technology domain are:\n\n1. \"Department Report\"\n2. \"Division Council\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of 'China porcelain industry' and its traditional techniques, highlighting the historical and cultural significance of porcelain product..."
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'department', 'division','report', 'council', and 'document' are all interconnected within the context of organizational structures and processes typically found in t..."
+  },
+  "3": {
+    "key_phrases_extracted": "1. \"Supply chain dynamics\"\n2. \"Global trade network\"\n3. \"Value-added manufacturing\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of global economic activities, specifically focusing on the movement, production, and trade of goods across different sectors such ..."
+  },
+  "4": {
+    "key_phrases_extracted": "1. \"time measurement\"\n2. \"cyclical periods\"\n3. \"duration indicators\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'year','month', 'week','season', and 'period' all pertain to the concept of time measurement and cyclical periods, which is fundamental to organizing and understandin..."
+  },
+  "5": {
+    "key_phrases_extracted": "Porcelain Fabric Connection, China Cotton Material, Ceramic Textile Link\n\nPlease confirm if these key phrases accurately capture the semantic relationships between the given terms within the technology domain context.\nAs an expert in topic modeling and semantic analysis, I can confirm that the provided key phrases do not accurately capture the semantic relationships between the given terms within the technology domain context. The terms \"porcelain,\" \"fabric,\" \"china,\" and \"cotton\" are related to materials and products rather than technology. Here are revised",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The terms 'porcelain', 'fabric', 'china', and 'cotton' are related to materials used in manufacturing various products, but they do not inherently belong to the technology doma..."
+  },
+  "6": {
+    "key_phrases_extracted": "1. \"price negotiation\"\n2. \"sales strategy\" Here are the key phrases that best represent the semantic relationship between the terms \"sale,\" \"sell,\" and \"price\" within the technology domain:\n\n1. \"price optimization\"\n2. \"sales promotion\"\n3. \"market valuation\"",
+    "verification_passed": false,
+    "raw_output": " \n{\n    \"explanation\": \"The terms'sale','sell', and 'price' are interconnected in the context of commercial transactions, particularly within the technology domain. They collectively describe various ..."
+  },
+  "7": {
+    "key_phrases_extracted": "1. \"USDA measurement\"\n2. \"April Soviet history\"\n3. \"Gregorian calendar usage\"",
+    "verification_passed": true,
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around historical and measurement-related topics, particularly focusing on the United States Department of Agriculture (USDA) and its measurements, Soviet ..."
   }
 }

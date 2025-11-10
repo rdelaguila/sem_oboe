@@ -1,22 +1,17 @@
 {
   "0": {
-    "key_phrases_extracted": "1. \"Proportion exploration\"\n2. \"Consideration strength\"\n3. \"Organization reserve\"",
+    "key_phrases_extracted": "1. \"consideration of proportion\"\n2. \"exploration of opposition\"\n3. \"interest in component\" Here are the key phrases that best represent the semantic relationships between the given terms:\n\n1. \"Proportion consideration\"\n2. \"Exploration of opposition\"\n3. \"Interest in component\" \n\nThese phrases capture the essence of the relationships within the context of technology domain, focusing on the interactions and dynamics between the provided terms. The first phrase highlights the importance of considering proportions, the",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of analyzing and understanding proportions, considerations, and organizational structures within a technological context, particularly f..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the concept of analyzing and understanding various aspects of technology through the lens of proportions, oppositions, and components.\",\n    \"cohere..."
   },
   "1": {
-    "key_phrases_extracted": "1. Energy source\n2. Combustion process\n3. Lubrication medium\n\nPlease provide a brief justification for your choices.\nThe key phrases \"Energy source,\" \"Combustion process,\" and \"Lubrication medium\" were chosen to best represent the semantic relationships between the terms \"gas,\" \"fuel,\" and \"oil.\" \n\n1. \"Energy source\" captures the fundamental role of these substances as providers of energy, which is their primary function in various technological applications such",
+    "key_phrases_extracted": "1. \"Petroleum-based fuel\"\n2. \"Cylinder combustion process\"\n3. \"Oil barrel storage\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of energy provision through the use of gases, fuels, and oils in various technological applications.\",\n    \"coherence\": 5,\n    \"rel..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around the core concept of energy extraction, processing, and storage, specifically focusing on fossil fuels like petroleum and oil.\",\n    \"coherence\": 4,\n..."
   },
   "2": {
-    "key_phrases_extracted": "1. \"Corporate entity\"\n2. \"Business organization\" Here are the key phrases that best represent the semantic relationship between the terms \"firm,\" \"corp,\" and \"company\":\n\n1. \"Corporate structure\"\n2. \"Business entity\"\n\nThese phrases capture the essence of these terms as representing different legal forms or organizational structures within the technology domain. They emphasize their role as entities or organizations involved in business activities.",
+    "key_phrases_extracted": "1. \"Corporate Sales Analysis\"\n2. \"Yearly Share Performance\"\n3. \"Analyst Firm Evaluation\"",
     "verification_passed": true,
-    "raw_output": " \n{\n    \"explanation\": \"The terms 'firm', 'corp', and 'company' all refer to distinct yet related legal entities or organizational structures within the technology domain. They represent businesses th..."
-  },
-  "3": {
-    "key_phrases_extracted": "1. Percentage change in technology usage\n2. Proportion of technological advancements\n3. Rate of technological improvement\n\nPlease provide feedback on the quality of the extracted key phrases and suggest any improvements or alternative key phrases if necessary.\nThe extracted key phrases effectively capture the semantic relationships between the term \"pct\" within the context of technology. Here's a brief analysis of each:\n\n1. **Percentage change in technology usage** - This phrase highlights the quantitative aspect of technology adoption or adaptation, focusing on",
-    "verification_passed": true,
-    "raw_output": " \n```json\n{\n    \"explanation\": \"The key phrases revolve around the concept of quantifying technological changes through percentages, which is central to understanding advancements and usage trends.\",\n..."
+    "raw_output": " \n{\n    \"explanation\": \"The cluster revolves around corporate financial analysis, focusing on sales performance, share dynamics, and analyst evaluations within firms or companies.\",\n    \"coherence\": 4..."
   }
 }
